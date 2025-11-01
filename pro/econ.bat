@@ -1,0 +1,1 @@
+x64\Debug\econ.exe %1

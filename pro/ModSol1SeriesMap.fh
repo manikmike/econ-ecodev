@@ -1,0 +1,3588 @@
+if (name == "AVG_GDP.A") then
+   series = avg_gdp_a
+else if (name == "DPF1617_FE.A") then
+   series = dp_fe_a(2,1,:)
+else if (name == "DPF1819_FE.A") then
+   series = dp_fe_a(2,2,:)
+else if (name == "DPF2024_FE.A") then
+   series = dp_fe_a(2,3,:)
+else if (name == "DPF2529_FE.A") then
+   series = dp_fe_a(2,4,:)
+else if (name == "DPF3034_FE.A") then
+   series = dp_fe_a(2,5,:)
+else if (name == "DPF3539_FE.A") then
+   series = dp_fe_a(2,6,:)
+else if (name == "DPF4044_FE.A") then
+   series = dp_fe_a(2,7,:)
+else if (name == "DPF4549_FE.A") then
+   series = dp_fe_a(2,8,:)
+else if (name == "DPF5054_FE.A") then
+   series = dp_fe_a(2,9,:)
+else if (name == "DPF5559_FE.A") then
+   series = dp_fe_a(2,10,:)
+else if (name == "DPF6064_FE.A") then
+   series = dp_fe_a(2,11,:)
+else if (name == "DPF6569_FE.A") then
+   series = dp_fe_a(2,12,:)
+else if (name == "DPF7074_FE.A") then
+   series = dp_fe_a(2,13,:)
+else if (name == "DPF75O_FE.A") then
+   series = dp_fe_a(2,17,:)
+else if (name == "DPM1617_FE.A") then
+   series = dp_fe_a(1,1,:)
+else if (name == "DPM1819_FE.A") then
+   series = dp_fe_a(1,2,:)
+else if (name == "DPM2024_FE.A") then
+   series = dp_fe_a(1,3,:)
+else if (name == "DPM2529_FE.A") then
+   series = dp_fe_a(1,4,:)
+else if (name == "DPM3034_FE.A") then
+   series = dp_fe_a(1,5,:)
+else if (name == "DPM3539_FE.A") then
+   series = dp_fe_a(1,6,:)
+else if (name == "DPM4044_FE.A") then
+   series = dp_fe_a(1,7,:)
+else if (name == "DPM4549_FE.A") then
+   series = dp_fe_a(1,8,:)
+else if (name == "DPM5054_FE.A") then
+   series = dp_fe_a(1,9,:)
+else if (name == "DPM5559_FE.A") then
+   series = dp_fe_a(1,10,:)
+else if (name == "DPM6064_FE.A") then
+   series = dp_fe_a(1,11,:)
+else if (name == "DPM6569_FE.A") then
+   series = dp_fe_a(1,12,:)
+else if (name == "DPM7074_FE.A") then
+   series = dp_fe_a(1,13,:)
+else if (name == "DPM75O_FE.A") then
+   series = dp_fe_a(1,17,:)
+else if (name == "DRF1617_FE.A") then
+   series = dru_fe_a(2,1,:)
+else if (name == "DRF1819_FE.A") then
+   series = dru_fe_a(2,2,:)
+else if (name == "DRF2024_FE.A") then
+   series = dru_fe_a(2,3,:)
+else if (name == "DRF2529_FE.A") then
+   series = dru_fe_a(2,4,:)
+else if (name == "DRF3034_FE.A") then
+   series = dru_fe_a(2,5,:)
+else if (name == "DRF3539_FE.A") then
+   series = dru_fe_a(2,6,:)
+else if (name == "DRF4044_FE.A") then
+   series = dru_fe_a(2,7,:)
+else if (name == "DRF4549_FE.A") then
+   series = dru_fe_a(2,8,:)
+else if (name == "DRF5054_FE.A") then
+   series = dru_fe_a(2,9,:)
+else if (name == "DRF5559_FE.A") then
+   series = dru_fe_a(2,10,:)
+else if (name == "DRF6064_FE.A") then
+   series = dru_fe_a(2,11,:)
+else if (name == "DRF6569_FE.A") then
+   series = dru_fe_a(2,12,:)
+else if (name == "DRF7074_FE.A") then
+   series = dru_fe_a(2,13,:)
+else if (name == "DRF75O_FE.A") then
+   series = dru_fe_a(2,14,:)
+else if (name == "DRM1617_FE.A") then
+   series = dru_fe_a(1,1,:)
+else if (name == "DRM1819_FE.A") then
+   series = dru_fe_a(1,2,:)
+else if (name == "DRM2024_FE.A") then
+   series = dru_fe_a(1,3,:)
+else if (name == "DRM2529_FE.A") then
+   series = dru_fe_a(1,4,:)
+else if (name == "DRM3034_FE.A") then
+   series = dru_fe_a(1,5,:)
+else if (name == "DRM3539_FE.A") then
+   series = dru_fe_a(1,6,:)
+else if (name == "DRM4044_FE.A") then
+   series = dru_fe_a(1,7,:)
+else if (name == "DRM4549_FE.A") then
+   series = dru_fe_a(1,8,:)
+else if (name == "DRM5054_FE.A") then
+   series = dru_fe_a(1,9,:)
+else if (name == "DRM5559_FE.A") then
+   series = dru_fe_a(1,10,:)
+else if (name == "DRM6064_FE.A") then
+   series = dru_fe_a(1,11,:)
+else if (name == "DRM6569_FE.A") then
+   series = dru_fe_a(1,12,:)
+else if (name == "DRM7074_FE.A") then
+   series = dru_fe_a(1,13,:)
+else if (name == "DRM75O_FE.A") then
+   series = dru_fe_a(1,14,:)
+else if (name == "E.A") then
+   series = e_a(0,0,:)
+else if (name == "EE.A") then
+   series = ee_a
+else if (name == "PROD.A") then
+   series = prod_a
+else if (name == "E16O.A") then
+   series = e_a(0,24,:)
+else if (name == "E16O_FE.A") then
+   series = e_fe_a(0,24,:)
+else if (name == "EF.A") then
+   series = e_a(2,0,:)
+else if (name == "EF1617.A") then
+   series = e_a(2,1,:)
+else if (name == "EF1617_FE.A") then
+   series = e_fe_a(2,1,:)
+else if (name == "EF1619.A") then
+   series = e_a(2,27,:)
+else if (name == "EF16O.A") then
+   series = e_a(2,24,:)
+else if (name == "EF16O_FE.A") then
+   series = e_fe_a(2,24,:)
+else if (name == "EF1819.A") then
+   series = e_a(2,2,:)
+else if (name == "EF1819_FE.A") then
+   series = e_fe_a(2,2,:)
+else if (name == "EF2024.A") then
+   series = e_a(2,3,:)
+else if (name == "EF2024_FE.A") then
+   series = e_fe_a(2,3,:)
+else if (name == "EF2529.A") then
+   series = e_a(2,4,:)
+else if (name == "EF2529_FE.A") then
+   series = e_fe_a(2,4,:)
+else if (name == "EF2534.A") then
+   series = e_a(2,18,:)
+else if (name == "EF3034.A") then
+   series = e_a(2,5,:)
+else if (name == "EF3034_FE.A") then
+   series = e_fe_a(2,5,:)
+else if (name == "EF3539.A") then
+   series = e_a(2,6,:)
+else if (name == "EF3539_FE.A") then
+   series = e_fe_a(2,6,:)
+else if (name == "EF3544.A") then
+   series = e_a(2,19,:)
+else if (name == "EF4044.A") then
+   series = e_a(2,7,:)
+else if (name == "EF4044_FE.A") then
+   series = e_fe_a(2,7,:)
+else if (name == "EF4549.A") then
+   series = e_a(2,8,:)
+else if (name == "EF4549_FE.A") then
+   series = e_fe_a(2,8,:)
+else if (name == "EF4554.A") then
+   series = e_a(2,20,:)
+else if (name == "EF5054.A") then
+   series = e_a(2,9,:)
+else if (name == "EF5054_FE.A") then
+   series = e_fe_a(2,9,:)
+else if (name == "EF5559.A") then
+   series = e_a(2,10,:)
+else if (name == "EF5559_FE.A") then
+   series = e_fe_a(2,10,:)
+else if (name == "EF5564.A") then
+   series = e_a(2,21,:)
+else if (name == "EF6064.A") then
+   series = e_a(2,11,:)
+else if (name == "EF6064_FE.A") then
+   series = e_fe_a(2,11,:)
+else if (name == "EF6569.A") then
+   series = e_a(2,12,:)
+else if (name == "EF6569_FE.A") then
+   series = e_fe_a(2,12,:)
+else if (name == "EF65O.A") then
+   series = e_a(2,22,:)
+else if (name == "EF7074.A") then
+   series = e_a(2,13,:)
+else if (name == "EF7074_FE.A") then
+   series = e_fe_a(2,13,:)
+else if (name == "EF70O.A") then
+   series = e_a(2,23,:)
+else if (name == "EF75O.A") then
+   series = e_a(2,17,:)
+else if (name == "EF75O_FE.A") then
+   series = e_fe_a(2,17,:)
+else if (name == "EF_FE.A") then
+   series = e_fe_a(2,0,:)
+else if (name == "EM.A") then
+   series = e_a(1,0,:)
+else if (name == "EM1617.A") then
+   series = e_a(1,1,:)
+else if (name == "EM1617_FE.A") then
+   series = e_fe_a(1,1,:)
+else if (name == "EM1619.A") then
+   series = e_a(1,27,:)
+else if (name == "EM16O.A") then
+   series = e_a(1,24,:)
+else if (name == "EM16O_FE.A") then
+   series = e_fe_a(1,24,:)
+else if (name == "EM1819.A") then
+   series = e_a(1,2,:)
+else if (name == "EM1819_FE.A") then
+   series = e_fe_a(1,2,:)
+else if (name == "EM2024.A") then
+   series = e_a(1,3,:)
+else if (name == "EM2024_FE.A") then
+   series = e_fe_a(1,3,:)
+else if (name == "EM2529.A") then
+   series = e_a(1,4,:)
+else if (name == "EM2529_FE.A") then
+   series = e_fe_a(1,4,:)
+else if (name == "EM2534.A") then
+   series = e_a(1,18,:)
+else if (name == "EM3034.A") then
+   series = e_a(1,5,:)
+else if (name == "EM3034_FE.A") then
+   series = e_fe_a(1,5,:)
+else if (name == "EM3539.A") then
+   series = e_a(1,6,:)
+else if (name == "EM3539_FE.A") then
+   series = e_fe_a(1,6,:)
+else if (name == "EM3544.A") then
+   series = e_a(1,19,:)
+else if (name == "EM4044.A") then
+   series = e_a(1,7,:)
+else if (name == "EM4044_FE.A") then
+   series = e_fe_a(1,7,:)
+else if (name == "EM4549.A") then
+   series = e_a(1,8,:)
+else if (name == "EM4549_FE.A") then
+   series = e_fe_a(1,8,:)
+else if (name == "EM4554.A") then
+   series = e_a(1,20,:)
+else if (name == "EM5054.A") then
+   series = e_a(1,9,:)
+else if (name == "EM5054_FE.A") then
+   series = e_fe_a(1,9,:)
+else if (name == "EM5559.A") then
+   series = e_a(1,10,:)
+else if (name == "EM5559_FE.A") then
+   series = e_fe_a(1,10,:)
+else if (name == "EM5564.A") then
+   series = e_a(1,21,:)
+else if (name == "EM6064.A") then
+   series = e_a(1,11,:)
+else if (name == "EM6064_FE.A") then
+   series = e_fe_a(1,11,:)
+else if (name == "EM6569.A") then
+   series = e_a(1,12,:)
+else if (name == "EM6569_FE.A") then
+   series = e_fe_a(1,12,:)
+else if (name == "EM65O.A") then
+   series = e_a(1,22,:)
+else if (name == "EM7074.A") then
+   series = e_a(1,13,:)
+else if (name == "EM7074_FE.A") then
+   series = e_fe_a(1,13,:)
+else if (name == "EM70O.A") then
+   series = e_a(1,23,:)
+else if (name == "EM75O.A") then
+   series = e_a(1,17,:)
+else if (name == "EM75O_FE.A") then
+   series = e_fe_a(1,17,:)
+else if (name == "EM_FE.A") then
+   series = e_fe_a(1,0,:)
+else if (name == "E_FE.A") then
+   series = e_fe_a(0,0,:)
+else if (name == "HRS.A") then
+   series = hrs_a
+else if (name == "L16O.A") then
+   series = lc_a(0,24,:)
+else if (name == "L16O_FE.A") then
+   series = lc_fe_a(0,24,:)
+else if (name == "LC.A") then
+   series = lc_a(0,0,:)
+else if (name == "LCF.A") then
+   series = lc_a(2,0,:)
+else if (name == "LCF_FE.A") then
+   series = lc_fe_a(2,0,:)
+else if (name == "LCF_P.A") then
+   series = lc_p_a(2,0,:)
+else if (name == "LCM.A") then
+   series = lc_a(1,0,:)
+else if (name == "LCM_FE.A") then
+   series = lc_fe_a(1,0,:)
+else if (name == "LCM_P.A") then
+   series = lc_p_a(1,0,:)
+else if (name == "LC_FE.A") then
+   series = lc_fe_a(0,0,:)
+else if (name == "LC_P.A") then
+   series = lc_p_a(0,0,:)
+else if (name == "LF100.A") then
+   series = lcsy_a(2,100,:)
+else if (name == "LF1617.A") then
+   series = lc_a(2,1,:)
+else if (name == "LF1617_FE.A") then
+   series = lc_fe_a(2,1,:)
+else if (name == "LF1619.A") then
+   series = lc_a(2,27,:)
+else if (name == "LF16O.A") then
+   series = lc_a(2,24,:)
+else if (name == "LF16O_FE.A") then
+   series = lc_fe_a(2,24,:)
+else if (name == "LF1819.A") then
+   series = lc_a(2,2,:)
+else if (name == "LF1819_FE.A") then
+   series = lc_fe_a(2,2,:)
+else if (name == "LF2024.A") then
+   series = lc_a(2,3,:)
+else if (name == "LF2024_FE.A") then
+   series = lc_fe_a(2,3,:)
+else if (name == "LF2529.A") then
+   series = lc_a(2,4,:)
+else if (name == "LF2529_FE.A") then
+   series = lc_fe_a(2,4,:)
+else if (name == "LF2534.A") then
+   series = lc_a(2,18,:)
+else if (name == "LF3034.A") then
+   series = lc_a(2,5,:)
+else if (name == "LF3034_FE.A") then
+   series = lc_fe_a(2,5,:)
+else if (name == "LF3539.A") then
+   series = lc_a(2,6,:)
+else if (name == "LF3539_FE.A") then
+   series = lc_fe_a(2,6,:)
+else if (name == "LF3544.A") then
+   series = lc_a(2,19,:)
+else if (name == "LF4044.A") then
+   series = lc_a(2,7,:)
+else if (name == "LF4044_FE.A") then
+   series = lc_fe_a(2,7,:)
+else if (name == "LF4549.A") then
+   series = lc_a(2,8,:)
+else if (name == "LF4549_FE.A") then
+   series = lc_fe_a(2,8,:)
+else if (name == "LF4554.A") then
+   series = lc_a(2,20,:)
+else if (name == "LF5054.A") then
+   series = lc_a(2,9,:)
+else if (name == "LF5054_FE.A") then
+   series = lc_fe_a(2,9,:)
+else if (name == "LF55.A") then
+   series = lcsy_a(2,55,:)
+else if (name == "LF5559.A") then
+   series = lc_a(2,10,:)
+else if (name == "LF5559_FE.A") then
+   series = lc_fe_a(2,10,:)
+else if (name == "LF5564.A") then
+   series = lc_a(2,21,:)
+else if (name == "LF56.A") then
+   series = lcsy_a(2,56,:)
+else if (name == "LF57.A") then
+   series = lcsy_a(2,57,:)
+else if (name == "LF58.A") then
+   series = lcsy_a(2,58,:)
+else if (name == "LF59.A") then
+   series = lcsy_a(2,59,:)
+else if (name == "LF60.A") then
+   series = lcsy_a(2,60,:)
+else if (name == "LF6064.A") then
+   series = lc_a(2,11,:)
+else if (name == "LF6064_FE.A") then
+   series = lc_fe_a(2,11,:)
+else if (name == "LF61.A") then
+   series = lcsy_a(2,61,:)
+else if (name == "LF62.A") then
+   series = lcsy_a(2,62,:)
+else if (name == "LF63.A") then
+   series = lcsy_a(2,63,:)
+else if (name == "LF64.A") then
+   series = lcsy_a(2,64,:)
+else if (name == "LF65.A") then
+   series = lcsy_a(2,65,:)
+else if (name == "LF6569.A") then
+   series = lc_a(2,12,:)
+else if (name == "LF6569_FE.A") then
+   series = lc_fe_a(2,12,:)
+else if (name == "LF6574.A") then
+   series = lc_a(2,30,:)
+else if (name == "LF65O.A") then
+   series = lc_a(2,22,:)
+else if (name == "LF66.A") then
+   series = lcsy_a(2,66,:)
+else if (name == "LF67.A") then
+   series = lcsy_a(2,67,:)
+else if (name == "LF68.A") then
+   series = lcsy_a(2,68,:)
+else if (name == "LF69.A") then
+   series = lcsy_a(2,69,:)
+else if (name == "LF70.A") then
+   series = lcsy_a(2,70,:)
+else if (name == "LF7074.A") then
+   series = lc_a(2,13,:)
+else if (name == "LF7074_FE.A") then
+   series = lc_fe_a(2,13,:)
+else if (name == "LF70O.A") then
+   series = lc_a(2,23,:)
+else if (name == "LF71.A") then
+   series = lcsy_a(2,71,:)
+else if (name == "LF72.A") then
+   series = lcsy_a(2,72,:)
+else if (name == "LF73.A") then
+   series = lcsy_a(2,73,:)
+else if (name == "LF74.A") then
+   series = lcsy_a(2,74,:)
+else if (name == "LF75.A") then
+   series = lcsy_a(2,75,:)
+else if (name == "LF7579.A") then
+   series = lc_a(2,14,:)
+else if (name == "LF75O.A") then
+   series = lc_a(2,17,:)
+else if (name == "LF75O_FE.A") then
+   series = lc_fe_a(2,17,:)
+else if (name == "LF76.A") then
+   series = lcsy_a(2,76,:)
+else if (name == "LF77.A") then
+   series = lcsy_a(2,77,:)
+else if (name == "LF78.A") then
+   series = lcsy_a(2,78,:)
+else if (name == "LF79.A") then
+   series = lcsy_a(2,79,:)
+else if (name == "LF80.A") then
+   series = lcsy_a(2,80,:)
+else if (name == "LF8084.A") then
+   series = lc_a(2,15,:)
+else if (name == "LF80O.A") then
+   series = lc_a(2,31,:)
+else if (name == "LF81.A") then
+   series = lcsy_a(2,81,:)
+else if (name == "LF82.A") then
+   series = lcsy_a(2,82,:)
+else if (name == "LF83.A") then
+   series = lcsy_a(2,83,:)
+else if (name == "LF84.A") then
+   series = lcsy_a(2,84,:)
+else if (name == "LF85.A") then
+   series = lcsy_a(2,85,:)
+else if (name == "LF8589.A") then
+   series = lc_a(2,32,:)
+else if (name == "LF85O.A") then
+   series = lc_a(2,16,:)
+else if (name == "LF86.A") then
+   series = lcsy_a(2,86,:)
+else if (name == "LF87.A") then
+   series = lcsy_a(2,87,:)
+else if (name == "LF88.A") then
+   series = lcsy_a(2,88,:)
+else if (name == "LF89.A") then
+   series = lcsy_a(2,89,:)
+else if (name == "LF90.A") then
+   series = lcsy_a(2,90,:)
+else if (name == "LF9094.A") then
+   series = lc_a(2,33,:)
+else if (name == "LF91.A") then
+   series = lcsy_a(2,91,:)
+else if (name == "LF92.A") then
+   series = lcsy_a(2,92,:)
+else if (name == "LF93.A") then
+   series = lcsy_a(2,93,:)
+else if (name == "LF94.A") then
+   series = lcsy_a(2,94,:)
+else if (name == "LF95.A") then
+   series = lcsy_a(2,95,:)
+else if (name == "LF9599.A") then
+   series = lc_a(2,34,:)
+else if (name == "LF96.A") then
+   series = lcsy_a(2,96,:)
+else if (name == "LF97.A") then
+   series = lcsy_a(2,97,:)
+else if (name == "LF98.A") then
+   series = lcsy_a(2,98,:)
+else if (name == "LF99.A") then
+   series = lcsy_a(2,99,:)
+else if (name == "LM100.A") then
+   series = lcsy_a(1,100,:)
+else if (name == "LM1617.A") then
+   series = lc_a(1,1,:)
+else if (name == "LM1617_FE.A") then
+   series = lc_fe_a(1,1,:)
+else if (name == "LM1619.A") then
+   series = lc_a(1,27,:)
+else if (name == "LM16O.A") then
+   series = lc_a(1,24,:)
+else if (name == "LM16O_FE.A") then
+   series = lc_fe_a(1,24,:)
+else if (name == "LM1819.A") then
+   series = lc_a(1,2,:)
+else if (name == "LM1819_FE.A") then
+   series = lc_fe_a(1,2,:)
+else if (name == "LM2024.A") then
+   series = lc_a(1,3,:)
+else if (name == "LM2024_FE.A") then
+   series = lc_fe_a(1,3,:)
+else if (name == "LM2529.A") then
+   series = lc_a(1,4,:)
+else if (name == "LM2529_FE.A") then
+   series = lc_fe_a(1,4,:)
+else if (name == "LM2534.A") then
+   series = lc_a(1,18,:)
+else if (name == "LM3034.A") then
+   series = lc_a(1,5,:)
+else if (name == "LM3034_FE.A") then
+   series = lc_fe_a(1,5,:)
+else if (name == "LM3539.A") then
+   series = lc_a(1,6,:)
+else if (name == "LM3539_FE.A") then
+   series = lc_fe_a(1,6,:)
+else if (name == "LM3544.A") then
+   series = lc_a(1,19,:)
+else if (name == "LM4044.A") then
+   series = lc_a(1,7,:)
+else if (name == "LM4044_FE.A") then
+   series = lc_fe_a(1,7,:)
+else if (name == "LM4549.A") then
+   series = lc_a(1,8,:)
+else if (name == "LM4549_FE.A") then
+   series = lc_fe_a(1,8,:)
+else if (name == "LM4554.A") then
+   series = lc_a(1,20,:)
+else if (name == "LM5054.A") then
+   series = lc_a(1,9,:)
+else if (name == "LM5054_FE.A") then
+   series = lc_fe_a(1,9,:)
+else if (name == "LM55.A") then
+   series = lcsy_a(1,55,:)
+else if (name == "LM5559.A") then
+   series = lc_a(1,10,:)
+else if (name == "LM5559_FE.A") then
+   series = lc_fe_a(1,10,:)
+else if (name == "LM5564.A") then
+   series = lc_a(1,21,:)
+else if (name == "LM56.A") then
+   series = lcsy_a(1,56,:)
+else if (name == "LM57.A") then
+   series = lcsy_a(1,57,:)
+else if (name == "LM58.A") then
+   series = lcsy_a(1,58,:)
+else if (name == "LM59.A") then
+   series = lcsy_a(1,59,:)
+else if (name == "LM60.A") then
+   series = lcsy_a(1,60,:)
+else if (name == "LM6064.A") then
+   series = lc_a(1,11,:)
+else if (name == "LM6064_FE.A") then
+   series = lc_fe_a(1,11,:)
+else if (name == "LM61.A") then
+   series = lcsy_a(1,61,:)
+else if (name == "LM62.A") then
+   series = lcsy_a(1,62,:)
+else if (name == "LM63.A") then
+   series = lcsy_a(1,63,:)
+else if (name == "LM64.A") then
+   series = lcsy_a(1,64,:)
+else if (name == "LM65.A") then
+   series = lcsy_a(1,65,:)
+else if (name == "LM6569.A") then
+   series = lc_a(1,12,:)
+else if (name == "LM6569_FE.A") then
+   series = lc_fe_a(1,12,:)
+else if (name == "LM6574.A") then
+   series = lc_a(1,30,:)
+else if (name == "LM65O.A") then
+   series = lc_a(1,22,:)
+else if (name == "LM66.A") then
+   series = lcsy_a(1,66,:)
+else if (name == "LM67.A") then
+   series = lcsy_a(1,67,:)
+else if (name == "LM68.A") then
+   series = lcsy_a(1,68,:)
+else if (name == "LM69.A") then
+   series = lcsy_a(1,69,:)
+else if (name == "LM70.A") then
+   series = lcsy_a(1,70,:)
+else if (name == "LM7074.A") then
+   series = lc_a(1,13,:)
+else if (name == "LM7074_FE.A") then
+   series = lc_fe_a(1,13,:)
+else if (name == "LM70O.A") then
+   series = lc_a(1,23,:)
+else if (name == "LM71.A") then
+   series = lcsy_a(1,71,:)
+else if (name == "LM72.A") then
+   series = lcsy_a(1,72,:)
+else if (name == "LM73.A") then
+   series = lcsy_a(1,73,:)
+else if (name == "LM74.A") then
+   series = lcsy_a(1,74,:)
+else if (name == "LM75.A") then
+   series = lcsy_a(1,75,:)
+else if (name == "LM7579.A") then
+   series = lc_a(1,14,:)
+else if (name == "LM75O.A") then
+   series = lc_a(1,17,:)
+else if (name == "LM75O_FE.A") then
+   series = lc_fe_a(1,17,:)
+else if (name == "LM76.A") then
+   series = lcsy_a(1,76,:)
+else if (name == "LM77.A") then
+   series = lcsy_a(1,77,:)
+else if (name == "LM78.A") then
+   series = lcsy_a(1,78,:)
+else if (name == "LM79.A") then
+   series = lcsy_a(1,79,:)
+else if (name == "LM80.A") then
+   series = lcsy_a(1,80,:)
+else if (name == "LM8084.A") then
+   series = lc_a(1,15,:)
+else if (name == "LM80O.A") then
+   series = lc_a(1,31,:)
+else if (name == "LM81.A") then
+   series = lcsy_a(1,81,:)
+else if (name == "LM82.A") then
+   series = lcsy_a(1,82,:)
+else if (name == "LM83.A") then
+   series = lcsy_a(1,83,:)
+else if (name == "LM84.A") then
+   series = lcsy_a(1,84,:)
+else if (name == "LM85.A") then
+   series = lcsy_a(1,85,:)
+else if (name == "LM8589.A") then
+   series = lc_a(1,32,:)
+else if (name == "LM85O.A") then
+   series = lc_a(1,16,:)
+else if (name == "LM86.A") then
+   series = lcsy_a(1,86,:)
+else if (name == "LM87.A") then
+   series = lcsy_a(1,87,:)
+else if (name == "LM88.A") then
+   series = lcsy_a(1,88,:)
+else if (name == "LM89.A") then
+   series = lcsy_a(1,89,:)
+else if (name == "LM90.A") then
+   series = lcsy_a(1,90,:)
+else if (name == "LM9094.A") then
+   series = lc_a(1,33,:)
+else if (name == "LM91.A") then
+   series = lcsy_a(1,91,:)
+else if (name == "LM92.A") then
+   series = lcsy_a(1,92,:)
+else if (name == "LM93.A") then
+   series = lcsy_a(1,93,:)
+else if (name == "LM94.A") then
+   series = lcsy_a(1,94,:)
+else if (name == "LM95.A") then
+   series = lcsy_a(1,95,:)
+else if (name == "LM9599.A") then
+   series = lc_a(1,34,:)
+else if (name == "LM96.A") then
+   series = lcsy_a(1,96,:)
+else if (name == "LM97.A") then
+   series = lcsy_a(1,97,:)
+else if (name == "LM98.A") then
+   series = lcsy_a(1,98,:)
+else if (name == "LM99.A") then
+   series = lcsy_a(1,99,:)
+else if (name == "P16O.A") then
+   series = p_a(0,24,:)
+else if (name == "P16O_ASA.A") then
+   series = p_asa_a(0,24,:)
+else if (name == "P16O_FE.A") then
+   series = p_fe_a(0,24,:)
+else if (name == "P16O_P.A") then
+   series = p_p_a(0,24,:)
+else if (name == "PF100.A") then
+   series = psy_a(2,100,:)
+else if (name == "PF100_P.A") then
+   series = psy_p_a(2,100,:)
+else if (name == "PF1617.A") then
+   series = p_a(2,1,:)
+else if (name == "PF1617_FE.A") then
+   series = p_fe_a(2,1,:)
+else if (name == "PF1617_P.A") then
+   series = p_p_a(2,1,:)
+else if (name == "PF1619.A") then
+   series = p_a(2,27,:)
+else if (name == "PF16O.A") then
+   series = p_a(2,24,:)
+else if (name == "PF16O_ASA.A") then
+   series = p_asa_a(2,24,:)
+else if (name == "PF16O_FE.A") then
+   series = p_fe_a(2,24,:)
+else if (name == "PF16O_P.A") then
+   series = p_p_a(2,24,:)
+else if (name == "PF1819.A") then
+   series = p_a(2,2,:)
+else if (name == "PF1819_FE.A") then
+   series = p_fe_a(2,2,:)
+else if (name == "PF1819_P.A") then
+   series = p_p_a(2,2,:)
+else if (name == "PF2024.A") then
+   series = p_a(2,3,:)
+else if (name == "PF2024MA.A") then
+   series = pms_a(2,3,3,:)
+else if (name == "PF2024MAC6U.A") then
+   series = pmsc6u_a(2,3,3,:)
+else if (name == "PF2024MAC6U_P.A") then
+   series = pmsc6u_p_a(2,3,3,:)
+else if (name == "PF2024MANC6.A") then
+   series = pmsnc6_a(2,3,3,:)
+else if (name == "PF2024MANC6_P.A") then
+   series = pmsnc6_p_a(2,3,3,:)
+else if (name == "PF2024MA_P.A") then
+   series = pms_p_a(2,3,3,:)
+else if (name == "PF2024MS.A") then
+   series = pms_a(2,3,2,:)
+else if (name == "PF2024MSC6U.A") then
+   series = pmsc6u_a(2,3,2,:)
+else if (name == "PF2024MSC6U_P.A") then
+   series = pmsc6u_p_a(2,3,2,:)
+else if (name == "PF2024MSNC6.A") then
+   series = pmsnc6_a(2,3,2,:)
+else if (name == "PF2024MSNC6_P.A") then
+   series = pmsnc6_p_a(2,3,2,:)
+else if (name == "PF2024MS_P.A") then
+   series = pms_p_a(2,3,2,:)
+else if (name == "PF2024NM.A") then
+   series = pms_a(2,3,1,:)
+else if (name == "PF2024NMC6U.A") then
+   series = pmsc6u_a(2,3,1,:)
+else if (name == "PF2024NMC6U_P.A") then
+   series = pmsc6u_p_a(2,3,1,:)
+else if (name == "PF2024NMNC6.A") then
+   series = pmsnc6_a(2,3,1,:)
+else if (name == "PF2024NMNC6_P.A") then
+   series = pmsnc6_p_a(2,3,1,:)
+else if (name == "PF2024NM_P.A") then
+   series = pms_p_a(2,3,1,:)
+else if (name == "PF2024_FE.A") then
+   series = p_fe_a(2,3,:)
+else if (name == "PF2024_P.A") then
+   series = p_p_a(2,3,:)
+else if (name == "PF2529.A") then
+   series = p_a(2,4,:)
+else if (name == "PF2529MA.A") then
+   series = pms_a(2,4,3,:)
+else if (name == "PF2529MAC6U.A") then
+   series = pmsc6u_a(2,4,3,:)
+else if (name == "PF2529MAC6U_P.A") then
+   series = pmsc6u_p_a(2,4,3,:)
+else if (name == "PF2529MANC6.A") then
+   series = pmsnc6_a(2,4,3,:)
+else if (name == "PF2529MANC6_P.A") then
+   series = pmsnc6_p_a(2,4,3,:)
+else if (name == "PF2529MA_P.A") then
+   series = pms_p_a(2,4,3,:)
+else if (name == "PF2529MS.A") then
+   series = pms_a(2,4,2,:)
+else if (name == "PF2529MSC6U.A") then
+   series = pmsc6u_a(2,4,2,:)
+else if (name == "PF2529MSC6U_P.A") then
+   series = pmsc6u_p_a(2,4,2,:)
+else if (name == "PF2529MSNC6.A") then
+   series = pmsnc6_a(2,4,2,:)
+else if (name == "PF2529MSNC6_P.A") then
+   series = pmsnc6_p_a(2,4,2,:)
+else if (name == "PF2529MS_P.A") then
+   series = pms_p_a(2,4,2,:)
+else if (name == "PF2529NM.A") then
+   series = pms_a(2,4,1,:)
+else if (name == "PF2529NMC6U.A") then
+   series = pmsc6u_a(2,4,1,:)
+else if (name == "PF2529NMC6U_P.A") then
+   series = pmsc6u_p_a(2,4,1,:)
+else if (name == "PF2529NMNC6.A") then
+   series = pmsnc6_a(2,4,1,:)
+else if (name == "PF2529NMNC6_P.A") then
+   series = pmsnc6_p_a(2,4,1,:)
+else if (name == "PF2529NM_P.A") then
+   series = pms_p_a(2,4,1,:)
+else if (name == "PF2529_FE.A") then
+   series = p_fe_a(2,4,:)
+else if (name == "PF2529_P.A") then
+   series = p_p_a(2,4,:)
+else if (name == "PF2534.A") then
+   series = p_a(2,18,:)
+else if (name == "PF3034.A") then
+   series = p_a(2,5,:)
+else if (name == "PF3034MA.A") then
+   series = pms_a(2,5,3,:)
+else if (name == "PF3034MAC6U.A") then
+   series = pmsc6u_a(2,5,3,:)
+else if (name == "PF3034MAC6U_P.A") then
+   series = pmsc6u_p_a(2,5,3,:)
+else if (name == "PF3034MANC6.A") then
+   series = pmsnc6_a(2,5,3,:)
+else if (name == "PF3034MANC6_P.A") then
+   series = pmsnc6_p_a(2,5,3,:)
+else if (name == "PF3034MA_P.A") then
+   series = pms_p_a(2,5,3,:)
+else if (name == "PF3034MS.A") then
+   series = pms_a(2,5,2,:)
+else if (name == "PF3034MSC6U.A") then
+   series = pmsc6u_a(2,5,2,:)
+else if (name == "PF3034MSC6U_P.A") then
+   series = pmsc6u_p_a(2,5,2,:)
+else if (name == "PF3034MSNC6.A") then
+   series = pmsnc6_a(2,5,2,:)
+else if (name == "PF3034MSNC6_P.A") then
+   series = pmsnc6_p_a(2,5,2,:)
+else if (name == "PF3034MS_P.A") then
+   series = pms_p_a(2,5,2,:)
+else if (name == "PF3034NM.A") then
+   series = pms_a(2,5,1,:)
+else if (name == "PF3034NMC6U.A") then
+   series = pmsc6u_a(2,5,1,:)
+else if (name == "PF3034NMC6U_P.A") then
+   series = pmsc6u_p_a(2,5,1,:)
+else if (name == "PF3034NMNC6.A") then
+   series = pmsnc6_a(2,5,1,:)
+else if (name == "PF3034NMNC6_P.A") then
+   series = pmsnc6_p_a(2,5,1,:)
+else if (name == "PF3034NM_P.A") then
+   series = pms_p_a(2,5,1,:)
+else if (name == "PF3034_FE.A") then
+   series = p_fe_a(2,5,:)
+else if (name == "PF3034_P.A") then
+   series = p_p_a(2,5,:)
+else if (name == "PF3539.A") then
+   series = p_a(2,6,:)
+else if (name == "PF3539MA.A") then
+   series = pms_a(2,6,3,:)
+else if (name == "PF3539MAC6U.A") then
+   series = pmsc6u_a(2,6,3,:)
+else if (name == "PF3539MAC6U_P.A") then
+   series = pmsc6u_p_a(2,6,3,:)
+else if (name == "PF3539MANC6.A") then
+   series = pmsnc6_a(2,6,3,:)
+else if (name == "PF3539MANC6_P.A") then
+   series = pmsnc6_p_a(2,6,3,:)
+else if (name == "PF3539MA_P.A") then
+   series = pms_p_a(2,6,3,:)
+else if (name == "PF3539MS.A") then
+   series = pms_a(2,6,2,:)
+else if (name == "PF3539MSC6U.A") then
+   series = pmsc6u_a(2,6,2,:)
+else if (name == "PF3539MSC6U_P.A") then
+   series = pmsc6u_p_a(2,6,2,:)
+else if (name == "PF3539MSNC6.A") then
+   series = pmsnc6_a(2,6,2,:)
+else if (name == "PF3539MSNC6_P.A") then
+   series = pmsnc6_p_a(2,6,2,:)
+else if (name == "PF3539MS_P.A") then
+   series = pms_p_a(2,6,2,:)
+else if (name == "PF3539NM.A") then
+   series = pms_a(2,6,1,:)
+else if (name == "PF3539NMC6U.A") then
+   series = pmsc6u_a(2,6,1,:)
+else if (name == "PF3539NMC6U_P.A") then
+   series = pmsc6u_p_a(2,6,1,:)
+else if (name == "PF3539NMNC6.A") then
+   series = pmsnc6_a(2,6,1,:)
+else if (name == "PF3539NMNC6_P.A") then
+   series = pmsnc6_p_a(2,6,1,:)
+else if (name == "PF3539NM_P.A") then
+   series = pms_p_a(2,6,1,:)
+else if (name == "PF3539_FE.A") then
+   series = p_fe_a(2,6,:)
+else if (name == "PF3539_P.A") then
+   series = p_p_a(2,6,:)
+else if (name == "PF3544.A") then
+   series = p_a(2,19,:)
+else if (name == "PF4044.A") then
+   series = p_a(2,7,:)
+else if (name == "PF4044MA.A") then
+   series = pms_a(2,7,3,:)
+else if (name == "PF4044MAC6U.A") then
+   series = pmsc6u_a(2,7,3,:)
+else if (name == "PF4044MAC6U_P.A") then
+   series = pmsc6u_p_a(2,7,3,:)
+else if (name == "PF4044MANC6.A") then
+   series = pmsnc6_a(2,7,3,:)
+else if (name == "PF4044MANC6_P.A") then
+   series = pmsnc6_p_a(2,7,3,:)
+else if (name == "PF4044MA_P.A") then
+   series = pms_p_a(2,7,3,:)
+else if (name == "PF4044MS.A") then
+   series = pms_a(2,7,2,:)
+else if (name == "PF4044MSC6U.A") then
+   series = pmsc6u_a(2,7,2,:)
+else if (name == "PF4044MSC6U_P.A") then
+   series = pmsc6u_p_a(2,7,2,:)
+else if (name == "PF4044MSNC6.A") then
+   series = pmsnc6_a(2,7,2,:)
+else if (name == "PF4044MSNC6_P.A") then
+   series = pmsnc6_p_a(2,7,2,:)
+else if (name == "PF4044MS_P.A") then
+   series = pms_p_a(2,7,2,:)
+else if (name == "PF4044NM.A") then
+   series = pms_a(2,7,1,:)
+else if (name == "PF4044NMC6U.A") then
+   series = pmsc6u_a(2,7,1,:)
+else if (name == "PF4044NMC6U_P.A") then
+   series = pmsc6u_p_a(2,7,1,:)
+else if (name == "PF4044NMNC6.A") then
+   series = pmsnc6_a(2,7,1,:)
+else if (name == "PF4044NMNC6_P.A") then
+   series = pmsnc6_p_a(2,7,1,:)
+else if (name == "PF4044NM_P.A") then
+   series = pms_p_a(2,7,1,:)
+else if (name == "PF4044_FE.A") then
+   series = p_fe_a(2,7,:)
+else if (name == "PF4044_P.A") then
+   series = p_p_a(2,7,:)
+else if (name == "PF4549.A") then
+   series = p_a(2,8,:)
+else if (name == "PF4549MA.A") then
+   series = pms_a(2,8,3,:)
+else if (name == "PF4549MA_P.A") then
+   series = pms_p_a(2,8,3,:)
+else if (name == "PF4549MS.A") then
+   series = pms_a(2,8,2,:)
+else if (name == "PF4549MS_P.A") then
+   series = pms_p_a(2,8,2,:)
+else if (name == "PF4549NM.A") then
+   series = pms_a(2,8,1,:)
+else if (name == "PF4549NM_P.A") then
+   series = pms_p_a(2,8,1,:)
+else if (name == "PF4549_FE.A") then
+   series = p_fe_a(2,8,:)
+else if (name == "PF4549_P.A") then
+   series = p_p_a(2,8,:)
+else if (name == "PF4554.A") then
+   series = p_a(2,20,:)
+else if (name == "PF5054.A") then
+   series = p_a(2,9,:)
+else if (name == "PF5054MA.A") then
+   series = pms_a(2,9,3,:)
+else if (name == "PF5054MA_P.A") then
+   series = pms_p_a(2,9,3,:)
+else if (name == "PF5054MS.A") then
+   series = pms_a(2,9,2,:)
+else if (name == "PF5054MS_P.A") then
+   series = pms_p_a(2,9,2,:)
+else if (name == "PF5054NM.A") then
+   series = pms_a(2,9,1,:)
+else if (name == "PF5054NM_P.A") then
+   series = pms_p_a(2,9,1,:)
+else if (name == "PF5054_FE.A") then
+   series = p_fe_a(2,9,:)
+else if (name == "PF5054_P.A") then
+   series = p_p_a(2,9,:)
+else if (name == "PF55.A") then
+   series = psy_a(2,55,:)
+else if (name == "PF5559.A") then
+   series = p_a(2,10,:)
+else if (name == "PF5559_FE.A") then
+   series = p_fe_a(2,10,:)
+else if (name == "PF5564.A") then
+   series = p_a(2,21,:)
+else if (name == "PF55_P.A") then
+   series = psy_p_a(2,55,:)
+else if (name == "PF56.A") then
+   series = psy_a(2,56,:)
+else if (name == "PF56_P.A") then
+   series = psy_p_a(2,56,:)
+else if (name == "PF57.A") then
+   series = psy_a(2,57,:)
+else if (name == "PF57_P.A") then
+   series = psy_p_a(2,57,:)
+else if (name == "PF58.A") then
+   series = psy_a(2,58,:)
+else if (name == "PF58_P.A") then
+   series = psy_p_a(2,58,:)
+else if (name == "PF59.A") then
+   series = psy_a(2,59,:)
+else if (name == "PF59_P.A") then
+   series = psy_p_a(2,59,:)
+else if (name == "PF60.A") then
+   series = psy_a(2,60,:)
+else if (name == "PF6064.A") then
+   series = p_a(2,11,:)
+else if (name == "PF6064_FE.A") then
+   series = p_fe_a(2,11,:)
+else if (name == "PF60_P.A") then
+   series = psy_p_a(2,60,:)
+else if (name == "PF61.A") then
+   series = psy_a(2,61,:)
+else if (name == "PF61_P.A") then
+   series = psy_p_a(2,61,:)
+else if (name == "PF62.A") then
+   series = psy_a(2,62,:)
+else if (name == "PF62_P.A") then
+   series = psy_p_a(2,62,:)
+else if (name == "PF63.A") then
+   series = psy_a(2,63,:)
+else if (name == "PF63_P.A") then
+   series = psy_p_a(2,63,:)
+else if (name == "PF64.A") then
+   series = psy_a(2,64,:)
+else if (name == "PF64_P.A") then
+   series = psy_p_a(2,64,:)
+else if (name == "PF65.A") then
+   series = psy_a(2,65,:)
+else if (name == "PF6569.A") then
+   series = p_a(2,12,:)
+else if (name == "PF6569_FE.A") then
+   series = p_fe_a(2,12,:)
+else if (name == "PF6574.A") then
+   series = p_a(2,30,:)
+else if (name == "PF65O.A") then
+   series = p_a(2,22,:)
+else if (name == "PF65_P.A") then
+   series = psy_p_a(2,65,:)
+else if (name == "PF66.A") then
+   series = psy_a(2,66,:)
+else if (name == "PF66_P.A") then
+   series = psy_p_a(2,66,:)
+else if (name == "PF67.A") then
+   series = psy_a(2,67,:)
+else if (name == "PF67_P.A") then
+   series = psy_p_a(2,67,:)
+else if (name == "PF68.A") then
+   series = psy_a(2,68,:)
+else if (name == "PF68_P.A") then
+   series = psy_p_a(2,68,:)
+else if (name == "PF69.A") then
+   series = psy_a(2,69,:)
+else if (name == "PF69_P.A") then
+   series = psy_p_a(2,69,:)
+else if (name == "PF70.A") then
+   series = psy_a(2,70,:)
+else if (name == "PF7074.A") then
+   series = p_a(2,13,:)
+else if (name == "PF7074_FE.A") then
+   series = p_fe_a(2,13,:)
+else if (name == "PF70O.A") then
+   series = p_a(2,23,:)
+else if (name == "PF70_P.A") then
+   series = psy_p_a(2,70,:)
+else if (name == "PF71.A") then
+   series = psy_a(2,71,:)
+else if (name == "PF71_P.A") then
+   series = psy_p_a(2,71,:)
+else if (name == "PF72.A") then
+   series = psy_a(2,72,:)
+else if (name == "PF72_P.A") then
+   series = psy_p_a(2,72,:)
+else if (name == "PF73.A") then
+   series = psy_a(2,73,:)
+else if (name == "PF73_P.A") then
+   series = psy_p_a(2,73,:)
+else if (name == "PF74.A") then
+   series = psy_a(2,74,:)
+else if (name == "PF74_P.A") then
+   series = psy_p_a(2,74,:)
+else if (name == "PF75.A") then
+   series = psy_a(2,75,:)
+else if (name == "PF7579.A") then
+   series = p_a(2,14,:)
+else if (name == "PF75O.A") then
+   series = p_a(2,17,:)
+else if (name == "PF75O_FE.A") then
+   series = p_fe_a(2,17,:)
+else if (name == "PF75_P.A") then
+   series = psy_p_a(2,75,:)
+else if (name == "PF76.A") then
+   series = psy_a(2,76,:)
+else if (name == "PF76_P.A") then
+   series = psy_p_a(2,76,:)
+else if (name == "PF77.A") then
+   series = psy_a(2,77,:)
+else if (name == "PF77_P.A") then
+   series = psy_p_a(2,77,:)
+else if (name == "PF78.A") then
+   series = psy_a(2,78,:)
+else if (name == "PF78_P.A") then
+   series = psy_p_a(2,78,:)
+else if (name == "PF79.A") then
+   series = psy_a(2,79,:)
+else if (name == "PF79_P.A") then
+   series = psy_p_a(2,79,:)
+else if (name == "PF80.A") then
+   series = psy_a(2,80,:)
+else if (name == "PF8084.A") then
+   series = p_a(2,15,:)
+else if (name == "PF80O.A") then
+   series = p_a(2,31,:)
+else if (name == "PF80O_P.A") then
+   series = p80o_p_a(2,:)
+else if (name == "PF80_P.A") then
+   series = psy_p_a(2,80,:)
+else if (name == "PF81.A") then
+   series = psy_a(2,81,:)
+else if (name == "PF81_P.A") then
+   series = psy_p_a(2,81,:)
+else if (name == "PF82.A") then
+   series = psy_a(2,82,:)
+else if (name == "PF82_P.A") then
+   series = psy_p_a(2,82,:)
+else if (name == "PF83.A") then
+   series = psy_a(2,83,:)
+else if (name == "PF83_P.A") then
+   series = psy_p_a(2,83,:)
+else if (name == "PF84.A") then
+   series = psy_a(2,84,:)
+else if (name == "PF84_P.A") then
+   series = psy_p_a(2,84,:)
+else if (name == "PF85.A") then
+   series = psy_a(2,85,:)
+else if (name == "PF8589.A") then
+   series = p_a(2,32,:)
+else if (name == "PF85O.A") then
+   series = p_a(2,16,:)
+else if (name == "PF85_P.A") then
+   series = psy_p_a(2,85,:)
+else if (name == "PF86.A") then
+   series = psy_a(2,86,:)
+else if (name == "PF86_P.A") then
+   series = psy_p_a(2,86,:)
+else if (name == "PF87.A") then
+   series = psy_a(2,87,:)
+else if (name == "PF87_P.A") then
+   series = psy_p_a(2,87,:)
+else if (name == "PF88.A") then
+   series = psy_a(2,88,:)
+else if (name == "PF88_P.A") then
+   series = psy_p_a(2,88,:)
+else if (name == "PF89.A") then
+   series = psy_a(2,89,:)
+else if (name == "PF89_P.A") then
+   series = psy_p_a(2,89,:)
+else if (name == "PF90.A") then
+   series = psy_a(2,90,:)
+else if (name == "PF9094.A") then
+   series = p_a(2,33,:)
+else if (name == "PF90_P.A") then
+   series = psy_p_a(2,90,:)
+else if (name == "PF91.A") then
+   series = psy_a(2,91,:)
+else if (name == "PF91_P.A") then
+   series = psy_p_a(2,91,:)
+else if (name == "PF92.A") then
+   series = psy_a(2,92,:)
+else if (name == "PF92_P.A") then
+   series = psy_p_a(2,92,:)
+else if (name == "PF93.A") then
+   series = psy_a(2,93,:)
+else if (name == "PF93_P.A") then
+   series = psy_p_a(2,93,:)
+else if (name == "PF94.A") then
+   series = psy_a(2,94,:)
+else if (name == "PF94_P.A") then
+   series = psy_p_a(2,94,:)
+else if (name == "PF95.A") then
+   series = psy_a(2,95,:)
+else if (name == "PF9599.A") then
+   series = p_a(2,34,:)
+else if (name == "PF95_P.A") then
+   series = psy_p_a(2,95,:)
+else if (name == "PF96.A") then
+   series = psy_a(2,96,:)
+else if (name == "PF96_P.A") then
+   series = psy_p_a(2,96,:)
+else if (name == "PF97.A") then
+   series = psy_a(2,97,:)
+else if (name == "PF97_P.A") then
+   series = psy_p_a(2,97,:)
+else if (name == "PF98.A") then
+   series = psy_a(2,98,:)
+else if (name == "PF98_P.A") then
+   series = psy_p_a(2,98,:)
+else if (name == "PF99.A") then
+   series = psy_a(2,99,:)
+else if (name == "PF99_P.A") then
+   series = psy_p_a(2,99,:)
+else if (name == "PM100.A") then
+   series = psy_a(1,100,:)
+else if (name == "PM100_P.A") then
+   series = psy_p_a(1,100,:)
+else if (name == "PM1617.A") then
+   series = p_a(1,1,:)
+else if (name == "PM1617_FE.A") then
+   series = p_fe_a(1,1,:)
+else if (name == "PM1617_P.A") then
+   series = p_p_a(1,1,:)
+else if (name == "PM1619.A") then
+   series = p_a(1,27,:)
+else if (name == "PM16O.A") then
+   series = p_a(1,24,:)
+else if (name == "PM16O_ASA.A") then
+   series = p_asa_a(1,24,:)
+else if (name == "PM16O_FE.A") then
+   series = p_fe_a(1,24,:)
+else if (name == "PM16O_P.A") then
+   series = p_p_a(1,24,:)
+else if (name == "PM1819.A") then
+   series = p_a(1,2,:)
+else if (name == "PM1819_FE.A") then
+   series = p_fe_a(1,2,:)
+else if (name == "PM1819_P.A") then
+   series = p_p_a(1,2,:)
+else if (name == "PM2024.A") then
+   series = p_a(1,3,:)
+else if (name == "PM2024MA.A") then
+   series = pms_a(1,3,3,:)
+else if (name == "PM2024MA_P.A") then
+   series = pms_p_a(1,3,3,:)
+else if (name == "PM2024MS.A") then
+   series = pms_a(1,3,2,:)
+else if (name == "PM2024MS_P.A") then
+   series = pms_p_a(1,3,2,:)
+else if (name == "PM2024NM.A") then
+   series = pms_a(1,3,1,:)
+else if (name == "PM2024NM_P.A") then
+   series = pms_p_a(1,3,1,:)
+else if (name == "PM2024_FE.A") then
+   series = p_fe_a(1,3,:)
+else if (name == "PM2024_P.A") then
+   series = p_p_a(1,3,:)
+else if (name == "PM2529.A") then
+   series = p_a(1,4,:)
+else if (name == "PM2529MA.A") then
+   series = pms_a(1,4,3,:)
+else if (name == "PM2529MA_P.A") then
+   series = pms_p_a(1,4,3,:)
+else if (name == "PM2529MS.A") then
+   series = pms_a(1,4,2,:)
+else if (name == "PM2529MS_P.A") then
+   series = pms_p_a(1,4,2,:)
+else if (name == "PM2529NM.A") then
+   series = pms_a(1,4,1,:)
+else if (name == "PM2529NM_P.A") then
+   series = pms_p_a(1,4,1,:)
+else if (name == "PM2529_FE.A") then
+   series = p_fe_a(1,4,:)
+else if (name == "PM2529_P.A") then
+   series = p_p_a(1,4,:)
+else if (name == "PM2534.A") then
+   series = p_a(1,18,:)
+else if (name == "PM3034.A") then
+   series = p_a(1,5,:)
+else if (name == "PM3034MA.A") then
+   series = pms_a(1,5,3,:)
+else if (name == "PM3034MA_P.A") then
+   series = pms_p_a(1,5,3,:)
+else if (name == "PM3034MS.A") then
+   series = pms_a(1,5,2,:)
+else if (name == "PM3034MS_P.A") then
+   series = pms_p_a(1,5,2,:)
+else if (name == "PM3034NM.A") then
+   series = pms_a(1,5,1,:)
+else if (name == "PM3034NM_P.A") then
+   series = pms_p_a(1,5,1,:)
+else if (name == "PM3034_FE.A") then
+   series = p_fe_a(1,5,:)
+else if (name == "PM3034_P.A") then
+   series = p_p_a(1,5,:)
+else if (name == "PM3539.A") then
+   series = p_a(1,6,:)
+else if (name == "PM3539MA.A") then
+   series = pms_a(1,6,3,:)
+else if (name == "PM3539MA_P.A") then
+   series = pms_p_a(1,6,3,:)
+else if (name == "PM3539MS.A") then
+   series = pms_a(1,6,2,:)
+else if (name == "PM3539MS_P.A") then
+   series = pms_p_a(1,6,2,:)
+else if (name == "PM3539NM.A") then
+   series = pms_a(1,6,1,:)
+else if (name == "PM3539NM_P.A") then
+   series = pms_p_a(1,6,1,:)
+else if (name == "PM3539_FE.A") then
+   series = p_fe_a(1,6,:)
+else if (name == "PM3539_P.A") then
+   series = p_p_a(1,6,:)
+else if (name == "PM3544.A") then
+   series = p_a(1,19,:)
+else if (name == "PM4044.A") then
+   series = p_a(1,7,:)
+else if (name == "PM4044MA.A") then
+   series = pms_a(1,7,3,:)
+else if (name == "PM4044MA_P.A") then
+   series = pms_p_a(1,7,3,:)
+else if (name == "PM4044MS.A") then
+   series = pms_a(1,7,2,:)
+else if (name == "PM4044MS_P.A") then
+   series = pms_p_a(1,7,2,:)
+else if (name == "PM4044NM.A") then
+   series = pms_a(1,7,1,:)
+else if (name == "PM4044NM_P.A") then
+   series = pms_p_a(1,7,1,:)
+else if (name == "PM4044_FE.A") then
+   series = p_fe_a(1,7,:)
+else if (name == "PM4044_P.A") then
+   series = p_p_a(1,7,:)
+else if (name == "PM4549.A") then
+   series = p_a(1,8,:)
+else if (name == "PM4549MA.A") then
+   series = pms_a(1,8,3,:)
+else if (name == "PM4549MA_P.A") then
+   series = pms_p_a(1,8,3,:)
+else if (name == "PM4549MS.A") then
+   series = pms_a(1,8,2,:)
+else if (name == "PM4549MS_P.A") then
+   series = pms_p_a(1,8,2,:)
+else if (name == "PM4549NM.A") then
+   series = pms_a(1,8,1,:)
+else if (name == "PM4549NM_P.A") then
+   series = pms_p_a(1,8,1,:)
+else if (name == "PM4549_FE.A") then
+   series = p_fe_a(1,8,:)
+else if (name == "PM4549_P.A") then
+   series = p_p_a(1,8,:)
+else if (name == "PM4554.A") then
+   series = p_a(1,20,:)
+else if (name == "PM5054.A") then
+   series = p_a(1,9,:)
+else if (name == "PM5054MA.A") then
+   series = pms_a(1,9,3,:)
+else if (name == "PM5054MA_P.A") then
+   series = pms_p_a(1,9,3,:)
+else if (name == "PM5054MS.A") then
+   series = pms_a(1,9,2,:)
+else if (name == "PM5054MS_P.A") then
+   series = pms_p_a(1,9,2,:)
+else if (name == "PM5054NM.A") then
+   series = pms_a(1,9,1,:)
+else if (name == "PM5054NM_P.A") then
+   series = pms_p_a(1,9,1,:)
+else if (name == "PM5054_FE.A") then
+   series = p_fe_a(1,9,:)
+else if (name == "PM5054_P.A") then
+   series = p_p_a(1,9,:)
+else if (name == "PM55.A") then
+   series = psy_a(1,55,:)
+else if (name == "PM5559.A") then
+   series = p_a(1,10,:)
+else if (name == "PM5559_FE.A") then
+   series = p_fe_a(1,10,:)
+else if (name == "PM5564.A") then
+   series = p_a(1,21,:)
+else if (name == "PM55_P.A") then
+   series = psy_p_a(1,55,:)
+else if (name == "PM56.A") then
+   series = psy_a(1,56,:)
+else if (name == "PM56_P.A") then
+   series = psy_p_a(1,56,:)
+else if (name == "PM57.A") then
+   series = psy_a(1,57,:)
+else if (name == "PM57_P.A") then
+   series = psy_p_a(1,57,:)
+else if (name == "PM58.A") then
+   series = psy_a(1,58,:)
+else if (name == "PM58_P.A") then
+   series = psy_p_a(1,58,:)
+else if (name == "PM59.A") then
+   series = psy_a(1,59,:)
+else if (name == "PM59_P.A") then
+   series = psy_p_a(1,59,:)
+else if (name == "PM60.A") then
+   series = psy_a(1,60,:)
+else if (name == "PM6064.A") then
+   series = p_a(1,11,:)
+else if (name == "PM6064_FE.A") then
+   series = p_fe_a(1,11,:)
+else if (name == "PM60_P.A") then
+   series = psy_p_a(1,60,:)
+else if (name == "PM61.A") then
+   series = psy_a(1,61,:)
+else if (name == "PM61_P.A") then
+   series = psy_p_a(1,61,:)
+else if (name == "PM62.A") then
+   series = psy_a(1,62,:)
+else if (name == "PM62_P.A") then
+   series = psy_p_a(1,62,:)
+else if (name == "PM63.A") then
+   series = psy_a(1,63,:)
+else if (name == "PM63_P.A") then
+   series = psy_p_a(1,63,:)
+else if (name == "PM64.A") then
+   series = psy_a(1,64,:)
+else if (name == "PM64_P.A") then
+   series = psy_p_a(1,64,:)
+else if (name == "PM65.A") then
+   series = psy_a(1,65,:)
+else if (name == "PM6569.A") then
+   series = p_a(1,12,:)
+else if (name == "PM6569_FE.A") then
+   series = p_fe_a(1,12,:)
+else if (name == "PM6574.A") then
+   series = p_a(1,30,:)
+else if (name == "PM65O.A") then
+   series = p_a(1,22,:)
+else if (name == "PM65_P.A") then
+   series = psy_p_a(1,65,:)
+else if (name == "PM66.A") then
+   series = psy_a(1,66,:)
+else if (name == "PM66_P.A") then
+   series = psy_p_a(1,66,:)
+else if (name == "PM67.A") then
+   series = psy_a(1,67,:)
+else if (name == "PM67_P.A") then
+   series = psy_p_a(1,67,:)
+else if (name == "PM68.A") then
+   series = psy_a(1,68,:)
+else if (name == "PM68_P.A") then
+   series = psy_p_a(1,68,:)
+else if (name == "PM69.A") then
+   series = psy_a(1,69,:)
+else if (name == "PM69_P.A") then
+   series = psy_p_a(1,69,:)
+else if (name == "PM70.A") then
+   series = psy_a(1,70,:)
+else if (name == "PM7074.A") then
+   series = p_a(1,13,:)
+else if (name == "PM7074_FE.A") then
+   series = p_fe_a(1,13,:)
+else if (name == "PM70O.A") then
+   series = p_a(1,23,:)
+else if (name == "PM70_P.A") then
+   series = psy_p_a(1,70,:)
+else if (name == "PM71.A") then
+   series = psy_a(1,71,:)
+else if (name == "PM71_P.A") then
+   series = psy_p_a(1,71,:)
+else if (name == "PM72.A") then
+   series = psy_a(1,72,:)
+else if (name == "PM72_P.A") then
+   series = psy_p_a(1,72,:)
+else if (name == "PM73.A") then
+   series = psy_a(1,73,:)
+else if (name == "PM73_P.A") then
+   series = psy_p_a(1,73,:)
+else if (name == "PM74.A") then
+   series = psy_a(1,74,:)
+else if (name == "PM74_P.A") then
+   series = psy_p_a(1,74,:)
+else if (name == "PM75.A") then
+   series = psy_a(1,75,:)
+else if (name == "PM7579.A") then
+   series = p_a(1,14,:)
+else if (name == "PM75O.A") then
+   series = p_a(1,17,:)
+else if (name == "PM75O_FE.A") then
+   series = p_fe_a(1,17,:)
+else if (name == "PM75_P.A") then
+   series = psy_p_a(1,75,:)
+else if (name == "PM76.A") then
+   series = psy_a(1,76,:)
+else if (name == "PM76_P.A") then
+   series = psy_p_a(1,76,:)
+else if (name == "PM77.A") then
+   series = psy_a(1,77,:)
+else if (name == "PM77_P.A") then
+   series = psy_p_a(1,77,:)
+else if (name == "PM78.A") then
+   series = psy_a(1,78,:)
+else if (name == "PM78_P.A") then
+   series = psy_p_a(1,78,:)
+else if (name == "PM79.A") then
+   series = psy_a(1,79,:)
+else if (name == "PM79_P.A") then
+   series = psy_p_a(1,79,:)
+else if (name == "PM80.A") then
+   series = psy_a(1,80,:)
+else if (name == "PM8084.A") then
+   series = p_a(1,15,:)
+else if (name == "PM80O.A") then
+   series = p80o_a(1,:)
+else if (name == "PM80O_P.A") then
+   series = p80o_p_a(1,:)
+else if (name == "PM80_P.A") then
+   series = psy_p_a(1,80,:)
+else if (name == "PM81.A") then
+   series = psy_a(1,81,:)
+else if (name == "PM81_P.A") then
+   series = psy_p_a(1,81,:)
+else if (name == "PM82.A") then
+   series = psy_a(1,82,:)
+else if (name == "PM82_P.A") then
+   series = psy_p_a(1,82,:)
+else if (name == "PM83.A") then
+   series = psy_a(1,83,:)
+else if (name == "PM83_P.A") then
+   series = psy_p_a(1,83,:)
+else if (name == "PM84.A") then
+   series = psy_a(1,84,:)
+else if (name == "PM84_P.A") then
+   series = psy_p_a(1,84,:)
+else if (name == "PM85.A") then
+   series = psy_a(1,85,:)
+else if (name == "PM8589.A") then
+   series = p_a(1,32,:)
+else if (name == "PM85O.A") then
+   series = p_a(1,16,:)
+else if (name == "PM85_P.A") then
+   series = psy_p_a(1,85,:)
+else if (name == "PM86.A") then
+   series = psy_a(1,86,:)
+else if (name == "PM86_P.A") then
+   series = psy_p_a(1,86,:)
+else if (name == "PM87.A") then
+   series = psy_a(1,87,:)
+else if (name == "PM87_P.A") then
+   series = psy_p_a(1,87,:)
+else if (name == "PM88.A") then
+   series = psy_a(1,88,:)
+else if (name == "PM88_P.A") then
+   series = psy_p_a(1,88,:)
+else if (name == "PM89.A") then
+   series = psy_a(1,89,:)
+else if (name == "PM89_P.A") then
+   series = psy_p_a(1,89,:)
+else if (name == "PM90.A") then
+   series = psy_a(1,90,:)
+else if (name == "PM9094.A") then
+   series = p_a(1,33,:)
+else if (name == "PM90_P.A") then
+   series = psy_p_a(1,90,:)
+else if (name == "PM91.A") then
+   series = psy_a(1,91,:)
+else if (name == "PM91_P.A") then
+   series = psy_p_a(1,91,:)
+else if (name == "PM92.A") then
+   series = psy_a(1,92,:)
+else if (name == "PM92_P.A") then
+   series = psy_p_a(1,92,:)
+else if (name == "PM93.A") then
+   series = psy_a(1,93,:)
+else if (name == "PM93_P.A") then
+   series = psy_p_a(1,93,:)
+else if (name == "PM94.A") then
+   series = psy_a(1,94,:)
+else if (name == "PM94_P.A") then
+   series = psy_p_a(1,94,:)
+else if (name == "PM95.A") then
+   series = psy_a(1,95,:)
+else if (name == "PM9599.A") then
+   series = p_a(1,34,:)
+else if (name == "PM95_P.A") then
+   series = psy_p_a(1,95,:)
+else if (name == "PM96.A") then
+   series = psy_a(1,96,:)
+else if (name == "PM96_P.A") then
+   series = psy_p_a(1,96,:)
+else if (name == "PM97.A") then
+   series = psy_a(1,97,:)
+else if (name == "PM97_P.A") then
+   series = psy_p_a(1,97,:)
+else if (name == "PM98.A") then
+   series = psy_a(1,98,:)
+else if (name == "PM98_P.A") then
+   series = psy_p_a(1,98,:)
+else if (name == "PM99.A") then
+   series = psy_a(1,99,:)
+else if (name == "PM99_P.A") then
+   series = psy_p_a(1,99,:)
+else if (name == "R16O.A") then
+   series = ru_a(0,24,:)
+else if (name == "R16O_FE.A") then
+   series = ru_fe_a(0,24,:)
+else if (name == "RF1617.A") then
+   series = ru_a(2,1,:)
+else if (name == "RF1617_FE.A") then
+   series = ru_fe_a(2,1,:)
+else if (name == "RF1617_P.A") then
+   series = ru_p_a(2,1,:)
+else if (name == "RF1619.A") then
+   series = ru_a(2,27,:)
+else if (name == "RF16O.A") then
+   series = ru_a(2,24,:)
+else if (name == "RF16O_FE.A") then
+   series = ru_fe_a(2,24,:)
+else if (name == "RF1819.A") then
+   series = ru_a(2,2,:)
+else if (name == "RF1819_FE.A") then
+   series = ru_fe_a(2,2,:)
+else if (name == "RF1819_P.A") then
+   series = ru_p_a(2,2,:)
+else if (name == "RF2024.A") then
+   series = ru_a(2,3,:)
+else if (name == "RF2024_FE.A") then
+   series = ru_fe_a(2,3,:)
+else if (name == "RF2024_P.A") then
+   series = ru_p_a(2,3,:)
+else if (name == "RF2529.A") then
+   series = ru_a(2,4,:)
+else if (name == "RF2529_FE.A") then
+   series = ru_fe_a(2,4,:)
+else if (name == "RF2529_P.A") then
+   series = ru_p_a(2,4,:)
+else if (name == "RF2534.A") then
+   series = ru_a(2,18,:)
+else if (name == "RF3034.A") then
+   series = ru_a(2,5,:)
+else if (name == "RF3034_FE.A") then
+   series = ru_fe_a(2,5,:)
+else if (name == "RF3034_P.A") then
+   series = ru_p_a(2,5,:)
+else if (name == "RF3539.A") then
+   series = ru_a(2,6,:)
+else if (name == "RF3539_FE.A") then
+   series = ru_fe_a(2,6,:)
+else if (name == "RF3539_P.A") then
+   series = ru_p_a(2,6,:)
+else if (name == "RF3544.A") then
+   series = ru_a(2,19,:)
+else if (name == "RF4044.A") then
+   series = ru_a(2,7,:)
+else if (name == "RF4044_FE.A") then
+   series = ru_fe_a(2,7,:)
+else if (name == "RF4044_P.A") then
+   series = ru_p_a(2,7,:)
+else if (name == "RF4549.A") then
+   series = ru_a(2,8,:)
+else if (name == "RF4549_FE.A") then
+   series = ru_fe_a(2,8,:)
+else if (name == "RF4549_P.A") then
+   series = ru_p_a(2,8,:)
+else if (name == "RF4554.A") then
+   series = ru_a(2,20,:)
+else if (name == "RF5054.A") then
+   series = ru_a(2,9,:)
+else if (name == "RF5054_FE.A") then
+   series = ru_fe_a(2,9,:)
+else if (name == "RF5054_P.A") then
+   series = ru_p_a(2,9,:)
+else if (name == "RF5559.A") then
+   series = ru_a(2,10,:)
+else if (name == "RF5559_FE.A") then
+   series = ru_fe_a(2,10,:)
+else if (name == "RF5559_P.A") then
+   series = ru_p_a(2,10,:)
+else if (name == "RF5564.A") then
+   series = ru_a(2,21,:)
+else if (name == "RF6064.A") then
+   series = ru_a(2,11,:)
+else if (name == "RF6064_FE.A") then
+   series = ru_fe_a(2,11,:)
+else if (name == "RF6064_P.A") then
+   series = ru_p_a(2,11,:)
+else if (name == "RF6569.A") then
+   series = ru_a(2,12,:)
+else if (name == "RF6569_FE.A") then
+   series = ru_fe_a(2,12,:)
+else if (name == "RF6569_P.A") then
+   series = ru_p_a(2,12,:)
+else if (name == "RF65O.A") then
+   series = ru_a(2,22,:)
+else if (name == "RF7074.A") then
+   series = ru_a(2,13,:)
+else if (name == "RF7074_FE.A") then
+   series = ru_fe_a(2,13,:)
+else if (name == "RF7074_P.A") then
+   series = ru_p_a(2,13,:)
+else if (name == "RF70O.A") then
+   series = ru_a(2,15,:)
+else if (name == "RF75O.A") then
+   series = ru_a(2,14,:)
+else if (name == "RF75O_FE.A") then
+   series = ru_fe_a(2,14,:)
+else if (name == "RF75O_P.A") then
+   series = ru_p_a(2,14,:)
+else if (name == "RM1617.A") then
+   series = ru_a(1,1,:)
+else if (name == "RM1617_FE.A") then
+   series = ru_fe_a(1,1,:)
+else if (name == "RM1617_P.A") then
+   series = ru_p_a(1,1,:)
+else if (name == "RM1619.A") then
+   series = ru_a(1,27,:)
+else if (name == "RM16O.A") then
+   series = ru_a(1,24,:)
+else if (name == "RM16O_FE.A") then
+   series = ru_fe_a(1,24,:)
+else if (name == "RM1819.A") then
+   series = ru_a(1,2,:)
+else if (name == "RM1819_FE.A") then
+   series = ru_fe_a(1,2,:)
+else if (name == "RM1819_P.A") then
+   series = ru_p_a(1,2,:)
+else if (name == "RM2024.A") then
+   series = ru_a(1,3,:)
+else if (name == "RM2024_FE.A") then
+   series = ru_fe_a(1,3,:)
+else if (name == "RM2024_P.A") then
+   series = ru_p_a(1,3,:)
+else if (name == "RM2529.A") then
+   series = ru_a(1,4,:)
+else if (name == "RM2529_FE.A") then
+   series = ru_fe_a(1,4,:)
+else if (name == "RM2529_P.A") then
+   series = ru_p_a(1,4,:)
+else if (name == "RM2534.A") then
+   series = ru_a(1,18,:)
+else if (name == "RM3034.A") then
+   series = ru_a(1,5,:)
+else if (name == "RM3034_FE.A") then
+   series = ru_fe_a(1,5,:)
+else if (name == "RM3034_P.A") then
+   series = ru_p_a(1,5,:)
+else if (name == "RM3539.A") then
+   series = ru_a(1,6,:)
+else if (name == "RM3539_FE.A") then
+   series = ru_fe_a(1,6,:)
+else if (name == "RM3539_P.A") then
+   series = ru_p_a(1,6,:)
+else if (name == "RM3544.A") then
+   series = ru_a(1,19,:)
+else if (name == "RM4044.A") then
+   series = ru_a(1,7,:)
+else if (name == "RM4044_FE.A") then
+   series = ru_fe_a(1,7,:)
+else if (name == "RM4044_P.A") then
+   series = ru_p_a(1,7,:)
+else if (name == "RM4549.A") then
+   series = ru_a(1,8,:)
+else if (name == "RM4549_FE.A") then
+   series = ru_fe_a(1,8,:)
+else if (name == "RM4549_P.A") then
+   series = ru_p_a(1,8,:)
+else if (name == "RM4554.A") then
+   series = ru_a(1,20,:)
+else if (name == "RM5054.A") then
+   series = ru_a(1,9,:)
+else if (name == "RM5054_FE.A") then
+   series = ru_fe_a(1,9,:)
+else if (name == "RM5054_P.A") then
+   series = ru_p_a(1,9,:)
+else if (name == "RM5559.A") then
+   series = ru_a(1,10,:)
+else if (name == "RM5559_FE.A") then
+   series = ru_fe_a(1,10,:)
+else if (name == "RM5559_P.A") then
+   series = ru_p_a(1,10,:)
+else if (name == "RM5564.A") then
+   series = ru_a(1,21,:)
+else if (name == "RM6064.A") then
+   series = ru_a(1,11,:)
+else if (name == "RM6064_FE.A") then
+   series = ru_fe_a(1,11,:)
+else if (name == "RM6064_P.A") then
+   series = ru_p_a(1,11,:)
+else if (name == "RM6569.A") then
+   series = ru_a(1,12,:)
+else if (name == "RM6569_FE.A") then
+   series = ru_fe_a(1,12,:)
+else if (name == "RM6569_P.A") then
+   series = ru_p_a(1,12,:)
+else if (name == "RM65O.A") then
+   series = ru_a(1,22,:)
+else if (name == "RM7074.A") then
+   series = ru_a(1,13,:)
+else if (name == "RM7074_FE.A") then
+   series = ru_fe_a(1,13,:)
+else if (name == "RM7074_P.A") then
+   series = ru_p_a(1,13,:)
+else if (name == "RM70O.A") then
+   series = ru_a(1,15,:)
+else if (name == "RM75O.A") then
+   series = ru_a(1,14,:)
+else if (name == "RM75O_FE.A") then
+   series = ru_fe_a(1,14,:)
+else if (name == "RM75O_P.A") then
+   series = ru_p_a(1,14,:)
+else if (name == "RU.A") then
+   series = ru_a(0,0,:)
+else if (name == "RUF.A") then
+   series = ru_a(2,0,:)
+else if (name == "RUF_ASA.A") then
+   series = ru_asa_a(2,0,:)
+else if (name == "RUF_ASA_P.A") then
+   series = ru_asa_p_a(2,0,:)
+else if (name == "RUF_FE.A") then
+   series = ru_fe_a(2,0,:)
+else if (name == "RUM.A") then
+   series = ru_a(1,0,:)
+else if (name == "RUM_ASA.A") then
+   series = ru_asa_a(1,0,:)
+else if (name == "RUM_ASA_P.A") then
+   series = ru_asa_p_a(1,0,:)
+else if (name == "RUM_FE.A") then
+   series = ru_fe_a(1,0,:)
+else if (name == "RU_ASA.A") then
+   series = ru_asa_a(0,0,:)
+else if (name == "RU_ASA_P.A") then
+   series = ru_asa_p_a(0,0,:)
+else if (name == "RU_FE.A") then
+   series = ru_fe_a(0,0,:)
+else if (name == "AVG_GDP.Q") then
+   series = avg_gdp
+else if (name == "DPF1617_FE.Q") then
+   series = dp_fe(2,1,:)
+else if (name == "DPF1819_FE.Q") then
+   series = dp_fe(2,2,:)
+else if (name == "DPF2024_FE.Q") then
+   series = dp_fe(2,3,:)
+else if (name == "DPF2529_FE.Q") then
+   series = dp_fe(2,4,:)
+else if (name == "DPF3034_FE.Q") then
+   series = dp_fe(2,5,:)
+else if (name == "DPF3539_FE.Q") then
+   series = dp_fe(2,6,:)
+else if (name == "DPF4044_FE.Q") then
+   series = dp_fe(2,7,:)
+else if (name == "DPF4549_FE.Q") then
+   series = dp_fe(2,8,:)
+else if (name == "DPF5054_FE.Q") then
+   series = dp_fe(2,9,:)
+else if (name == "DPF5559_FE.Q") then
+   series = dp_fe(2,10,:)
+else if (name == "DPF6064_FE.Q") then
+   series = dp_fe(2,11,:)
+else if (name == "DPF6569_FE.Q") then
+   series = dp_fe(2,12,:)
+else if (name == "DPF7074_FE.Q") then
+   series = dp_fe(2,13,:)
+else if (name == "DPF75O_FE.Q") then
+   series = dp_fe(2,17,:)
+else if (name == "DPM1617_FE.Q") then
+   series = dp_fe(1,1,:)
+else if (name == "DPM1819_FE.Q") then
+   series = dp_fe(1,2,:)
+else if (name == "DPM2024_FE.Q") then
+   series = dp_fe(1,3,:)
+else if (name == "DPM2529_FE.Q") then
+   series = dp_fe(1,4,:)
+else if (name == "DPM3034_FE.Q") then
+   series = dp_fe(1,5,:)
+else if (name == "DPM3539_FE.Q") then
+   series = dp_fe(1,6,:)
+else if (name == "DPM4044_FE.Q") then
+   series = dp_fe(1,7,:)
+else if (name == "DPM4549_FE.Q") then
+   series = dp_fe(1,8,:)
+else if (name == "DPM5054_FE.Q") then
+   series = dp_fe(1,9,:)
+else if (name == "DPM5559_FE.Q") then
+   series = dp_fe(1,10,:)
+else if (name == "DPM6064_FE.Q") then
+   series = dp_fe(1,11,:)
+else if (name == "DPM6569_FE.Q") then
+   series = dp_fe(1,12,:)
+else if (name == "DPM7074_FE.Q") then
+   series = dp_fe(1,13,:)
+else if (name == "DPM75O_FE.Q") then
+   series = dp_fe(1,17,:)
+else if (name == "DRF1617_FE.Q") then
+   series = dru_fe(2,1,:)
+else if (name == "DRF1819_FE.Q") then
+   series = dru_fe(2,2,:)
+else if (name == "DRF2024_FE.Q") then
+   series = dru_fe(2,3,:)
+else if (name == "DRF2529_FE.Q") then
+   series = dru_fe(2,4,:)
+else if (name == "DRF3034_FE.Q") then
+   series = dru_fe(2,5,:)
+else if (name == "DRF3539_FE.Q") then
+   series = dru_fe(2,6,:)
+else if (name == "DRF4044_FE.Q") then
+   series = dru_fe(2,7,:)
+else if (name == "DRF4549_FE.Q") then
+   series = dru_fe(2,8,:)
+else if (name == "DRF5054_FE.Q") then
+   series = dru_fe(2,9,:)
+else if (name == "DRF5559_FE.Q") then
+   series = dru_fe(2,10,:)
+else if (name == "DRF6064_FE.Q") then
+   series = dru_fe(2,11,:)
+else if (name == "DRF6569_FE.Q") then
+   series = dru_fe(2,12,:)
+else if (name == "DRF7074_FE.Q") then
+   series = dru_fe(2,13,:)
+else if (name == "DRF75O_FE.Q") then
+   series = dru_fe(2,14,:)
+else if (name == "DRM1617_FE.Q") then
+   series = dru_fe(1,1,:)
+else if (name == "DRM1819_FE.Q") then
+   series = dru_fe(1,2,:)
+else if (name == "DRM2024_FE.Q") then
+   series = dru_fe(1,3,:)
+else if (name == "DRM2529_FE.Q") then
+   series = dru_fe(1,4,:)
+else if (name == "DRM3034_FE.Q") then
+   series = dru_fe(1,5,:)
+else if (name == "DRM3539_FE.Q") then
+   series = dru_fe(1,6,:)
+else if (name == "DRM4044_FE.Q") then
+   series = dru_fe(1,7,:)
+else if (name == "DRM4549_FE.Q") then
+   series = dru_fe(1,8,:)
+else if (name == "DRM5054_FE.Q") then
+   series = dru_fe(1,9,:)
+else if (name == "DRM5559_FE.Q") then
+   series = dru_fe(1,10,:)
+else if (name == "DRM6064_FE.Q") then
+   series = dru_fe(1,11,:)
+else if (name == "DRM6569_FE.Q") then
+   series = dru_fe(1,12,:)
+else if (name == "DRM7074_FE.Q") then
+   series = dru_fe(1,13,:)
+else if (name == "DRM75O_FE.Q") then
+   series = dru_fe(1,14,:)
+else if (name == "E.Q") then
+   series = e(0,0,:)
+else if (name == "EE.Q") then
+   series = ee
+else if (name == "PROD.Q") then
+   series = prod
+else if (name == "E16O.Q") then
+   series = e(0,24,:)
+else if (name == "E16O_FE.Q") then
+   series = e_fe(0,24,:)
+else if (name == "EF.Q") then
+   series = e(2,0,:)
+else if (name == "EF1617.Q") then
+   series = e(2,1,:)
+else if (name == "EF1617_FE.Q") then
+   series = e_fe(2,1,:)
+else if (name == "EF1619.Q") then
+   series = e(2,27,:)
+else if (name == "EF16O.Q") then
+   series = e(2,24,:)
+else if (name == "EF16O_FE.Q") then
+   series = e_fe(2,24,:)
+else if (name == "EF1819.Q") then
+   series = e(2,2,:)
+else if (name == "EF1819_FE.Q") then
+   series = e_fe(2,2,:)
+else if (name == "EF2024.Q") then
+   series = e(2,3,:)
+else if (name == "EF2024_FE.Q") then
+   series = e_fe(2,3,:)
+else if (name == "EF2529.Q") then
+   series = e(2,4,:)
+else if (name == "EF2529_FE.Q") then
+   series = e_fe(2,4,:)
+else if (name == "EF2534.Q") then
+   series = e(2,18,:)
+else if (name == "EF3034.Q") then
+   series = e(2,5,:)
+else if (name == "EF3034_FE.Q") then
+   series = e_fe(2,5,:)
+else if (name == "EF3539.Q") then
+   series = e(2,6,:)
+else if (name == "EF3539_FE.Q") then
+   series = e_fe(2,6,:)
+else if (name == "EF3544.Q") then
+   series = e(2,19,:)
+else if (name == "EF4044.Q") then
+   series = e(2,7,:)
+else if (name == "EF4044_FE.Q") then
+   series = e_fe(2,7,:)
+else if (name == "EF4549.Q") then
+   series = e(2,8,:)
+else if (name == "EF4549_FE.Q") then
+   series = e_fe(2,8,:)
+else if (name == "EF4554.Q") then
+   series = e(2,20,:)
+else if (name == "EF5054.Q") then
+   series = e(2,9,:)
+else if (name == "EF5054_FE.Q") then
+   series = e_fe(2,9,:)
+else if (name == "EF5559.Q") then
+   series = e(2,10,:)
+else if (name == "EF5559_FE.Q") then
+   series = e_fe(2,10,:)
+else if (name == "EF5564.Q") then
+   series = e(2,21,:)
+else if (name == "EF6064.Q") then
+   series = e(2,11,:)
+else if (name == "EF6064_FE.Q") then
+   series = e_fe(2,11,:)
+else if (name == "EF6569.Q") then
+   series = e(2,12,:)
+else if (name == "EF6569_FE.Q") then
+   series = e_fe(2,12,:)
+else if (name == "EF65O.Q") then
+   series = e(2,22,:)
+else if (name == "EF7074.Q") then
+   series = e(2,13,:)
+else if (name == "EF7074_FE.Q") then
+   series = e_fe(2,13,:)
+else if (name == "EF70O.Q") then
+   series = e(2,23,:)
+else if (name == "EF75O.Q") then
+   series = e(2,17,:)
+else if (name == "EF75O_FE.Q") then
+   series = e_fe(2,17,:)
+else if (name == "EF_FE.Q") then
+   series = e_fe(2,0,:)
+else if (name == "EM.Q") then
+   series = e(1,0,:)
+else if (name == "EM1617.Q") then
+   series = e(1,1,:)
+else if (name == "EM1617_FE.Q") then
+   series = e_fe(1,1,:)
+else if (name == "EM1619.Q") then
+   series = e(1,27,:)
+else if (name == "EM16O.Q") then
+   series = e(1,24,:)
+else if (name == "EM16O_FE.Q") then
+   series = e_fe(1,24,:)
+else if (name == "EM1819.Q") then
+   series = e(1,2,:)
+else if (name == "EM1819_FE.Q") then
+   series = e_fe(1,2,:)
+else if (name == "EM2024.Q") then
+   series = e(1,3,:)
+else if (name == "EM2024_FE.Q") then
+   series = e_fe(1,3,:)
+else if (name == "EM2529.Q") then
+   series = e(1,4,:)
+else if (name == "EM2529_FE.Q") then
+   series = e_fe(1,4,:)
+else if (name == "EM2534.Q") then
+   series = e(1,18,:)
+else if (name == "EM3034.Q") then
+   series = e(1,5,:)
+else if (name == "EM3034_FE.Q") then
+   series = e_fe(1,5,:)
+else if (name == "EM3539.Q") then
+   series = e(1,6,:)
+else if (name == "EM3539_FE.Q") then
+   series = e_fe(1,6,:)
+else if (name == "EM3544.Q") then
+   series = e(1,19,:)
+else if (name == "EM4044.Q") then
+   series = e(1,7,:)
+else if (name == "EM4044_FE.Q") then
+   series = e_fe(1,7,:)
+else if (name == "EM4549.Q") then
+   series = e(1,8,:)
+else if (name == "EM4549_FE.Q") then
+   series = e_fe(1,8,:)
+else if (name == "EM4554.Q") then
+   series = e(1,20,:)
+else if (name == "EM5054.Q") then
+   series = e(1,9,:)
+else if (name == "EM5054_FE.Q") then
+   series = e_fe(1,9,:)
+else if (name == "EM5559.Q") then
+   series = e(1,10,:)
+else if (name == "EM5559_FE.Q") then
+   series = e_fe(1,10,:)
+else if (name == "EM5564.Q") then
+   series = e(1,21,:)
+else if (name == "EM6064.Q") then
+   series = e(1,11,:)
+else if (name == "EM6064_FE.Q") then
+   series = e_fe(1,11,:)
+else if (name == "EM6569.Q") then
+   series = e(1,12,:)
+else if (name == "EM6569_FE.Q") then
+   series = e_fe(1,12,:)
+else if (name == "EM65O.Q") then
+   series = e(1,22,:)
+else if (name == "EM7074.Q") then
+   series = e(1,13,:)
+else if (name == "EM7074_FE.Q") then
+   series = e_fe(1,13,:)
+else if (name == "EM70O.Q") then
+   series = e(1,23,:)
+else if (name == "EM75O.Q") then
+   series = e(1,17,:)
+else if (name == "EM75O_FE.Q") then
+   series = e_fe(1,17,:)
+else if (name == "EM_FE.Q") then
+   series = e_fe(1,0,:)
+else if (name == "E_FE.Q") then
+   series = e_fe(0,0,:)
+else if (name == "HRS.Q") then
+   series = hrs   
+else if (name == "L16O.Q") then
+   series = lc(0,24,:)
+else if (name == "L16O_FE.Q") then
+   series = lc_fe(0,24,:)
+else if (name == "LC.Q") then
+   series = lc(0,0,:)
+else if (name == "LCF.Q") then
+   series = lc(2,0,:)
+else if (name == "LCF_FE.Q") then
+   series = lc_fe(2,0,:)
+else if (name == "LCF_P.Q") then
+   series = lc_p(2,0,:)
+else if (name == "LCM.Q") then
+   series = lc(1,0,:)
+else if (name == "LCM_FE.Q") then
+   series = lc_fe(1,0,:)
+else if (name == "LCM_P.Q") then
+   series = lc_p(1,0,:)
+else if (name == "LC_FE.Q") then
+   series = lc_fe(0,0,:)
+else if (name == "LC_P.Q") then
+   series = lc_p(0,0,:)
+else if (name == "LF100.Q") then
+   series = lcsy(2,100,:)
+else if (name == "LF1617.Q") then
+   series = lc(2,1,:)
+else if (name == "LF1617_FE.Q") then
+   series = lc_fe(2,1,:)
+else if (name == "LF1619.Q") then
+   series = lc(2,27,:)
+else if (name == "LF16O.Q") then
+   series = lc(2,24,:)
+else if (name == "LF16O_FE.Q") then
+   series = lc_fe(2,24,:)
+else if (name == "LF1819.Q") then
+   series = lc(2,2,:)
+else if (name == "LF1819_FE.Q") then
+   series = lc_fe(2,2,:)
+else if (name == "LF2024.Q") then
+   series = lc(2,3,:)
+else if (name == "LF2024_FE.Q") then
+   series = lc_fe(2,3,:)
+else if (name == "LF2529.Q") then
+   series = lc(2,4,:)
+else if (name == "LF2529_FE.Q") then
+   series = lc_fe(2,4,:)
+else if (name == "LF2534.Q") then
+   series = lc(2,18,:)
+else if (name == "LF3034.Q") then
+   series = lc(2,5,:)
+else if (name == "LF3034_FE.Q") then
+   series = lc_fe(2,5,:)
+else if (name == "LF3539.Q") then
+   series = lc(2,6,:)
+else if (name == "LF3539_FE.Q") then
+   series = lc_fe(2,6,:)
+else if (name == "LF3544.Q") then
+   series = lc(2,19,:)
+else if (name == "LF4044.Q") then
+   series = lc(2,7,:)
+else if (name == "LF4044_FE.Q") then
+   series = lc_fe(2,7,:)
+else if (name == "LF4549.Q") then
+   series = lc(2,8,:)
+else if (name == "LF4549_FE.Q") then
+   series = lc_fe(2,8,:)
+else if (name == "LF4554.Q") then
+   series = lc(2,20,:)
+else if (name == "LF5054.Q") then
+   series = lc(2,9,:)
+else if (name == "LF5054_FE.Q") then
+   series = lc_fe(2,9,:)
+else if (name == "LF55.Q") then
+   series = lcsy(2,55,:)
+else if (name == "LF5559.Q") then
+   series = lc(2,10,:)
+else if (name == "LF5559_FE.Q") then
+   series = lc_fe(2,10,:)
+else if (name == "LF5564.Q") then
+   series = lc(2,21,:)
+else if (name == "LF56.Q") then
+   series = lcsy(2,56,:)
+else if (name == "LF57.Q") then
+   series = lcsy(2,57,:)
+else if (name == "LF58.Q") then
+   series = lcsy(2,58,:)
+else if (name == "LF59.Q") then
+   series = lcsy(2,59,:)
+else if (name == "LF60.Q") then
+   series = lcsy(2,60,:)
+else if (name == "LF6064.Q") then
+   series = lc(2,11,:)
+else if (name == "LF6064_FE.Q") then
+   series = lc_fe(2,11,:)
+else if (name == "LF61.Q") then
+   series = lcsy(2,61,:)
+else if (name == "LF62.Q") then
+   series = lcsy(2,62,:)
+else if (name == "LF63.Q") then
+   series = lcsy(2,63,:)
+else if (name == "LF64.Q") then
+   series = lcsy(2,64,:)
+else if (name == "LF65.Q") then
+   series = lcsy(2,65,:)
+else if (name == "LF6569.Q") then
+   series = lc(2,12,:)
+else if (name == "LF6569_FE.Q") then
+   series = lc_fe(2,12,:)
+else if (name == "LF6574.Q") then
+   series = lc(2,30,:)
+else if (name == "LF65O.Q") then
+   series = lc(2,22,:)
+else if (name == "LF66.Q") then
+   series = lcsy(2,66,:)
+else if (name == "LF67.Q") then
+   series = lcsy(2,67,:)
+else if (name == "LF68.Q") then
+   series = lcsy(2,68,:)
+else if (name == "LF69.Q") then
+   series = lcsy(2,69,:)
+else if (name == "LF70.Q") then
+   series = lcsy(2,70,:)
+else if (name == "LF7074.Q") then
+   series = lc(2,13,:)
+else if (name == "LF7074_FE.Q") then
+   series = lc_fe(2,13,:)
+else if (name == "LF70O.Q") then
+   series = lc(2,23,:)
+else if (name == "LF71.Q") then
+   series = lcsy(2,71,:)
+else if (name == "LF72.Q") then
+   series = lcsy(2,72,:)
+else if (name == "LF73.Q") then
+   series = lcsy(2,73,:)
+else if (name == "LF74.Q") then
+   series = lcsy(2,74,:)
+else if (name == "LF75.Q") then
+   series = lcsy(2,75,:)
+else if (name == "LF7579.Q") then
+   series = lc(2,14,:)
+else if (name == "LF75O.Q") then
+   series = lc(2,17,:)
+else if (name == "LF75O_FE.Q") then
+   series = lc_fe(2,17,:)
+else if (name == "LF76.Q") then
+   series = lcsy(2,76,:)
+else if (name == "LF77.Q") then
+   series = lcsy(2,77,:)
+else if (name == "LF78.Q") then
+   series = lcsy(2,78,:)
+else if (name == "LF79.Q") then
+   series = lcsy(2,79,:)
+else if (name == "LF80.Q") then
+   series = lcsy(2,80,:)
+else if (name == "LF8084.Q") then
+   series = lc(2,15,:)
+else if (name == "LF80O.Q") then
+   series = lc(2,31,:)
+else if (name == "LF81.Q") then
+   series = lcsy(2,81,:)
+else if (name == "LF82.Q") then
+   series = lcsy(2,82,:)
+else if (name == "LF83.Q") then
+   series = lcsy(2,83,:)
+else if (name == "LF84.Q") then
+   series = lcsy(2,84,:)
+else if (name == "LF85.Q") then
+   series = lcsy(2,85,:)
+else if (name == "LF8589.Q") then
+   series = lc(2,32,:)
+else if (name == "LF85O.Q") then
+   series = lc(2,16,:)
+else if (name == "LF86.Q") then
+   series = lcsy(2,86,:)
+else if (name == "LF87.Q") then
+   series = lcsy(2,87,:)
+else if (name == "LF88.Q") then
+   series = lcsy(2,88,:)
+else if (name == "LF89.Q") then
+   series = lcsy(2,89,:)
+else if (name == "LF90.Q") then
+   series = lcsy(2,90,:)
+else if (name == "LF9094.Q") then
+   series = lc(2,33,:)
+else if (name == "LF91.Q") then
+   series = lcsy(2,91,:)
+else if (name == "LF92.Q") then
+   series = lcsy(2,92,:)
+else if (name == "LF93.Q") then
+   series = lcsy(2,93,:)
+else if (name == "LF94.Q") then
+   series = lcsy(2,94,:)
+else if (name == "LF95.Q") then
+   series = lcsy(2,95,:)
+else if (name == "LF9599.Q") then
+   series = lc(2,34,:)
+else if (name == "LF96.Q") then
+   series = lcsy(2,96,:)
+else if (name == "LF97.Q") then
+   series = lcsy(2,97,:)
+else if (name == "LF98.Q") then
+   series = lcsy(2,98,:)
+else if (name == "LF99.Q") then
+   series = lcsy(2,99,:)
+else if (name == "LM100.Q") then
+   series = lcsy(1,100,:)
+else if (name == "LM1617.Q") then
+   series = lc(1,1,:)
+else if (name == "LM1617_FE.Q") then
+   series = lc_fe(1,1,:)
+else if (name == "LM1619.Q") then
+   series = lc(1,27,:)
+else if (name == "LM16O.Q") then
+   series = lc(1,24,:)
+else if (name == "LM16O_FE.Q") then
+   series = lc_fe(1,24,:)
+else if (name == "LM1819.Q") then
+   series = lc(1,2,:)
+else if (name == "LM1819_FE.Q") then
+   series = lc_fe(1,2,:)
+else if (name == "LM2024.Q") then
+   series = lc(1,3,:)
+else if (name == "LM2024_FE.Q") then
+   series = lc_fe(1,3,:)
+else if (name == "LM2529.Q") then
+   series = lc(1,4,:)
+else if (name == "LM2529_FE.Q") then
+   series = lc_fe(1,4,:)
+else if (name == "LM2534.Q") then
+   series = lc(1,18,:)
+else if (name == "LM3034.Q") then
+   series = lc(1,5,:)
+else if (name == "LM3034_FE.Q") then
+   series = lc_fe(1,5,:)
+else if (name == "LM3539.Q") then
+   series = lc(1,6,:)
+else if (name == "LM3539_FE.Q") then
+   series = lc_fe(1,6,:)
+else if (name == "LM3544.Q") then
+   series = lc(1,19,:)
+else if (name == "LM4044.Q") then
+   series = lc(1,7,:)
+else if (name == "LM4044_FE.Q") then
+   series = lc_fe(1,7,:)
+else if (name == "LM4549.Q") then
+   series = lc(1,8,:)
+else if (name == "LM4549_FE.Q") then
+   series = lc_fe(1,8,:)
+else if (name == "LM4554.Q") then
+   series = lc(1,20,:)
+else if (name == "LM5054.Q") then
+   series = lc(1,9,:)
+else if (name == "LM5054_FE.Q") then
+   series = lc_fe(1,9,:)
+else if (name == "LM55.Q") then
+   series = lcsy(1,55,:)
+else if (name == "LM5559.Q") then
+   series = lc(1,10,:)
+else if (name == "LM5559_FE.Q") then
+   series = lc_fe(1,10,:)
+else if (name == "LM5564.Q") then
+   series = lc(1,21,:)
+else if (name == "LM56.Q") then
+   series = lcsy(1,56,:)
+else if (name == "LM57.Q") then
+   series = lcsy(1,57,:)
+else if (name == "LM58.Q") then
+   series = lcsy(1,58,:)
+else if (name == "LM59.Q") then
+   series = lcsy(1,59,:)
+else if (name == "LM60.Q") then
+   series = lcsy(1,60,:)
+else if (name == "LM6064.Q") then
+   series = lc(1,11,:)
+else if (name == "LM6064_FE.Q") then
+   series = lc_fe(1,11,:)
+else if (name == "LM61.Q") then
+   series = lcsy(1,61,:)
+else if (name == "LM62.Q") then
+   series = lcsy(1,62,:)
+else if (name == "LM63.Q") then
+   series = lcsy(1,63,:)
+else if (name == "LM64.Q") then
+   series = lcsy(1,64,:)
+else if (name == "LM65.Q") then
+   series = lcsy(1,65,:)
+else if (name == "LM6569.Q") then
+   series = lc(1,12,:)
+else if (name == "LM6569_FE.Q") then
+   series = lc_fe(1,12,:)
+else if (name == "LM6574.Q") then
+   series = lc(1,30,:)
+else if (name == "LM65O.Q") then
+   series = lc(1,22,:)
+else if (name == "LM66.Q") then
+   series = lcsy(1,66,:)
+else if (name == "LM67.Q") then
+   series = lcsy(1,67,:)
+else if (name == "LM68.Q") then
+   series = lcsy(1,68,:)
+else if (name == "LM69.Q") then
+   series = lcsy(1,69,:)
+else if (name == "LM70.Q") then
+   series = lcsy(1,70,:)
+else if (name == "LM7074.Q") then
+   series = lc(1,13,:)
+else if (name == "LM7074_FE.Q") then
+   series = lc_fe(1,13,:)
+else if (name == "LM70O.Q") then
+   series = lc(1,23,:)
+else if (name == "LM71.Q") then
+   series = lcsy(1,71,:)
+else if (name == "LM72.Q") then
+   series = lcsy(1,72,:)
+else if (name == "LM73.Q") then
+   series = lcsy(1,73,:)
+else if (name == "LM74.Q") then
+   series = lcsy(1,74,:)
+else if (name == "LM75.Q") then
+   series = lcsy(1,75,:)
+else if (name == "LM7579.Q") then
+   series = lc(1,14,:)
+else if (name == "LM75O.Q") then
+   series = lc(1,17,:)
+else if (name == "LM75O_FE.Q") then
+   series = lc_fe(1,17,:)
+else if (name == "LM76.Q") then
+   series = lcsy(1,76,:)
+else if (name == "LM77.Q") then
+   series = lcsy(1,77,:)
+else if (name == "LM78.Q") then
+   series = lcsy(1,78,:)
+else if (name == "LM79.Q") then
+   series = lcsy(1,79,:)
+else if (name == "LM80.Q") then
+   series = lcsy(1,80,:)
+else if (name == "LM8084.Q") then
+   series = lc(1,15,:)
+else if (name == "LM80O.Q") then
+   series = lc(1,31,:)
+else if (name == "LM81.Q") then
+   series = lcsy(1,81,:)
+else if (name == "LM82.Q") then
+   series = lcsy(1,82,:)
+else if (name == "LM83.Q") then
+   series = lcsy(1,83,:)
+else if (name == "LM84.Q") then
+   series = lcsy(1,84,:)
+else if (name == "LM85.Q") then
+   series = lcsy(1,85,:)
+else if (name == "LM8589.Q") then
+   series = lc(1,32,:)
+else if (name == "LM85O.Q") then
+   series = lc(1,16,:)
+else if (name == "LM86.Q") then
+   series = lcsy(1,86,:)
+else if (name == "LM87.Q") then
+   series = lcsy(1,87,:)
+else if (name == "LM88.Q") then
+   series = lcsy(1,88,:)
+else if (name == "LM89.Q") then
+   series = lcsy(1,89,:)
+else if (name == "LM90.Q") then
+   series = lcsy(1,90,:)
+else if (name == "LM9094.Q") then
+   series = lc(1,33,:)
+else if (name == "LM91.Q") then
+   series = lcsy(1,91,:)
+else if (name == "LM92.Q") then
+   series = lcsy(1,92,:)
+else if (name == "LM93.Q") then
+   series = lcsy(1,93,:)
+else if (name == "LM94.Q") then
+   series = lcsy(1,94,:)
+else if (name == "LM95.Q") then
+   series = lcsy(1,95,:)
+else if (name == "LM9599.Q") then
+   series = lc(1,34,:)
+else if (name == "LM96.Q") then
+   series = lcsy(1,96,:)
+else if (name == "LM97.Q") then
+   series = lcsy(1,97,:)
+else if (name == "LM98.Q") then
+   series = lcsy(1,98,:)
+else if (name == "LM99.Q") then
+   series = lcsy(1,99,:)
+else if (name == "P16O.Q") then
+   series = p(0,24,:)
+else if (name == "P16O_ASA.Q") then
+   series = p_asa(0,24,:)
+else if (name == "P16O_FE.Q") then
+   series = p_fe(0,24,:)
+else if (name == "P16O_P.Q") then
+   series = p_p(0,24,:)
+else if (name == "PF100.Q") then
+   series = psy(2,100,:)
+else if (name == "PF100_P.Q") then
+   series = psy_p(2,100,:)
+else if (name == "PF1617.Q") then
+   series = p(2,1,:)
+else if (name == "PF1617_FE.Q") then
+   series = p_fe(2,1,:)
+else if (name == "PF1617_P.Q") then
+   series = p_p(2,1,:)
+else if (name == "PF1619.Q") then
+   series = p(2,27,:)
+else if (name == "PF16O.Q") then
+   series = p(2,24,:)
+else if (name == "PF16O_ASA.Q") then
+   series = p_asa(2,24,:)
+else if (name == "PF16O_FE.Q") then
+   series = p_fe(2,24,:)
+else if (name == "PF16O_P.Q") then
+   series = p_p(2,24,:)
+else if (name == "PF1819.Q") then
+   series = p(2,2,:)
+else if (name == "PF1819_FE.Q") then
+   series = p_fe(2,2,:)
+else if (name == "PF1819_P.Q") then
+   series = p_p(2,2,:)
+else if (name == "PF2024.Q") then
+   series = p(2,3,:)
+else if (name == "PF2024MA.Q") then
+   series = pms(2,3,3,:)
+else if (name == "PF2024MAC6U.Q") then
+   series = pmsc6u(2,3,3,:)
+else if (name == "PF2024MAC6U_P.Q") then
+   series = pmsc6u_p(2,3,3,:)
+else if (name == "PF2024MANC6.Q") then
+   series = pmsnc6(2,3,3,:)
+else if (name == "PF2024MANC6_P.Q") then
+   series = pmsnc6_p(2,3,3,:)
+else if (name == "PF2024MA_P.Q") then
+   series = pms_p(2,3,3,:)
+else if (name == "PF2024MS.Q") then
+   series = pms(2,3,2,:)
+else if (name == "PF2024MSC6U.Q") then
+   series = pmsc6u(2,3,2,:)
+else if (name == "PF2024MSC6U_P.Q") then
+   series = pmsc6u_p(2,3,2,:)
+else if (name == "PF2024MSNC6.Q") then
+   series = pmsnc6(2,3,2,:)
+else if (name == "PF2024MSNC6_P.Q") then
+   series = pmsnc6_p(2,3,2,:)
+else if (name == "PF2024MS_P.Q") then
+   series = pms_p(2,3,2,:)
+else if (name == "PF2024NM.Q") then
+   series = pms(2,3,1,:)
+else if (name == "PF2024NMC6U.Q") then
+   series = pmsc6u(2,3,1,:)
+else if (name == "PF2024NMC6U_P.Q") then
+   series = pmsc6u_p(2,3,1,:)
+else if (name == "PF2024NMNC6.Q") then
+   series = pmsnc6(2,3,1,:)
+else if (name == "PF2024NMNC6_P.Q") then
+   series = pmsnc6_p(2,3,1,:)
+else if (name == "PF2024NM_P.Q") then
+   series = pms_p(2,3,1,:)
+else if (name == "PF2024_FE.Q") then
+   series = p_fe(2,3,:)
+else if (name == "PF2024_P.Q") then
+   series = p_p(2,3,:)
+else if (name == "PF2529.Q") then
+   series = p(2,4,:)
+else if (name == "PF2529MA.Q") then
+   series = pms(2,4,3,:)
+else if (name == "PF2529MAC6U.Q") then
+   series = pmsc6u(2,4,3,:)
+else if (name == "PF2529MAC6U_P.Q") then
+   series = pmsc6u_p(2,4,3,:)
+else if (name == "PF2529MANC6.Q") then
+   series = pmsnc6(2,4,3,:)
+else if (name == "PF2529MANC6_P.Q") then
+   series = pmsnc6_p(2,4,3,:)
+else if (name == "PF2529MA_P.Q") then
+   series = pms_p(2,4,3,:)
+else if (name == "PF2529MS.Q") then
+   series = pms(2,4,2,:)
+else if (name == "PF2529MSC6U.Q") then
+   series = pmsc6u(2,4,2,:)
+else if (name == "PF2529MSC6U_P.Q") then
+   series = pmsc6u_p(2,4,2,:)
+else if (name == "PF2529MSNC6.Q") then
+   series = pmsnc6(2,4,2,:)
+else if (name == "PF2529MSNC6_P.Q") then
+   series = pmsnc6_p(2,4,2,:)
+else if (name == "PF2529MS_P.Q") then
+   series = pms_p(2,4,2,:)
+else if (name == "PF2529NM.Q") then
+   series = pms(2,4,1,:)
+else if (name == "PF2529NMC6U.Q") then
+   series = pmsc6u(2,4,1,:)
+else if (name == "PF2529NMC6U_P.Q") then
+   series = pmsc6u_p(2,4,1,:)
+else if (name == "PF2529NMNC6.Q") then
+   series = pmsnc6(2,4,1,:)
+else if (name == "PF2529NMNC6_P.Q") then
+   series = pmsnc6_p(2,4,1,:)
+else if (name == "PF2529NM_P.Q") then
+   series = pms_p(2,4,1,:)
+else if (name == "PF2529_FE.Q") then
+   series = p_fe(2,4,:)
+else if (name == "PF2529_P.Q") then
+   series = p_p(2,4,:)
+else if (name == "PF2534.Q") then
+   series = p(2,18,:)
+else if (name == "PF3034.Q") then
+   series = p(2,5,:)
+else if (name == "PF3034MA.Q") then
+   series = pms(2,5,3,:)
+else if (name == "PF3034MAC6U.Q") then
+   series = pmsc6u(2,5,3,:)
+else if (name == "PF3034MAC6U_P.Q") then
+   series = pmsc6u_p(2,5,3,:)
+else if (name == "PF3034MANC6.Q") then
+   series = pmsnc6(2,5,3,:)
+else if (name == "PF3034MANC6_P.Q") then
+   series = pmsnc6_p(2,5,3,:)
+else if (name == "PF3034MA_P.Q") then
+   series = pms_p(2,5,3,:)
+else if (name == "PF3034MS.Q") then
+   series = pms(2,5,2,:)
+else if (name == "PF3034MSC6U.Q") then
+   series = pmsc6u(2,5,2,:)
+else if (name == "PF3034MSC6U_P.Q") then
+   series = pmsc6u_p(2,5,2,:)
+else if (name == "PF3034MSNC6.Q") then
+   series = pmsnc6(2,5,2,:)
+else if (name == "PF3034MSNC6_P.Q") then
+   series = pmsnc6_p(2,5,2,:)
+else if (name == "PF3034MS_P.Q") then
+   series = pms_p(2,5,2,:)
+else if (name == "PF3034NM.Q") then
+   series = pms(2,5,1,:)
+else if (name == "PF3034NMC6U.Q") then
+   series = pmsc6u(2,5,1,:)
+else if (name == "PF3034NMC6U_P.Q") then
+   series = pmsc6u_p(2,5,1,:)
+else if (name == "PF3034NMNC6.Q") then
+   series = pmsnc6(2,5,1,:)
+else if (name == "PF3034NMNC6_P.Q") then
+   series = pmsnc6_p(2,5,1,:)
+else if (name == "PF3034NM_P.Q") then
+   series = pms_p(2,5,1,:)
+else if (name == "PF3034_FE.Q") then
+   series = p_fe(2,5,:)
+else if (name == "PF3034_P.Q") then
+   series = p_p(2,5,:)
+else if (name == "PF3539.Q") then
+   series = p(2,6,:)
+else if (name == "PF3539MA.Q") then
+   series = pms(2,6,3,:)
+else if (name == "PF3539MAC6U.Q") then
+   series = pmsc6u(2,6,3,:)
+else if (name == "PF3539MAC6U_P.Q") then
+   series = pmsc6u_p(2,6,3,:)
+else if (name == "PF3539MANC6.Q") then
+   series = pmsnc6(2,6,3,:)
+else if (name == "PF3539MANC6_P.Q") then
+   series = pmsnc6_p(2,6,3,:)
+else if (name == "PF3539MA_P.Q") then
+   series = pms_p(2,6,3,:)
+else if (name == "PF3539MS.Q") then
+   series = pms(2,6,2,:)
+else if (name == "PF3539MSC6U.Q") then
+   series = pmsc6u(2,6,2,:)
+else if (name == "PF3539MSC6U_P.Q") then
+   series = pmsc6u_p(2,6,2,:)
+else if (name == "PF3539MSNC6.Q") then
+   series = pmsnc6(2,6,2,:)
+else if (name == "PF3539MSNC6_P.Q") then
+   series = pmsnc6_p(2,6,2,:)
+else if (name == "PF3539MS_P.Q") then
+   series = pms_p(2,6,2,:)
+else if (name == "PF3539NM.Q") then
+   series = pms(2,6,1,:)
+else if (name == "PF3539NMC6U.Q") then
+   series = pmsc6u(2,6,1,:)
+else if (name == "PF3539NMC6U_P.Q") then
+   series = pmsc6u_p(2,6,1,:)
+else if (name == "PF3539NMNC6.Q") then
+   series = pmsnc6(2,6,1,:)
+else if (name == "PF3539NMNC6_P.Q") then
+   series = pmsnc6_p(2,6,1,:)
+else if (name == "PF3539NM_P.Q") then
+   series = pms_p(2,6,1,:)
+else if (name == "PF3539_FE.Q") then
+   series = p_fe(2,6,:)
+else if (name == "PF3539_P.Q") then
+   series = p_p(2,6,:)
+else if (name == "PF3544.Q") then
+   series = p(2,19,:)
+else if (name == "PF4044.Q") then
+   series = p(2,7,:)
+else if (name == "PF4044MA.Q") then
+   series = pms(2,7,3,:)
+else if (name == "PF4044MAC6U.Q") then
+   series = pmsc6u(2,7,3,:)
+else if (name == "PF4044MAC6U_P.Q") then
+   series = pmsc6u_p(2,7,3,:)
+else if (name == "PF4044MANC6.Q") then
+   series = pmsnc6(2,7,3,:)
+else if (name == "PF4044MANC6_P.Q") then
+   series = pmsnc6_p(2,7,3,:)
+else if (name == "PF4044MA_P.Q") then
+   series = pms_p(2,7,3,:)
+else if (name == "PF4044MS.Q") then
+   series = pms(2,7,2,:)
+else if (name == "PF4044MSC6U.Q") then
+   series = pmsc6u(2,7,2,:)
+else if (name == "PF4044MSC6U_P.Q") then
+   series = pmsc6u_p(2,7,2,:)
+else if (name == "PF4044MSNC6.Q") then
+   series = pmsnc6(2,7,2,:)
+else if (name == "PF4044MSNC6_P.Q") then
+   series = pmsnc6_p(2,7,2,:)
+else if (name == "PF4044MS_P.Q") then
+   series = pms_p(2,7,2,:)
+else if (name == "PF4044NM.Q") then
+   series = pms(2,7,1,:)
+else if (name == "PF4044NMC6U.Q") then
+   series = pmsc6u(2,7,1,:)
+else if (name == "PF4044NMC6U_P.Q") then
+   series = pmsc6u_p(2,7,1,:)
+else if (name == "PF4044NMNC6.Q") then
+   series = pmsnc6(2,7,1,:)
+else if (name == "PF4044NMNC6_P.Q") then
+   series = pmsnc6_p(2,7,1,:)
+else if (name == "PF4044NM_P.Q") then
+   series = pms_p(2,7,1,:)
+else if (name == "PF4044_FE.Q") then
+   series = p_fe(2,7,:)
+else if (name == "PF4044_P.Q") then
+   series = p_p(2,7,:)
+else if (name == "PF4549.Q") then
+   series = p(2,8,:)
+else if (name == "PF4549MA.Q") then
+   series = pms(2,8,3,:)
+else if (name == "PF4549MA_P.Q") then
+   series = pms_p(2,8,3,:)
+else if (name == "PF4549MS.Q") then
+   series = pms(2,8,2,:)
+else if (name == "PF4549MS_P.Q") then
+   series = pms_p(2,8,2,:)
+else if (name == "PF4549NM.Q") then
+   series = pms(2,8,1,:)
+else if (name == "PF4549NM_P.Q") then
+   series = pms_p(2,8,1,:)
+else if (name == "PF4549_FE.Q") then
+   series = p_fe(2,8,:)
+else if (name == "PF4549_P.Q") then
+   series = p_p(2,8,:)
+else if (name == "PF4554.Q") then
+   series = p(2,20,:)
+else if (name == "PF5054.Q") then
+   series = p(2,9,:)
+else if (name == "PF5054MA.Q") then
+   series = pms(2,9,3,:)
+else if (name == "PF5054MA_P.Q") then
+   series = pms_p(2,9,3,:)
+else if (name == "PF5054MS.Q") then
+   series = pms(2,9,2,:)
+else if (name == "PF5054MS_P.Q") then
+   series = pms_p(2,9,2,:)
+else if (name == "PF5054NM.Q") then
+   series = pms(2,9,1,:)
+else if (name == "PF5054NM_P.Q") then
+   series = pms_p(2,9,1,:)
+else if (name == "PF5054_FE.Q") then
+   series = p_fe(2,9,:)
+else if (name == "PF5054_P.Q") then
+   series = p_p(2,9,:)
+else if (name == "PF55.Q") then
+   series = psy(2,55,:)
+else if (name == "PF5559.Q") then
+   series = p(2,10,:)
+else if (name == "PF5559_FE.Q") then
+   series = p_fe(2,10,:)
+else if (name == "PF5564.Q") then
+   series = p(2,21,:)
+else if (name == "PF55_P.Q") then
+   series = psy_p(2,55,:)
+else if (name == "PF56.Q") then
+   series = psy(2,56,:)
+else if (name == "PF56_P.Q") then
+   series = psy_p(2,56,:)
+else if (name == "PF57.Q") then
+   series = psy(2,57,:)
+else if (name == "PF57_P.Q") then
+   series = psy_p(2,57,:)
+else if (name == "PF58.Q") then
+   series = psy(2,58,:)
+else if (name == "PF58_P.Q") then
+   series = psy_p(2,58,:)
+else if (name == "PF59.Q") then
+   series = psy(2,59,:)
+else if (name == "PF59_P.Q") then
+   series = psy_p(2,59,:)
+else if (name == "PF60.Q") then
+   series = psy(2,60,:)
+else if (name == "PF6064.Q") then
+   series = p(2,11,:)
+else if (name == "PF6064_FE.Q") then
+   series = p_fe(2,11,:)
+else if (name == "PF60_P.Q") then
+   series = psy_p(2,60,:)
+else if (name == "PF61.Q") then
+   series = psy(2,61,:)
+else if (name == "PF61_P.Q") then
+   series = psy_p(2,61,:)
+else if (name == "PF62.Q") then
+   series = psy(2,62,:)
+else if (name == "PF62_P.Q") then
+   series = psy_p(2,62,:)
+else if (name == "PF63.Q") then
+   series = psy(2,63,:)
+else if (name == "PF63_P.Q") then
+   series = psy_p(2,63,:)
+else if (name == "PF64.Q") then
+   series = psy(2,64,:)
+else if (name == "PF64_P.Q") then
+   series = psy_p(2,64,:)
+else if (name == "PF65.Q") then
+   series = psy(2,65,:)
+else if (name == "PF6569.Q") then
+   series = p(2,12,:)
+else if (name == "PF6569_FE.Q") then
+   series = p_fe(2,12,:)
+else if (name == "PF6574.Q") then
+   series = p(2,30,:)
+else if (name == "PF65O.Q") then
+   series = p(2,22,:)
+else if (name == "PF65_P.Q") then
+   series = psy_p(2,65,:)
+else if (name == "PF66.Q") then
+   series = psy(2,66,:)
+else if (name == "PF66_P.Q") then
+   series = psy_p(2,66,:)
+else if (name == "PF67.Q") then
+   series = psy(2,67,:)
+else if (name == "PF67_P.Q") then
+   series = psy_p(2,67,:)
+else if (name == "PF68.Q") then
+   series = psy(2,68,:)
+else if (name == "PF68_P.Q") then
+   series = psy_p(2,68,:)
+else if (name == "PF69.Q") then
+   series = psy(2,69,:)
+else if (name == "PF69_P.Q") then
+   series = psy_p(2,69,:)
+else if (name == "PF70.Q") then
+   series = psy(2,70,:)
+else if (name == "PF7074.Q") then
+   series = p(2,13,:)
+else if (name == "PF7074_FE.Q") then
+   series = p_fe(2,13,:)
+else if (name == "PF70O.Q") then
+   series = p(2,23,:)
+else if (name == "PF70_P.Q") then
+   series = psy_p(2,70,:)
+else if (name == "PF71.Q") then
+   series = psy(2,71,:)
+else if (name == "PF71_P.Q") then
+   series = psy_p(2,71,:)
+else if (name == "PF72.Q") then
+   series = psy(2,72,:)
+else if (name == "PF72_P.Q") then
+   series = psy_p(2,72,:)
+else if (name == "PF73.Q") then
+   series = psy(2,73,:)
+else if (name == "PF73_P.Q") then
+   series = psy_p(2,73,:)
+else if (name == "PF74.Q") then
+   series = psy(2,74,:)
+else if (name == "PF74_P.Q") then
+   series = psy_p(2,74,:)
+else if (name == "PF75.Q") then
+   series = psy(2,75,:)
+else if (name == "PF7579.Q") then
+   series = p(2,14,:)
+else if (name == "PF75O.Q") then
+   series = p(2,17,:)
+else if (name == "PF75O_FE.Q") then
+   series = p_fe(2,17,:)
+else if (name == "PF75_P.Q") then
+   series = psy_p(2,75,:)
+else if (name == "PF76.Q") then
+   series = psy(2,76,:)
+else if (name == "PF76_P.Q") then
+   series = psy_p(2,76,:)
+else if (name == "PF77.Q") then
+   series = psy(2,77,:)
+else if (name == "PF77_P.Q") then
+   series = psy_p(2,77,:)
+else if (name == "PF78.Q") then
+   series = psy(2,78,:)
+else if (name == "PF78_P.Q") then
+   series = psy_p(2,78,:)
+else if (name == "PF79.Q") then
+   series = psy(2,79,:)
+else if (name == "PF79_P.Q") then
+   series = psy_p(2,79,:)
+else if (name == "PF80.Q") then
+   series = psy(2,80,:)
+else if (name == "PF8084.Q") then
+   series = p(2,15,:)
+else if (name == "PF80O.Q") then
+   series = p80o(2,:)
+else if (name == "PF80O_P.Q") then
+   series = p80o_p(2,:)
+else if (name == "PF80_P.Q") then
+   series = psy_p(2,80,:)
+else if (name == "PF81.Q") then
+   series = psy(2,81,:)
+else if (name == "PF81_P.Q") then
+   series = psy_p(2,81,:)
+else if (name == "PF82.Q") then
+   series = psy(2,82,:)
+else if (name == "PF82_P.Q") then
+   series = psy_p(2,82,:)
+else if (name == "PF83.Q") then
+   series = psy(2,83,:)
+else if (name == "PF83_P.Q") then
+   series = psy_p(2,83,:)
+else if (name == "PF84.Q") then
+   series = psy(2,84,:)
+else if (name == "PF84_P.Q") then
+   series = psy_p(2,84,:)
+else if (name == "PF85.Q") then
+   series = psy(2,85,:)
+else if (name == "PF8589.Q") then
+   series = p(2,32,:)
+else if (name == "PF85O.Q") then
+   series = p(2,16,:)
+else if (name == "PF85_P.Q") then
+   series = psy_p(2,85,:)
+else if (name == "PF86.Q") then
+   series = psy(2,86,:)
+else if (name == "PF86_P.Q") then
+   series = psy_p(2,86,:)
+else if (name == "PF87.Q") then
+   series = psy(2,87,:)
+else if (name == "PF87_P.Q") then
+   series = psy_p(2,87,:)
+else if (name == "PF88.Q") then
+   series = psy(2,88,:)
+else if (name == "PF88_P.Q") then
+   series = psy_p(2,88,:)
+else if (name == "PF89.Q") then
+   series = psy(2,89,:)
+else if (name == "PF89_P.Q") then
+   series = psy_p(2,89,:)
+else if (name == "PF90.Q") then
+   series = psy(2,90,:)
+else if (name == "PF9094.Q") then
+   series = p(2,33,:)
+else if (name == "PF90_P.Q") then
+   series = psy_p(2,90,:)
+else if (name == "PF91.Q") then
+   series = psy(2,91,:)
+else if (name == "PF91_P.Q") then
+   series = psy_p(2,91,:)
+else if (name == "PF92.Q") then
+   series = psy(2,92,:)
+else if (name == "PF92_P.Q") then
+   series = psy_p(2,92,:)
+else if (name == "PF93.Q") then
+   series = psy(2,93,:)
+else if (name == "PF93_P.Q") then
+   series = psy_p(2,93,:)
+else if (name == "PF94.Q") then
+   series = psy(2,94,:)
+else if (name == "PF94_P.Q") then
+   series = psy_p(2,94,:)
+else if (name == "PF95.Q") then
+   series = psy(2,95,:)
+else if (name == "PF9599.Q") then
+   series = p(2,34,:)
+else if (name == "PF95_P.Q") then
+   series = psy_p(2,95,:)
+else if (name == "PF96.Q") then
+   series = psy(2,96,:)
+else if (name == "PF96_P.Q") then
+   series = psy_p(2,96,:)
+else if (name == "PF97.Q") then
+   series = psy(2,97,:)
+else if (name == "PF97_P.Q") then
+   series = psy_p(2,97,:)
+else if (name == "PF98.Q") then
+   series = psy(2,98,:)
+else if (name == "PF98_P.Q") then
+   series = psy_p(2,98,:)
+else if (name == "PF99.Q") then
+   series = psy(2,99,:)
+else if (name == "PF99_P.Q") then
+   series = psy_p(2,99,:)
+else if (name == "PM100.Q") then
+   series = psy(1,100,:)
+else if (name == "PM100_P.Q") then
+   series = psy_p(1,100,:)
+else if (name == "PM1617.Q") then
+   series = p(1,1,:)
+else if (name == "PM1617_FE.Q") then
+   series = p_fe(1,1,:)
+else if (name == "PM1617_P.Q") then
+   series = p_p(1,1,:)
+else if (name == "PM1619.Q") then
+   series = p(1,27,:)
+else if (name == "PM16O.Q") then
+   series = p(1,24,:)
+else if (name == "PM16O_ASA.Q") then
+   series = p_asa(1,24,:)
+else if (name == "PM16O_FE.Q") then
+   series = p_fe(1,24,:)
+else if (name == "PM16O_P.Q") then
+   series = p_p(1,24,:)
+else if (name == "PM1819.Q") then
+   series = p(1,2,:)
+else if (name == "PM1819_FE.Q") then
+   series = p_fe(1,2,:)
+else if (name == "PM1819_P.Q") then
+   series = p_p(1,2,:)
+else if (name == "PM2024.Q") then
+   series = p(1,3,:)
+else if (name == "PM2024MA.Q") then
+   series = pms(1,3,3,:)
+else if (name == "PM2024MA_P.Q") then
+   series = pms_p(1,3,3,:)
+else if (name == "PM2024MS.Q") then
+   series = pms(1,3,2,:)
+else if (name == "PM2024MS_P.Q") then
+   series = pms_p(1,3,2,:)
+else if (name == "PM2024NM.Q") then
+   series = pms(1,3,1,:)
+else if (name == "PM2024NM_P.Q") then
+   series = pms_p(1,3,1,:)
+else if (name == "PM2024_FE.Q") then
+   series = p_fe(1,3,:)
+else if (name == "PM2024_P.Q") then
+   series = p_p(1,3,:)
+else if (name == "PM2529.Q") then
+   series = p(1,4,:)
+else if (name == "PM2529MA.Q") then
+   series = pms(1,4,3,:)
+else if (name == "PM2529MA_P.Q") then
+   series = pms_p(1,4,3,:)
+else if (name == "PM2529MS.Q") then
+   series = pms(1,4,2,:)
+else if (name == "PM2529MS_P.Q") then
+   series = pms_p(1,4,2,:)
+else if (name == "PM2529NM.Q") then
+   series = pms(1,4,1,:)
+else if (name == "PM2529NM_P.Q") then
+   series = pms_p(1,4,1,:)
+else if (name == "PM2529_FE.Q") then
+   series = p_fe(1,4,:)
+else if (name == "PM2529_P.Q") then
+   series = p_p(1,4,:)
+else if (name == "PM2534.Q") then
+   series = p(1,18,:)
+else if (name == "PM3034.Q") then
+   series = p(1,5,:)
+else if (name == "PM3034MA.Q") then
+   series = pms(1,5,3,:)
+else if (name == "PM3034MA_P.Q") then
+   series = pms_p(1,5,3,:)
+else if (name == "PM3034MS.Q") then
+   series = pms(1,5,2,:)
+else if (name == "PM3034MS_P.Q") then
+   series = pms_p(1,5,2,:)
+else if (name == "PM3034NM.Q") then
+   series = pms(1,5,1,:)
+else if (name == "PM3034NM_P.Q") then
+   series = pms_p(1,5,1,:)
+else if (name == "PM3034_FE.Q") then
+   series = p_fe(1,5,:)
+else if (name == "PM3034_P.Q") then
+   series = p_p(1,5,:)
+else if (name == "PM3539.Q") then
+   series = p(1,6,:)
+else if (name == "PM3539MA.Q") then
+   series = pms(1,6,3,:)
+else if (name == "PM3539MA_P.Q") then
+   series = pms_p(1,6,3,:)
+else if (name == "PM3539MS.Q") then
+   series = pms(1,6,2,:)
+else if (name == "PM3539MS_P.Q") then
+   series = pms_p(1,6,2,:)
+else if (name == "PM3539NM.Q") then
+   series = pms(1,6,1,:)
+else if (name == "PM3539NM_P.Q") then
+   series = pms_p(1,6,1,:)
+else if (name == "PM3539_FE.Q") then
+   series = p_fe(1,6,:)
+else if (name == "PM3539_P.Q") then
+   series = p_p(1,6,:)
+else if (name == "PM3544.Q") then
+   series = p(1,19,:)
+else if (name == "PM4044.Q") then
+   series = p(1,7,:)
+else if (name == "PM4044MA.Q") then
+   series = pms(1,7,3,:)
+else if (name == "PM4044MA_P.Q") then
+   series = pms_p(1,7,3,:)
+else if (name == "PM4044MS.Q") then
+   series = pms(1,7,2,:)
+else if (name == "PM4044MS_P.Q") then
+   series = pms_p(1,7,2,:)
+else if (name == "PM4044NM.Q") then
+   series = pms(1,7,1,:)
+else if (name == "PM4044NM_P.Q") then
+   series = pms_p(1,7,1,:)
+else if (name == "PM4044_FE.Q") then
+   series = p_fe(1,7,:)
+else if (name == "PM4044_P.Q") then
+   series = p_p(1,7,:)
+else if (name == "PM4549.Q") then
+   series = p(1,8,:)
+else if (name == "PM4549MA.Q") then
+   series = pms(1,8,3,:)
+else if (name == "PM4549MA_P.Q") then
+   series = pms_p(1,8,3,:)
+else if (name == "PM4549MS.Q") then
+   series = pms(1,8,2,:)
+else if (name == "PM4549MS_P.Q") then
+   series = pms_p(1,8,2,:)
+else if (name == "PM4549NM.Q") then
+   series = pms(1,8,1,:)
+else if (name == "PM4549NM_P.Q") then
+   series = pms_p(1,8,1,:)
+else if (name == "PM4549_FE.Q") then
+   series = p_fe(1,8,:)
+else if (name == "PM4549_P.Q") then
+   series = p_p(1,8,:)
+else if (name == "PM4554.Q") then
+   series = p(1,20,:)
+else if (name == "PM5054.Q") then
+   series = p(1,9,:)
+else if (name == "PM5054MA.Q") then
+   series = pms(1,9,3,:)
+else if (name == "PM5054MA_P.Q") then
+   series = pms_p(1,9,3,:)
+else if (name == "PM5054MS.Q") then
+   series = pms(1,9,2,:)
+else if (name == "PM5054MS_P.Q") then
+   series = pms_p(1,9,2,:)
+else if (name == "PM5054NM.Q") then
+   series = pms(1,9,1,:)
+else if (name == "PM5054NM_P.Q") then
+   series = pms_p(1,9,1,:)
+else if (name == "PM5054_FE.Q") then
+   series = p_fe(1,9,:)
+else if (name == "PM5054_P.Q") then
+   series = p_p(1,9,:)
+else if (name == "PM55.Q") then
+   series = psy(1,55,:)
+else if (name == "PM5559.Q") then
+   series = p(1,10,:)
+else if (name == "PM5559_FE.Q") then
+   series = p_fe(1,10,:)
+else if (name == "PM5564.Q") then
+   series = p(1,21,:)
+else if (name == "PM55_P.Q") then
+   series = psy_p(1,55,:)
+else if (name == "PM56.Q") then
+   series = psy(1,56,:)
+else if (name == "PM56_P.Q") then
+   series = psy_p(1,56,:)
+else if (name == "PM57.Q") then
+   series = psy(1,57,:)
+else if (name == "PM57_P.Q") then
+   series = psy_p(1,57,:)
+else if (name == "PM58.Q") then
+   series = psy(1,58,:)
+else if (name == "PM58_P.Q") then
+   series = psy_p(1,58,:)
+else if (name == "PM59.Q") then
+   series = psy(1,59,:)
+else if (name == "PM59_P.Q") then
+   series = psy_p(1,59,:)
+else if (name == "PM60.Q") then
+   series = psy(1,60,:)
+else if (name == "PM6064.Q") then
+   series = p(1,11,:)
+else if (name == "PM6064_FE.Q") then
+   series = p_fe(1,11,:)
+else if (name == "PM60_P.Q") then
+   series = psy_p(1,60,:)
+else if (name == "PM61.Q") then
+   series = psy(1,61,:)
+else if (name == "PM61_P.Q") then
+   series = psy_p(1,61,:)
+else if (name == "PM62.Q") then
+   series = psy(1,62,:)
+else if (name == "PM62_P.Q") then
+   series = psy_p(1,62,:)
+else if (name == "PM63.Q") then
+   series = psy(1,63,:)
+else if (name == "PM63_P.Q") then
+   series = psy_p(1,63,:)
+else if (name == "PM64.Q") then
+   series = psy(1,64,:)
+else if (name == "PM64_P.Q") then
+   series = psy_p(1,64,:)
+else if (name == "PM65.Q") then
+   series = psy(1,65,:)
+else if (name == "PM6569.Q") then
+   series = p(1,12,:)
+else if (name == "PM6569_FE.Q") then
+   series = p_fe(1,12,:)
+else if (name == "PM6574.Q") then
+   series = p(1,30,:)
+else if (name == "PM65O.Q") then
+   series = p(1,22,:)
+else if (name == "PM65_P.Q") then
+   series = psy_p(1,65,:)
+else if (name == "PM66.Q") then
+   series = psy(1,66,:)
+else if (name == "PM66_P.Q") then
+   series = psy_p(1,66,:)
+else if (name == "PM67.Q") then
+   series = psy(1,67,:)
+else if (name == "PM67_P.Q") then
+   series = psy_p(1,67,:)
+else if (name == "PM68.Q") then
+   series = psy(1,68,:)
+else if (name == "PM68_P.Q") then
+   series = psy_p(1,68,:)
+else if (name == "PM69.Q") then
+   series = psy(1,69,:)
+else if (name == "PM69_P.Q") then
+   series = psy_p(1,69,:)
+else if (name == "PM70.Q") then
+   series = psy(1,70,:)
+else if (name == "PM7074.Q") then
+   series = p(1,13,:)
+else if (name == "PM7074_FE.Q") then
+   series = p_fe(1,13,:)
+else if (name == "PM70O.Q") then
+   series = p(1,23,:)
+else if (name == "PM70_P.Q") then
+   series = psy_p(1,70,:)
+else if (name == "PM71.Q") then
+   series = psy(1,71,:)
+else if (name == "PM71_P.Q") then
+   series = psy_p(1,71,:)
+else if (name == "PM72.Q") then
+   series = psy(1,72,:)
+else if (name == "PM72_P.Q") then
+   series = psy_p(1,72,:)
+else if (name == "PM73.Q") then
+   series = psy(1,73,:)
+else if (name == "PM73_P.Q") then
+   series = psy_p(1,73,:)
+else if (name == "PM74.Q") then
+   series = psy(1,74,:)
+else if (name == "PM74_P.Q") then
+   series = psy_p(1,74,:)
+else if (name == "PM75.Q") then
+   series = psy(1,75,:)
+else if (name == "PM7579.Q") then
+   series = p(1,14,:)
+else if (name == "PM75O.Q") then
+   series = p(1,17,:)
+else if (name == "PM75O_FE.Q") then
+   series = p_fe(1,17,:)
+else if (name == "PM75_P.Q") then
+   series = psy_p(1,75,:)
+else if (name == "PM76.Q") then
+   series = psy(1,76,:)
+else if (name == "PM76_P.Q") then
+   series = psy_p(1,76,:)
+else if (name == "PM77.Q") then
+   series = psy(1,77,:)
+else if (name == "PM77_P.Q") then
+   series = psy_p(1,77,:)
+else if (name == "PM78.Q") then
+   series = psy(1,78,:)
+else if (name == "PM78_P.Q") then
+   series = psy_p(1,78,:)
+else if (name == "PM79.Q") then
+   series = psy(1,79,:)
+else if (name == "PM79_P.Q") then
+   series = psy_p(1,79,:)
+else if (name == "PM80.Q") then
+   series = psy(1,80,:)
+else if (name == "PM8084.Q") then
+   series = p(1,15,:)
+else if (name == "PM80O.Q") then
+   series = p80o(1,:)
+else if (name == "PM80O_P.Q") then
+   series = p80o_p(1,:)
+else if (name == "PM80_P.Q") then
+   series = psy_p(1,80,:)
+else if (name == "PM81.Q") then
+   series = psy(1,81,:)
+else if (name == "PM81_P.Q") then
+   series = psy_p(1,81,:)
+else if (name == "PM82.Q") then
+   series = psy(1,82,:)
+else if (name == "PM82_P.Q") then
+   series = psy_p(1,82,:)
+else if (name == "PM83.Q") then
+   series = psy(1,83,:)
+else if (name == "PM83_P.Q") then
+   series = psy_p(1,83,:)
+else if (name == "PM84.Q") then
+   series = psy(1,84,:)
+else if (name == "PM84_P.Q") then
+   series = psy_p(1,84,:)
+else if (name == "PM85.Q") then
+   series = psy(1,85,:)
+else if (name == "PM8589.Q") then
+   series = p(1,32,:)
+else if (name == "PM85O.Q") then
+   series = p(1,16,:)
+else if (name == "PM85_P.Q") then
+   series = psy_p(1,85,:)
+else if (name == "PM86.Q") then
+   series = psy(1,86,:)
+else if (name == "PM86_P.Q") then
+   series = psy_p(1,86,:)
+else if (name == "PM87.Q") then
+   series = psy(1,87,:)
+else if (name == "PM87_P.Q") then
+   series = psy_p(1,87,:)
+else if (name == "PM88.Q") then
+   series = psy(1,88,:)
+else if (name == "PM88_P.Q") then
+   series = psy_p(1,88,:)
+else if (name == "PM89.Q") then
+   series = psy(1,89,:)
+else if (name == "PM89_P.Q") then
+   series = psy_p(1,89,:)
+else if (name == "PM90.Q") then
+   series = psy(1,90,:)
+else if (name == "PM9094.Q") then
+   series = p(1,33,:)
+else if (name == "PM90_P.Q") then
+   series = psy_p(1,90,:)
+else if (name == "PM91.Q") then
+   series = psy(1,91,:)
+else if (name == "PM91_P.Q") then
+   series = psy_p(1,91,:)
+else if (name == "PM92.Q") then
+   series = psy(1,92,:)
+else if (name == "PM92_P.Q") then
+   series = psy_p(1,92,:)
+else if (name == "PM93.Q") then
+   series = psy(1,93,:)
+else if (name == "PM93_P.Q") then
+   series = psy_p(1,93,:)
+else if (name == "PM94.Q") then
+   series = psy(1,94,:)
+else if (name == "PM94_P.Q") then
+   series = psy_p(1,94,:)
+else if (name == "PM95.Q") then
+   series = psy(1,95,:)
+else if (name == "PM9599.Q") then
+   series = p(1,34,:)
+else if (name == "PM95_P.Q") then
+   series = psy_p(1,95,:)
+else if (name == "PM96.Q") then
+   series = psy(1,96,:)
+else if (name == "PM96_P.Q") then
+   series = psy_p(1,96,:)
+else if (name == "PM97.Q") then
+   series = psy(1,97,:)
+else if (name == "PM97_P.Q") then
+   series = psy_p(1,97,:)
+else if (name == "PM98.Q") then
+   series = psy(1,98,:)
+else if (name == "PM98_P.Q") then
+   series = psy_p(1,98,:)
+else if (name == "PM99.Q") then
+   series = psy(1,99,:)
+else if (name == "PM99_P.Q") then
+   series = psy_p(1,99,:)
+else if (name == "R16O.Q") then
+   series = ru(0,24,:)
+else if (name == "R16O_FE.Q") then
+   series = ru_fe(0,24,:)
+else if (name == "RF1617.Q") then
+   series = ru(2,1,:)
+else if (name == "RF1617_FE.Q") then
+   series = ru_fe(2,1,:)
+else if (name == "RF1617_P.Q") then
+   series = ru_p(2,1,:)
+else if (name == "RF1619.Q") then
+   series = ru(2,27,:)
+else if (name == "RF16O.Q") then
+   series = ru(2,24,:)
+else if (name == "RF16O_FE.Q") then
+   series = ru_fe(2,24,:)
+else if (name == "RF1819.Q") then
+   series = ru(2,2,:)
+else if (name == "RF1819_FE.Q") then
+   series = ru_fe(2,2,:)
+else if (name == "RF1819_P.Q") then
+   series = ru_p(2,2,:)
+else if (name == "RF2024.Q") then
+   series = ru(2,3,:)
+else if (name == "RF2024_FE.Q") then
+   series = ru_fe(2,3,:)
+else if (name == "RF2024_P.Q") then
+   series = ru_p(2,3,:)
+else if (name == "RF2529.Q") then
+   series = ru(2,4,:)
+else if (name == "RF2529_FE.Q") then
+   series = ru_fe(2,4,:)
+else if (name == "RF2529_P.Q") then
+   series = ru_p(2,4,:)
+else if (name == "RF2534.Q") then
+   series = ru(2,18,:)
+else if (name == "RF3034.Q") then
+   series = ru(2,5,:)
+else if (name == "RF3034_FE.Q") then
+   series = ru_fe(2,5,:)
+else if (name == "RF3034_P.Q") then
+   series = ru_p(2,5,:)
+else if (name == "RF3539.Q") then
+   series = ru(2,6,:)
+else if (name == "RF3539_FE.Q") then
+   series = ru_fe(2,6,:)
+else if (name == "RF3539_P.Q") then
+   series = ru_p(2,6,:)
+else if (name == "RF3544.Q") then
+   series = ru(2,19,:)
+else if (name == "RF4044.Q") then
+   series = ru(2,7,:)
+else if (name == "RF4044_FE.Q") then
+   series = ru_fe(2,7,:)
+else if (name == "RF4044_P.Q") then
+   series = ru_p(2,7,:)
+else if (name == "RF4549.Q") then
+   series = ru(2,8,:)
+else if (name == "RF4549_FE.Q") then
+   series = ru_fe(2,8,:)
+else if (name == "RF4549_P.Q") then
+   series = ru_p(2,8,:)
+else if (name == "RF4554.Q") then
+   series = ru(2,20,:)
+else if (name == "RF5054.Q") then
+   series = ru(2,9,:)
+else if (name == "RF5054_FE.Q") then
+   series = ru_fe(2,9,:)
+else if (name == "RF5054_P.Q") then
+   series = ru_p(2,9,:)
+else if (name == "RF5559.Q") then
+   series = ru(2,10,:)
+else if (name == "RF5559_FE.Q") then
+   series = ru_fe(2,10,:)
+else if (name == "RF5559_P.Q") then
+   series = ru_p(2,10,:)
+else if (name == "RF5564.Q") then
+   series = ru(2,21,:)
+else if (name == "RF6064.Q") then
+   series = ru(2,11,:)
+else if (name == "RF6064_FE.Q") then
+   series = ru_fe(2,11,:)
+else if (name == "RF6064_P.Q") then
+   series = ru_p(2,11,:)
+else if (name == "RF6569.Q") then
+   series = ru(2,12,:)
+else if (name == "RF6569_FE.Q") then
+   series = ru_fe(2,12,:)
+else if (name == "RF6569_P.Q") then
+   series = ru_p(2,12,:)
+else if (name == "RF65O.Q") then
+   series = ru(2,22,:)
+else if (name == "RF7074.Q") then
+   series = ru(2,13,:)
+else if (name == "RF7074_FE.Q") then
+   series = ru_fe(2,13,:)
+else if (name == "RF7074_P.Q") then
+   series = ru_p(2,13,:)
+else if (name == "RF70O.Q") then
+   series = ru(2,15,:)
+else if (name == "RF75O.Q") then
+   series = ru(2,14,:)
+else if (name == "RF75O_FE.Q") then
+   series = ru_fe(2,14,:)
+else if (name == "RF75O_P.Q") then
+   series = ru_p(2,14,:)
+else if (name == "RM1617.Q") then
+   series = ru(1,1,:)
+else if (name == "RM1617_FE.Q") then
+   series = ru_fe(1,1,:)
+else if (name == "RM1617_P.Q") then
+   series = ru_p(1,1,:)
+else if (name == "RM1619.Q") then
+   series = ru(1,27,:)
+else if (name == "RM16O.Q") then
+   series = ru(1,24,:)
+else if (name == "RM16O_FE.Q") then
+   series = ru_fe(1,24,:)
+else if (name == "RM1819.Q") then
+   series = ru(1,2,:)
+else if (name == "RM1819_FE.Q") then
+   series = ru_fe(1,2,:)
+else if (name == "RM1819_P.Q") then
+   series = ru_p(1,2,:)
+else if (name == "RM2024.Q") then
+   series = ru(1,3,:)
+else if (name == "RM2024_FE.Q") then
+   series = ru_fe(1,3,:)
+else if (name == "RM2024_P.Q") then
+   series = ru_p(1,3,:)
+else if (name == "RM2529.Q") then
+   series = ru(1,4,:)
+else if (name == "RM2529_FE.Q") then
+   series = ru_fe(1,4,:)
+else if (name == "RM2529_P.Q") then
+   series = ru_p(1,4,:)
+else if (name == "RM2534.Q") then
+   series = ru(1,18,:)
+else if (name == "RM3034.Q") then
+   series = ru(1,5,:)
+else if (name == "RM3034_FE.Q") then
+   series = ru_fe(1,5,:)
+else if (name == "RM3034_P.Q") then
+   series = ru_p(1,5,:)
+else if (name == "RM3539.Q") then
+   series = ru(1,6,:)
+else if (name == "RM3539_FE.Q") then
+   series = ru_fe(1,6,:)
+else if (name == "RM3539_P.Q") then
+   series = ru_p(1,6,:)
+else if (name == "RM3544.Q") then
+   series = ru(1,19,:)
+else if (name == "RM4044.Q") then
+   series = ru(1,7,:)
+else if (name == "RM4044_FE.Q") then
+   series = ru_fe(1,7,:)
+else if (name == "RM4044_P.Q") then
+   series = ru_p(1,7,:)
+else if (name == "RM4549.Q") then
+   series = ru(1,8,:)
+else if (name == "RM4549_FE.Q") then
+   series = ru_fe(1,8,:)
+else if (name == "RM4549_P.Q") then
+   series = ru_p(1,8,:)
+else if (name == "RM4554.Q") then
+   series = ru(1,20,:)
+else if (name == "RM5054.Q") then
+   series = ru(1,9,:)
+else if (name == "RM5054_FE.Q") then
+   series = ru_fe(1,9,:)
+else if (name == "RM5054_P.Q") then
+   series = ru_p(1,9,:)
+else if (name == "RM5559.Q") then
+   series = ru(1,10,:)
+else if (name == "RM5559_FE.Q") then
+   series = ru_fe(1,10,:)
+else if (name == "RM5559_P.Q") then
+   series = ru_p(1,10,:)
+else if (name == "RM5564.Q") then
+   series = ru(1,21,:)
+else if (name == "RM6064.Q") then
+   series = ru(1,11,:)
+else if (name == "RM6064_FE.Q") then
+   series = ru_fe(1,11,:)
+else if (name == "RM6064_P.Q") then
+   series = ru_p(1,11,:)
+else if (name == "RM6569.Q") then
+   series = ru(1,12,:)
+else if (name == "RM6569_FE.Q") then
+   series = ru_fe(1,12,:)
+else if (name == "RM6569_P.Q") then
+   series = ru_p(1,12,:)
+else if (name == "RM65O.Q") then
+   series = ru(1,22,:)
+else if (name == "RM7074.Q") then
+   series = ru(1,13,:)
+else if (name == "RM7074_FE.Q") then
+   series = ru_fe(1,13,:)
+else if (name == "RM7074_P.Q") then
+   series = ru_p(1,13,:)
+else if (name == "RM70O.Q") then
+   series = ru(1,15,:)
+else if (name == "RM75O.Q") then
+   series = ru(1,14,:)
+else if (name == "RM75O_FE.Q") then
+   series = ru_fe(1,14,:)
+else if (name == "RM75O_P.Q") then
+   series = ru_p(1,14,:)
+else if (name == "RU.Q") then
+   series = ru(0,0,:)
+else if (name == "RUF.Q") then
+   series = ru(2,0,:)
+else if (name == "RUF_ASA.Q") then
+   series = ru_asa(2,0,:)
+else if (name == "RUF_ASA_P.Q") then
+   series = ru_asa_p(2,0,:)
+else if (name == "RUF_FE.Q") then
+   series = ru_fe(2,0,:)
+else if (name == "RUM.Q") then
+   series = ru(1,0,:)
+else if (name == "RUM_ASA.Q") then
+   series = ru_asa(1,0,:)
+else if (name == "RUM_ASA_P.Q") then
+   series = ru_asa_p(1,0,:)
+else if (name == "RUM_FE.Q") then
+   series = ru_fe(1,0,:)
+else if (name == "RU_ASA.Q") then
+   series = ru_asa(0,0,:)
+else if (name == "RU_ASA_P.Q") then
+   series = ru_asa_p(0,0,:)
+else if (name == "RU_FE.Q") then
+   series = ru_fe(0,0,:)

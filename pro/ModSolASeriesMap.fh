@@ -1,0 +1,2602 @@
+if (name == "BENINC.A") then
+   series = beninc_a
+else if (name == "ACEA.A") then
+   series = acea_a
+else if (name == "ACEA_TOT.A") then
+   series = acea_tot_a
+else if (name == "ACEAHI.A") then
+   series = aceahi_a
+else if (name == "ACFCW.A") then
+   series = acfcw_a
+else if (name == "ACFMW.A") then
+   series = acfmw_a
+else if (name == "ACMW.A") then
+   series = acmw_a
+else if (name == "ACSE_CMB.A") then
+   series = acse_cmb_a
+else if (name == "ACSE_CMB_TOT.A") then
+   series = acse_cmb_tot_a
+else if (name == "ACSE_SEO.A") then
+   series = acse_seo_a
+else if (name == "ACSLW.A") then
+   series = acslw_a
+else if (name == "ACWA.A") then
+   series = acwa_a
+else if (name == "ACWADIFF.A") then
+   series = acwadiff_a
+else if (name == "ACWAHI.A") then
+   series = acwahi_a
+else if (name == "AIW.A") then
+   series = aiw_a
+else if (name == "AMWC_GO2.A") then
+   series = amwc_go2_a
+else if (name == "ASE.A") then
+   series = ase_a
+else if (name == "ASEHI.A") then
+   series = asehi_a
+else if (name == "AWS_MEF.A") then
+   series = aws_mef_a
+else if (name == "AWW16O.A") then
+   series = aww(0,24,:)
+else if (name == "AWW16O_P.A") then
+   series = aww_p(0,24,:)
+else if (name == "AWWF1617.A") then
+   series = aww(2,1,:)
+else if (name == "AWWF1617_P.A") then
+   series = aww_p(2,1,:)
+else if (name == "AWWF1617_PL.A") then
+   series = aww_pl(2,1,:)
+else if (name == "AWWF16O.A") then
+   series = aww(2,24,:)
+else if (name == "AWWF16O_P.A") then
+   series = aww_p(2,24,:)
+else if (name == "AWWF1819.A") then
+   series = aww(2,2,:)
+else if (name == "AWWF1819_P.A") then
+   series = aww_p(2,2,:)
+else if (name == "AWWF1819_PL.A") then
+   series = aww_pl(2,2,:)
+else if (name == "AWWF2024.A") then
+   series = aww(2,3,:)
+else if (name == "AWWF2024_P.A") then
+   series = aww_p(2,3,:)
+else if (name == "AWWF2024_PL.A") then
+   series = aww_pl(2,3,:)
+else if (name == "AWWF2529.A") then
+   series = aww(2,4,:)
+else if (name == "AWWF2529_P.A") then
+   series = aww_p(2,4,:)
+else if (name == "AWWF2529_PL.A") then
+   series = aww_pl(2,4,:)
+else if (name == "AWWF3034.A") then
+   series = aww(2,5,:)
+else if (name == "AWWF3034_P.A") then
+   series = aww_p(2,5,:)
+else if (name == "AWWF3034_PL.A") then
+   series = aww_pl(2,5,:)
+else if (name == "AWWF3539.A") then
+   series = aww(2,6,:)
+else if (name == "AWWF3539_P.A") then
+   series = aww_p(2,6,:)
+else if (name == "AWWF3539_PL.A") then
+   series = aww_pl(2,6,:)
+else if (name == "AWWF4044.A") then
+   series = aww(2,7,:)
+else if (name == "AWWF4044_P.A") then
+   series = aww_p(2,7,:)
+else if (name == "AWWF4044_PL.A") then
+   series = aww_pl(2,7,:)
+else if (name == "AWWF4549.A") then
+   series = aww(2,8,:)
+else if (name == "AWWF4549_P.A") then
+   series = aww_p(2,8,:)
+else if (name == "AWWF4549_PL.A") then
+   series = aww_pl(2,8,:)
+else if (name == "AWWF5054.A") then
+   series = aww(2,9,:)
+else if (name == "AWWF5054_P.A") then
+   series = aww_p(2,9,:)
+else if (name == "AWWF5054_PL.A") then
+   series = aww_pl(2,9,:)
+else if (name == "AWWF5559.A") then
+   series = aww(2,10,:)
+else if (name == "AWWF5559_P.A") then
+   series = aww_p(2,10,:)
+else if (name == "AWWF5559_PL.A") then
+   series = aww_pl(2,10,:)
+else if (name == "AWWF6064.A") then
+   series = aww(2,11,:)
+else if (name == "AWWF6064_P.A") then
+   series = aww_p(2,11,:)
+else if (name == "AWWF6064_PL.A") then
+   series = aww_pl(2,11,:)
+else if (name == "AWWF6569.A") then
+   series = aww(2,12,:)
+else if (name == "AWWF6569_P.A") then
+   series = aww_p(2,12,:)
+else if (name == "AWWF6569_PL.A") then
+   series = aww_pl(2,12,:)
+else if (name == "AWWF70O.A") then
+   series = aww(2,23,:)
+else if (name == "AWWF70O_P.A") then
+   series = aww_p(2,23,:)
+else if (name == "AWWF70O_PL.A") then
+   series = aww_pl(2,23,:)
+else if (name == "AWWM1617.A") then
+   series = aww(1,1,:)
+else if (name == "AWWM1617_P.A") then
+   series = aww_p(1,1,:)
+else if (name == "AWWM1617_PL.A") then
+   series = aww_pl(1,1,:)
+else if (name == "AWWM16O.A") then
+   series = aww(1,24,:)
+else if (name == "AWWM16O_P.A") then
+   series = aww_p(1,24,:)
+else if (name == "AWWM1819.A") then
+   series = aww(1,2,:)
+else if (name == "AWWM1819_P.A") then
+   series = aww_p(1,2,:)
+else if (name == "AWWM1819_PL.A") then
+   series = aww_pl(1,2,:)
+else if (name == "AWWM2024.A") then
+   series = aww(1,3,:)
+else if (name == "AWWM2024_P.A") then
+   series = aww_p(1,3,:)
+else if (name == "AWWM2024_PL.A") then
+   series = aww_pl(1,3,:)
+else if (name == "AWWM2529.A") then
+   series = aww(1,4,:)
+else if (name == "AWWM2529_P.A") then
+   series = aww_p(1,4,:)
+else if (name == "AWWM2529_PL.A") then
+   series = aww_pl(1,4,:)
+else if (name == "AWWM3034.A") then
+   series = aww(1,5,:)
+else if (name == "AWWM3034_P.A") then
+   series = aww_p(1,5,:)
+else if (name == "AWWM3034_PL.A") then
+   series = aww_pl(1,5,:)
+else if (name == "AWWM3539.A") then
+   series = aww(1,6,:)
+else if (name == "AWWM3539_P.A") then
+   series = aww_p(1,6,:)
+else if (name == "AWWM3539_PL.A") then
+   series = aww_pl(1,6,:)
+else if (name == "AWWM4044.A") then
+   series = aww(1,7,:)
+else if (name == "AWWM4044_P.A") then
+   series = aww_p(1,7,:)
+else if (name == "AWWM4044_PL.A") then
+   series = aww_pl(1,7,:)
+else if (name == "AWWM4549.A") then
+   series = aww(1,8,:)
+else if (name == "AWWM4549_P.A") then
+   series = aww_p(1,8,:)
+else if (name == "AWWM4549_PL.A") then
+   series = aww_pl(1,8,:)
+else if (name == "AWWM5054.A") then
+   series = aww(1,9,:)
+else if (name == "AWWM5054_P.A") then
+   series = aww_p(1,9,:)
+else if (name == "AWWM5054_PL.A") then
+   series = aww_pl(1,9,:)
+else if (name == "AWWM5559.A") then
+   series = aww(1,10,:)
+else if (name == "AWWM5559_P.A") then
+   series = aww_p(1,10,:)
+else if (name == "AWWM5559_PL.A") then
+   series = aww_pl(1,10,:)
+else if (name == "AWWM6064.A") then
+   series = aww(1,11,:)
+else if (name == "AWWM6064_P.A") then
+   series = aww_p(1,11,:)
+else if (name == "AWWM6064_PL.A") then
+   series = aww_pl(1,11,:)
+else if (name == "AWWM6569.A") then
+   series = aww(1,12,:)
+else if (name == "AWWM6569_P.A") then
+   series = aww_p(1,12,:)
+else if (name == "AWWM6569_PL.A") then
+   series = aww_pl(1,12,:)
+else if (name == "AWWM70O.A") then
+   series = aww(1,23,:)
+else if (name == "AWWM70O_P.A") then
+   series = aww_p(1,23,:)
+else if (name == "AWWM70O_PL.A") then
+   series = aww_pl(1,23,:)
+else if (name == "AW_CMBTOT.A") then
+   series = aw_cmbtot_a
+else if (name == "CEF1617.A") then
+   series = ce_a(2,1,:)
+else if (name == "CEF1819.A") then
+   series = ce_a(2,2,:)
+else if (name == "CEF2024.A") then
+   series = ce_a(2,3,:)
+else if (name == "CEF2529.A") then
+   series = ce_a(2,4,:)
+else if (name == "CEF3034.A") then
+   series = ce_a(2,5,:)
+else if (name == "CEF3539.A") then
+   series = ce_a(2,6,:)
+else if (name == "CEF4044.A") then
+   series = ce_a(2,7,:)
+else if (name == "CEF4549.A") then
+   series = ce_a(2,8,:)
+else if (name == "CEF5054.A") then
+   series = ce_a(2,9,:)
+else if (name == "CEF5559.A") then
+   series = ce_a(2,10,:)
+else if (name == "CEF6064.A") then
+   series = ce_a(2,11,:)
+else if (name == "CEF6569.A") then
+   series = ce_a(2,12,:)
+else if (name == "CEF70O.A") then
+   series = ce_a(2,23,:)
+else if (name == "CEM1617.A") then
+   series = ce_a(1,1,:)
+else if (name == "CEM1819.A") then
+   series = ce_a(1,2,:)
+else if (name == "CEM2024.A") then
+   series = ce_a(1,3,:)
+else if (name == "CEM2529.A") then
+   series = ce_a(1,4,:)
+else if (name == "CEM3034.A") then
+   series = ce_a(1,5,:)
+else if (name == "CEM3539.A") then
+   series = ce_a(1,6,:)
+else if (name == "CEM4044.A") then
+   series = ce_a(1,7,:)
+else if (name == "CEM4549.A") then
+   series = ce_a(1,8,:)
+else if (name == "CEM5054.A") then
+   series = ce_a(1,9,:)
+else if (name == "CEM5559.A") then
+   series = ce_a(1,10,:)
+else if (name == "CEM6064.A") then
+   series = ce_a(1,11,:)
+else if (name == "CEM6569.A") then
+   series = ce_a(1,12,:)
+else if (name == "CEM70O.A") then
+   series = ce_a(1,23,:)
+else if (name == "CESO_M.A") then
+   series = ceso_m(0,0,:)
+else if (name == "CESO_M_F.A") then
+   series = ceso_m(2,0,:)
+else if (name == "CESO_M_F0.A") then
+   series = ceso_m_sy(2,0,:)
+else if (name == "CESO_M_F1.A") then
+   series = ceso_m_sy(2,1,:)
+else if (name == "CESO_M_F10.A") then
+   series = ceso_m_sy(2,10,:)
+else if (name == "CESO_M_F1013.A") then
+   series = ceso_m_1013(2,:)
+else if (name == "CESO_M_F11.A") then
+   series = ceso_m_sy(2,11,:)
+else if (name == "CESO_M_F12.A") then
+   series = ceso_m_sy(2,12,:)
+else if (name == "CESO_M_F13.A") then
+   series = ceso_m_sy(2,13,:)
+else if (name == "CESO_M_F14.A") then
+   series = ceso_m_sy(2,14,:)
+else if (name == "CESO_M_F1415.A") then
+   series = ceso_m_1415(2,:)
+else if (name == "CESO_M_F15.A") then
+   series = ceso_m_sy(2,15,:)
+else if (name == "CESO_M_F15U.A") then
+   series = ceso_m_15u(2,:)
+else if (name == "CESO_M_F1617.A") then
+   series = ceso_m(2,1,:)
+else if (name == "CESO_M_F1619.A") then
+   series = ceso_m(2,27,:)
+else if (name == "CESO_M_F16O.A") then
+   series = ceso_m(2,24,:)
+else if (name == "CESO_M_F1819.A") then
+   series = ceso_m(2,2,:)
+else if (name == "CESO_M_F2.A") then
+   series = ceso_m_sy(2,2,:)
+else if (name == "CESO_M_F2024.A") then
+   series = ceso_m(2,3,:)
+else if (name == "CESO_M_F2529.A") then
+   series = ceso_m(2,4,:)
+else if (name == "CESO_M_F3.A") then
+   series = ceso_m_sy(2,3,:)
+else if (name == "CESO_M_F3034.A") then
+   series = ceso_m(2,5,:)
+else if (name == "CESO_M_F3539.A") then
+   series = ceso_m(2,6,:)
+else if (name == "CESO_M_F4.A") then
+   series = ceso_m_sy(2,4,:)
+else if (name == "CESO_M_F4044.A") then
+   series = ceso_m(2,7,:)
+else if (name == "CESO_M_F4549.A") then
+   series = ceso_m(2,8,:)
+else if (name == "CESO_M_F5.A") then
+   series = ceso_m_sy(2,5,:)
+else if (name == "CESO_M_F5054.A") then
+   series = ceso_m(2,9,:)
+else if (name == "CESO_M_F5559.A") then
+   series = ceso_m(2,10,:)
+else if (name == "CESO_M_F6.A") then
+   series = ceso_m_sy(2,6,:)
+else if (name == "CESO_M_F6064.A") then
+   series = ceso_m(2,11,:)
+else if (name == "CESO_M_F6569.A") then
+   series = ceso_m(2,12,:)
+else if (name == "CESO_M_F7.A") then
+   series = ceso_m_sy(2,7,:)
+else if (name == "CESO_M_F70O.A") then
+   series = ceso_m(2,23,:)
+else if (name == "CESO_M_F8.A") then
+   series = ceso_m_sy(2,8,:)
+else if (name == "CESO_M_F9.A") then
+   series = ceso_m_sy(2,9,:)
+else if (name == "CESO_M_M.A") then
+   series = ceso_m(1,0,:)
+else if (name == "CESO_M_M0.A") then
+   series = ceso_m_sy(1,0,:)
+else if (name == "CESO_M_M1.A") then
+   series = ceso_m_sy(1,1,:)
+else if (name == "CESO_M_M10.A") then
+   series = ceso_m_sy(1,10,:)
+else if (name == "CESO_M_M1013.A") then
+   series = ceso_m_1013(1,:)
+else if (name == "CESO_M_M11.A") then
+   series = ceso_m_sy(1,11,:)
+else if (name == "CESO_M_M12.A") then
+   series = ceso_m_sy(1,12,:)
+else if (name == "CESO_M_M13.A") then
+   series = ceso_m_sy(1,13,:)
+else if (name == "CESO_M_M14.A") then
+   series = ceso_m_sy(1,14,:)
+else if (name == "CESO_M_M1415.A") then
+   series = ceso_m_1415(1,:)
+else if (name == "CESO_M_M15.A") then
+   series = ceso_m_sy(1,15,:)
+else if (name == "CESO_M_M15U.A") then
+   series = ceso_m_15u(1,:)
+else if (name == "CESO_M_M1617.A") then
+   series = ceso_m(1,1,:)
+else if (name == "CESO_M_M1619.A") then
+   series = ceso_m(1,27,:)
+else if (name == "CESO_M_M16O.A") then
+   series = ceso_m(1,24,:)
+else if (name == "CESO_M_M1819.A") then
+   series = ceso_m(1,2,:)
+else if (name == "CESO_M_M2.A") then
+   series = ceso_m_sy(1,2,:)
+else if (name == "CESO_M_M2024.A") then
+   series = ceso_m(1,3,:)
+else if (name == "CESO_M_M2529.A") then
+   series = ceso_m(1,4,:)
+else if (name == "CESO_M_M3.A") then
+   series = ceso_m_sy(1,3,:)
+else if (name == "CESO_M_M3034.A") then
+   series = ceso_m(1,5,:)
+else if (name == "CESO_M_M3539.A") then
+   series = ceso_m(1,6,:)
+else if (name == "CESO_M_M4.A") then
+   series = ceso_m_sy(1,4,:)
+else if (name == "CESO_M_M4044.A") then
+   series = ceso_m(1,7,:)
+else if (name == "CESO_M_M4549.A") then
+   series = ceso_m(1,8,:)
+else if (name == "CESO_M_M5.A") then
+   series = ceso_m_sy(1,5,:)
+else if (name == "CESO_M_M5054.A") then
+   series = ceso_m(1,9,:)
+else if (name == "CESO_M_M5559.A") then
+   series = ceso_m(1,10,:)
+else if (name == "CESO_M_M6.A") then
+   series = ceso_m_sy(1,6,:)
+else if (name == "CESO_M_M6064.A") then
+   series = ceso_m(1,11,:)
+else if (name == "CESO_M_M6569.A") then
+   series = ceso_m(1,12,:)
+else if (name == "CESO_M_M7.A") then
+   series = ceso_m_sy(1,7,:)
+else if (name == "CESO_M_M70O.A") then
+   series = ceso_m(1,23,:)
+else if (name == "CESO_M_M8.A") then
+   series = ceso_m_sy(1,8,:)
+else if (name == "CESO_M_M9.A") then
+   series = ceso_m_sy(1,9,:)
+else if (name == "CEW_M.A") then
+   series = cew_m(0,0,:)
+else if (name == "CEW_M_F.A") then
+   series = cew_m(2,0,:)
+else if (name == "CEW_M_F0.A") then
+   series = cew_m_sy(2,0,:)
+else if (name == "CEW_M_F1.A") then
+   series = cew_m_sy(2,1,:)
+else if (name == "CEW_M_F10.A") then
+   series = cew_m_sy(2,10,:)
+else if (name == "CEW_M_F1013.A") then
+   series = cew_m_1013(2,:)
+else if (name == "CEW_M_F11.A") then
+   series = cew_m_sy(2,11,:)
+else if (name == "CEW_M_F12.A") then
+   series = cew_m_sy(2,12,:)
+else if (name == "CEW_M_F13.A") then
+   series = cew_m_sy(2,13,:)
+else if (name == "CEW_M_F14.A") then
+   series = cew_m_sy(2,14,:)
+else if (name == "CEW_M_F1415.A") then
+   series = cew_m_1415(2,:)
+else if (name == "CEW_M_F15.A") then
+   series = cew_m_sy(2,15,:)
+else if (name == "CEW_M_F15U.A") then
+   series = cew_m_15u(2,:)
+else if (name == "CEW_M_F1617.A") then
+   series = cew_m(2,1,:)
+else if (name == "CEW_M_F1619.A") then
+   series = cew_m(2,27,:)
+else if (name == "CEW_M_F16O.A") then
+   series = cew_m(2,24,:)
+else if (name == "CEW_M_F1819.A") then
+   series = cew_m(2,2,:)
+else if (name == "CEW_M_F2.A") then
+   series = cew_m_sy(2,2,:)
+else if (name == "CEW_M_F2024.A") then
+   series = cew_m(2,3,:)
+else if (name == "CEW_M_F2529.A") then
+   series = cew_m(2,4,:)
+else if (name == "CEW_M_F3.A") then
+   series = cew_m_sy(2,3,:)
+else if (name == "CEW_M_F3034.A") then
+   series = cew_m(2,5,:)
+else if (name == "CEW_M_F3539.A") then
+   series = cew_m(2,6,:)
+else if (name == "CEW_M_F4.A") then
+   series = cew_m_sy(2,4,:)
+else if (name == "CEW_M_F4044.A") then
+   series = cew_m(2,7,:)
+else if (name == "CEW_M_F4549.A") then
+   series = cew_m(2,8,:)
+else if (name == "CEW_M_F5.A") then
+   series = cew_m_sy(2,5,:)
+else if (name == "CEW_M_F5054.A") then
+   series = cew_m(2,9,:)
+else if (name == "CEW_M_F5559.A") then
+   series = cew_m(2,10,:)
+else if (name == "CEW_M_F6.A") then
+   series = cew_m_sy(2,6,:)
+else if (name == "CEW_M_F6064.A") then
+   series = cew_m(2,11,:)
+else if (name == "CEW_M_F6569.A") then
+   series = cew_m(2,12,:)
+else if (name == "CEW_M_F7.A") then
+   series = cew_m_sy(2,7,:)
+else if (name == "CEW_M_F70O.A") then
+   series = cew_m(2,23,:)
+else if (name == "CEW_M_F8.A") then
+   series = cew_m_sy(2,8,:)
+else if (name == "CEW_M_F9.A") then
+   series = cew_m_sy(2,9,:)
+else if (name == "CEW_M_M.A") then
+   series = cew_m(1,0,:)
+else if (name == "CEW_M_M0.A") then
+   series = cew_m_sy(1,0,:)
+else if (name == "CEW_M_M1.A") then
+   series = cew_m_sy(1,1,:)
+else if (name == "CEW_M_M10.A") then
+   series = cew_m_sy(1,10,:)
+else if (name == "CEW_M_M1013.A") then
+   series = cew_m_1013(1,:)
+else if (name == "CEW_M_M11.A") then
+   series = cew_m_sy(1,11,:)
+else if (name == "CEW_M_M12.A") then
+   series = cew_m_sy(1,12,:)
+else if (name == "CEW_M_M13.A") then
+   series = cew_m_sy(1,13,:)
+else if (name == "CEW_M_M14.A") then
+   series = cew_m_sy(1,14,:)
+else if (name == "CEW_M_M1415.A") then
+   series = cew_m_1415(1,:)
+else if (name == "CEW_M_M15.A") then
+   series = cew_m_sy(1,15,:)
+else if (name == "CEW_M_M15U.A") then
+   series = cew_m_15u(1,:)
+else if (name == "CEW_M_M1617.A") then
+   series = cew_m(1,1,:)
+else if (name == "CEW_M_M1619.A") then
+   series = cew_m(1,27,:)
+else if (name == "CEW_M_M16O.A") then
+   series = cew_m(1,24,:)
+else if (name == "CEW_M_M1819.A") then
+   series = cew_m(1,2,:)
+else if (name == "CEW_M_M2.A") then
+   series = cew_m_sy(1,2,:)
+else if (name == "CEW_M_M2024.A") then
+   series = cew_m(1,3,:)
+else if (name == "CEW_M_M2529.A") then
+   series = cew_m(1,4,:)
+else if (name == "CEW_M_M3.A") then
+   series = cew_m_sy(1,3,:)
+else if (name == "CEW_M_M3034.A") then
+   series = cew_m(1,5,:)
+else if (name == "CEW_M_M3539.A") then
+   series = cew_m(1,6,:)
+else if (name == "CEW_M_M4.A") then
+   series = cew_m_sy(1,4,:)
+else if (name == "CEW_M_M4044.A") then
+   series = cew_m(1,7,:)
+else if (name == "CEW_M_M4549.A") then
+   series = cew_m(1,8,:)
+else if (name == "CEW_M_M5.A") then
+   series = cew_m_sy(1,5,:)
+else if (name == "CEW_M_M5054.A") then
+   series = cew_m(1,9,:)
+else if (name == "CEW_M_M5559.A") then
+   series = cew_m(1,10,:)
+else if (name == "CEW_M_M6.A") then
+   series = cew_m_sy(1,6,:)
+else if (name == "CEW_M_M6064.A") then
+   series = cew_m(1,11,:)
+else if (name == "CEW_M_M6569.A") then
+   series = cew_m(1,12,:)
+else if (name == "CEW_M_M7.A") then
+   series = cew_m_sy(1,7,:)
+else if (name == "CEW_M_M70O.A") then
+   series = cew_m(1,23,:)
+else if (name == "CEW_M_M8.A") then
+   series = cew_m_sy(1,8,:)
+else if (name == "CEW_M_M9.A") then
+   series = cew_m_sy(1,9,:)
+else if (name == "CE_M.A") then
+   series = ce_m(0,0,:)
+else if (name == "CE_M_100F.A") then
+   series = ce_m(0,0,:)
+else if (name == "CE_M_F0.A") then
+   series = ce_m_sy(2,0,:)
+else if (name == "CE_M_F1.A") then
+   series = ce_m_sy(2,1,:)
+else if (name == "CE_M_F1013.A") then
+   series = ce_m_1013(2,:)
+else if (name == "CE_M_F1415.A") then
+   series = ce_m_1415(2,:)
+else if (name == "CE_M_F15U.A") then
+   series = ce_m_15u(2,:)
+else if (name == "CE_M_F1617.A") then
+   series = ce_m(2,1,:)
+else if (name == "CE_M_F1819.A") then
+   series = ce_m(2,2,:)
+else if (name == "CE_M_F2.A") then
+   series = ce_m_sy(2,2,:)
+else if (name == "CE_M_F2024.A") then
+   series = ce_m(2,3,:)
+else if (name == "CE_M_F2529.A") then
+   series = ce_m(2,4,:)
+else if (name == "CE_M_F3.A") then
+   series = ce_m_sy(2,3,:)
+else if (name == "CE_M_F3034.A") then
+   series = ce_m(2,5,:)
+else if (name == "CE_M_F3539.A") then
+   series = ce_m(2,6,:)
+else if (name == "CE_M_F4.A") then
+   series = ce_m_sy(2,4,:)
+else if (name == "CE_M_F4044.A") then
+   series = ce_m(2,7,:)
+else if (name == "CE_M_F4549.A") then
+   series = ce_m(2,8,:)
+else if (name == "CE_M_F5.A") then
+   series = ce_m_sy(2,5,:)
+else if (name == "CE_M_F5054.A") then
+   series = ce_m(2,9,:)
+else if (name == "CE_M_F5559.A") then
+   series = ce_m(2,10,:)
+else if (name == "CE_M_F6.A") then
+   series = ce_m_sy(2,6,:)
+else if (name == "CE_M_F6064.A") then
+   series = ce_m(2,11,:)
+else if (name == "CE_M_F6569.A") then
+   series = ce_m(2,12,:)
+else if (name == "CE_M_F7.A") then
+   series = ce_m_sy(2,7,:)
+else if (name == "CE_M_F70O.A") then
+   series = ce_m(2,23,:)
+else if (name == "CE_M_F8.A") then
+   series = ce_m_sy(2,8,:)
+else if (name == "CE_M_F9.A") then
+   series = ce_m_sy(2,9,:)
+else if (name == "CE_M_M0.A") then
+   series = ce_m_sy(1,0,:)
+else if (name == "CE_M_M1.A") then
+   series = ce_m_sy(1,1,:)
+else if (name == "CE_M_M1013.A") then
+   series = ce_m_1013(1,:)
+else if (name == "CE_M_M1415.A") then
+   series = ce_m_1415(1,:)
+else if (name == "CE_M_M15U.A") then
+   series = ce_m_15u(1,:)
+else if (name == "CE_M_M1617.A") then
+   series = ce_m(1,1,:)
+else if (name == "CE_M_M1819.A") then
+   series = ce_m(1,2,:)
+else if (name == "CE_M_M2.A") then
+   series = ce_m_sy(1,2,:)
+else if (name == "CE_M_M2024.A") then
+   series = ce_m(1,3,:)
+else if (name == "CE_M_M2529.A") then
+   series = ce_m(1,4,:)
+else if (name == "CE_M_M3.A") then
+   series = ce_m_sy(1,3,:)
+else if (name == "CE_M_M3034.A") then
+   series = ce_m(1,5,:)
+else if (name == "CE_M_M3539.A") then
+   series = ce_m(1,6,:)
+else if (name == "CE_M_M4.A") then
+   series = ce_m_sy(1,4,:)
+else if (name == "CE_M_M4044.A") then
+   series = ce_m(1,7,:)
+else if (name == "CE_M_M4549.A") then
+   series = ce_m(1,8,:)
+else if (name == "CE_M_M5.A") then
+   series = ce_m_sy(1,5,:)
+else if (name == "CE_M_M5054.A") then
+   series = ce_m(1,9,:)
+else if (name == "CE_M_M5559.A") then
+   series = ce_m(1,10,:)
+else if (name == "CE_M_M6.A") then
+   series = ce_m_sy(1,6,:)
+else if (name == "CE_M_M6064.A") then
+   series = ce_m(1,11,:)
+else if (name == "CE_M_M6569.A") then
+   series = ce_m(1,12,:)
+else if (name == "CE_M_M7.A") then
+   series = ce_m_sy(1,7,:)
+else if (name == "CE_M_M70O.A") then
+   series = ce_m(1,23,:)
+else if (name == "CE_M_M8.A") then
+   series = ce_m_sy(1,8,:)
+else if (name == "CE_M_M9.A") then
+   series = ce_m_sy(1,9,:)
+else if (name == "CFCA.A") then
+   series = cfca_a
+else if (name == "CMB.A") then
+   series = cmb_a
+else if (name == "CMB_HI.A") then
+   series = cmb_hi_a
+else if (name == "CMB_TOT.A") then
+   series = cmb_tot_a
+else if (name == "CMB_WAO.A") then
+   series = cmb_wao_a
+else if (name == "CMB_WAO1.A") then
+   series = cmb_wao1_a
+else if (name == "CMB_WAO2.A") then
+   series = cmb_wao2_a
+else if (name == "CMB_WAO3.A") then
+   series = cmb_wao3_a
+else if (name == "CMB_WAO4.A") then
+   series = cmb_wao4_a
+else if (name == "CMB_WRELMAX.A") then
+   series = cmb_wrelmax_a
+else if (name == "COVERNA.A") then
+   series = coverna_a
+else if (name == "COVERNHI.A") then
+   series = covernhi_a
+else if (name == "CP.A") then
+   series = cp_a
+else if (name == "CPB.A") then
+   series = cpb_a
+else if (name == "CPB_XEO.A") then
+   series = cpb_xeo
+else if (name == "CPF.A") then
+   series = cpf_a
+else if (name == "CSE.A") then
+   series = cse_a
+else if (name == "CSE_CMB.A") then
+   series = cse_cmb_a
+else if (name == "CSE_CMB_N.A") then
+   series = cse_cmb_n_a
+else if (name == "CSE_CMB_TOT.A") then
+   series = cse_cmb_tot_a
+else if (name == "CSE_SEO.A") then
+   series = cse_seo_a
+else if (name == "CSE_TOT.A") then
+   series = cse_tot_a
+else if (name == "CSLHI.A") then
+   series = cslhi_a
+else if (name == "CSW.A") then
+   series = csw_a
+else if (name == "CSW_HI.A") then
+   series = csw_hi_a
+else if (name == "CSW_TOT.A") then
+   series = csw_tot_a
+else if (name == "EAU.A") then
+   series = eau_a(0,0,:)
+else if (name == "EDMILAF.A") then
+   series = edmilaf_a
+else if (name == "EDMILR.A") then
+   series = edmilr_a
+else if (name == "EDMILT.A") then
+   series = edmilt_a
+else if (name == "EF1619AS.A") then
+   series = eas_a(2,27,:)
+else if (name == "EF1619AU.A") then
+   series = eau_a(2,27,:)
+else if (name == "EF1619NAS.A") then
+   series = enas_a(2,27,:)
+else if (name == "EF1619NAU.A") then
+   series = enau_a(2,27,:)
+else if (name == "EF2529AS.A") then
+   series = eas_a(2,4,:)
+else if (name == "EF2529AU.A") then
+   series = eau_a(2,4,:)
+else if (name == "EF2529NAS.A") then
+   series = enas_a(2,4,:)
+else if (name == "EF2529NAU.A") then
+   series = enau_a(2,4,:)
+else if (name == "EF2529NAWPH.A") then
+   series = enawph_a(2,4,:)
+else if (name == "EF3034AS.A") then
+   series = eas_a(2,5,:)
+else if (name == "EF3034AU.A") then
+   series = eau_a(2,5,:)
+else if (name == "EF3034NAS.A") then
+   series = enas_a(2,5,:)
+else if (name == "EF3034NAU.A") then
+   series = enau_a(2,5,:)
+else if (name == "EF3034NAWPH.A") then
+   series = enawph_a(2,5,:)
+else if (name == "EF3539AS.A") then
+   series = eas_a(2,6,:)
+else if (name == "EF3539AU.A") then
+   series = eau_a(2,6,:)
+else if (name == "EF3539NAS.A") then
+   series = enas_a(2,6,:)
+else if (name == "EF3539NAU.A") then
+   series = enau_a(2,6,:)
+else if (name == "EF3539NAWPH.A") then
+   series = enawph_a(2,6,:)
+else if (name == "EF4044AS.A") then
+   series = eas_a(2,7,:)
+else if (name == "EF4044AU.A") then
+   series = eau_a(2,7,:)
+else if (name == "EF4044NAS.A") then
+   series = enas_a(2,7,:)
+else if (name == "EF4044NAU.A") then
+   series = enau_a(2,7,:)
+else if (name == "EF4044NAWPH.A") then
+   series = enawph_a(2,7,:)
+else if (name == "EF4549AS.A") then
+   series = eas_a(2,8,:)
+else if (name == "EF4549AU.A") then
+   series = eau_a(2,8,:)
+else if (name == "EF4549NAS.A") then
+   series = enas_a(2,8,:)
+else if (name == "EF4549NAU.A") then
+   series = enau_a(2,8,:)
+else if (name == "EF4549NAWPH.A") then
+   series = enawph_a(2,8,:)
+else if (name == "EF5054AS.A") then
+   series = eas_a(2,9,:)
+else if (name == "EF5054AU.A") then
+   series = eau_a(2,9,:)
+else if (name == "EF5054NAS.A") then
+   series = enas_a(2,9,:)
+else if (name == "EF5054NAU.A") then
+   series = enau_a(2,9,:)
+else if (name == "EF5054NAWPH.A") then
+   series = enawph_a(2,9,:)
+else if (name == "EF5559AS.A") then
+   series = eas_a(2,10,:)
+else if (name == "EF5559AU.A") then
+   series = eau_a(2,10,:)
+else if (name == "EF5559NAS.A") then
+   series = enas_a(2,10,:)
+else if (name == "EF5559NAU.A") then
+   series = enau_a(2,10,:)
+else if (name == "EF5559NAWPH.A") then
+   series = enawph_a(2,10,:)
+else if (name == "EF6064AS.A") then
+   series = eas_a(2,11,:)
+else if (name == "EF6064AU.A") then
+   series = eau_a(2,11,:)
+else if (name == "EF6064NAS.A") then
+   series = enas_a(2,11,:)
+else if (name == "EF6064NAU.A") then
+   series = enau_a(2,11,:)
+else if (name == "EF6064NAWPH.A") then
+   series = enawph_a(2,11,:)
+else if (name == "EF6569AS.A") then
+   series = eas_a(2,12,:)
+else if (name == "EF6569AU.A") then
+   series = eau_a(2,12,:)
+else if (name == "EF6569NAS.A") then
+   series = enas_a(2,12,:)
+else if (name == "EF6569NAU.A") then
+   series = enau_a(2,12,:)
+else if (name == "EF6569NAWPH.A") then
+   series = enawph_a(2,12,:)
+else if (name == "EF70OAS.A") then
+   series = eas_a(2,23,:)
+else if (name == "EF70OAU.A") then
+   series = eau_a(2,23,:)
+else if (name == "EF70ONAS.A") then
+   series = enas_a(2,23,:)
+else if (name == "EF70ONAU.A") then
+   series = enau_a(2,23,:)
+else if (name == "EF70ONAWPH.A") then
+   series = enawph_a(2,23,:)
+else if (name == "EM1619AS.A") then
+   series = eas_a(1,27,:)
+else if (name == "EM1619AU.A") then
+   series = eau_a(1,27,:)
+else if (name == "EM1619NAS.A") then
+   series = enas_a(1,27,:)
+else if (name == "EM1619NAU.A") then
+   series = enau_a(1,27,:)
+else if (name == "EM2529AS.A") then
+   series = eas_a(1,4,:)
+else if (name == "EM2529AU.A") then
+   series = eau_a(1,4,:)
+else if (name == "EM2529NAS.A") then
+   series = enas_a(1,4,:)
+else if (name == "EM2529NAU.A") then
+   series = enau_a(1,4,:)
+else if (name == "EM2529NAWPH.A") then
+   series = enawph_a(1,4,:)
+else if (name == "EM3034AS.A") then
+   series = eas_a(1,5,:)
+else if (name == "EM3034AU.A") then
+   series = eau_a(1,5,:)
+else if (name == "EM3034NAS.A") then
+   series = enas_a(1,5,:)
+else if (name == "EM3034NAU.A") then
+   series = enau_a(1,5,:)
+else if (name == "EM3034NAWPH.A") then
+   series = enawph_a(1,5,:)
+else if (name == "EM3539AS.A") then
+   series = eas_a(1,6,:)
+else if (name == "EM3539AU.A") then
+   series = eau_a(1,6,:)
+else if (name == "EM3539NAS.A") then
+   series = enas_a(1,6,:)
+else if (name == "EM3539NAU.A") then
+   series = enau_a(1,6,:)
+else if (name == "EM3539NAWPH.A") then
+   series = enawph_a(1,6,:)
+else if (name == "EM4044AS.A") then
+   series = eas_a(1,7,:)
+else if (name == "EM4044AU.A") then
+   series = eau_a(1,7,:)
+else if (name == "EM4044NAS.A") then
+   series = enas_a(1,7,:)
+else if (name == "EM4044NAU.A") then
+   series = enau_a(1,7,:)
+else if (name == "EM4044NAWPH.A") then
+   series = enawph_a(1,7,:)
+else if (name == "EM4549AS.A") then
+   series = eas_a(1,8,:)
+else if (name == "EM4549AU.A") then
+   series = eau_a(1,8,:)
+else if (name == "EM4549NAS.A") then
+   series = enas_a(1,8,:)
+else if (name == "EM4549NAU.A") then
+   series = enau_a(1,8,:)
+else if (name == "EM4549NAWPH.A") then
+   series = enawph_a(1,8,:)
+else if (name == "EM5054AS.A") then
+   series = eas_a(1,9,:)
+else if (name == "EM5054AU.A") then
+   series = eau_a(1,9,:)
+else if (name == "EM5054NAS.A") then
+   series = enas_a(1,9,:)
+else if (name == "EM5054NAU.A") then
+   series = enau_a(1,9,:)
+else if (name == "EM5054NAWPH.A") then
+   series = enawph_a(1,9,:)
+else if (name == "EM5559AS.A") then
+   series = eas_a(1,10,:)
+else if (name == "EM5559AU.A") then
+   series = eau_a(1,10,:)
+else if (name == "EM5559NAS.A") then
+   series = enas_a(1,10,:)
+else if (name == "EM5559NAU.A") then
+   series = enau_a(1,10,:)
+else if (name == "EM5559NAWPH.A") then
+   series = enawph_a(1,10,:)
+else if (name == "EM6064AS.A") then
+   series = eas_a(1,11,:)
+else if (name == "EM6064AU.A") then
+   series = eau_a(1,11,:)
+else if (name == "EM6064NAS.A") then
+   series = enas_a(1,11,:)
+else if (name == "EM6064NAU.A") then
+   series = enau_a(1,11,:)
+else if (name == "EM6064NAWPH.A") then
+   series = enawph_a(1,11,:)
+else if (name == "EM6569AS.A") then
+   series = eas_a(1,12,:)
+else if (name == "EM6569AU.A") then
+   series = eau_a(1,12,:)
+else if (name == "EM6569NAS.A") then
+   series = enas_a(1,12,:)
+else if (name == "EM6569NAU.A") then
+   series = enau_a(1,12,:)
+else if (name == "EM6569NAWPH.A") then
+   series = enawph_a(1,12,:)
+else if (name == "EM70OAS.A") then
+   series = eas_a(1,23,:)
+else if (name == "EM70OAU.A") then
+   series = eau_a(1,23,:)
+else if (name == "EM70ONAS.A") then
+   series = enas_a(1,23,:)
+else if (name == "EM70ONAU.A") then
+   series = enau_a(1,23,:)
+else if (name == "EM70ONAWPH.A") then
+   series = enawph_a(1,23,:)
+else if (name == "ENA.A") then
+   series = ena_a
+else if (name == "ENAU.A") then
+   series = enau_a(0,0,:)
+else if (name == "ENAW.A") then
+   series = enaw_a
+else if (name == "ENAWP.A") then
+   series = enawp_a
+else if (name == "HESO_M.A") then
+   series = heso_m(0,0,:)
+else if (name == "HEW_M.A") then
+   series = hew_m(0,0,:)
+else if (name == "HE_M.A") then
+   series = he_m(0,0,:)
+else if (name == "HE_M_F0.A") then
+   series = he_m_sy(2,0,:)
+else if (name == "HE_M_F1.A") then
+   series = he_m_sy(2,1,:)
+else if (name == "HE_M_F1013.A") then
+   series = he_m_1013(2,:)
+else if (name == "HE_M_F1415.A") then
+   series = he_m_1415(2,:)
+else if (name == "HE_M_F15U.A") then
+   series = he_m_15u(2,:)
+else if (name == "HE_M_F1617.A") then
+   series = he_m(2,1,:)
+else if (name == "HE_M_F1819.A") then
+   series = he_m(2,2,:)
+else if (name == "HE_M_F2.A") then
+   series = he_m_sy(2,2,:)
+else if (name == "HE_M_F2024.A") then
+   series = he_m(2,3,:)
+else if (name == "HE_M_F2529.A") then
+   series = he_m(2,4,:)
+else if (name == "HE_M_F3.A") then
+   series = he_m_sy(2,3,:)
+else if (name == "HE_M_F3034.A") then
+   series = he_m(2,5,:)
+else if (name == "HE_M_F3539.A") then
+   series = he_m(2,6,:)
+else if (name == "HE_M_F4.A") then
+   series = he_m_sy(2,4,:)
+else if (name == "HE_M_F4044.A") then
+   series = he_m(2,7,:)
+else if (name == "HE_M_F4549.A") then
+   series = he_m(2,8,:)
+else if (name == "HE_M_F5.A") then
+   series = he_m_sy(2,5,:)
+else if (name == "HE_M_F5054.A") then
+   series = he_m(2,9,:)
+else if (name == "HE_M_F5559.A") then
+   series = he_m(2,10,:)
+else if (name == "HE_M_F6.A") then
+   series = he_m_sy(2,6,:)
+else if (name == "HE_M_F6064.A") then
+   series = he_m(2,11,:)
+else if (name == "HE_M_F6569.A") then
+   series = he_m(2,12,:)
+else if (name == "HE_M_F7.A") then
+   series = he_m_sy(2,7,:)
+else if (name == "HE_M_F70O.A") then
+   series = he_m(2,23,:)
+else if (name == "HE_M_F8.A") then
+   series = he_m_sy(2,8,:)
+else if (name == "HE_M_F9.A") then
+   series = he_m_sy(2,9,:)
+else if (name == "HE_M_M0.A") then
+   series = he_m_sy(1,0,:)
+else if (name == "HE_M_M1.A") then
+   series = he_m_sy(1,1,:)
+else if (name == "HE_M_M1013.A") then
+   series = he_m_1013(1,:)
+else if (name == "HE_M_M1415.A") then
+   series = he_m_1415(1,:)
+else if (name == "HE_M_M15U.A") then
+   series = he_m_15u(1,:)
+else if (name == "HE_M_M1617.A") then
+   series = he_m(1,1,:)
+else if (name == "HE_M_M1819.A") then
+   series = he_m(1,2,:)
+else if (name == "HE_M_M2.A") then
+   series = he_m_sy(1,2,:)
+else if (name == "HE_M_M2024.A") then
+   series = he_m(1,3,:)
+else if (name == "HE_M_M2529.A") then
+   series = he_m(1,4,:)
+else if (name == "HE_M_M3.A") then
+   series = he_m_sy(1,3,:)
+else if (name == "HE_M_M3034.A") then
+   series = he_m(1,5,:)
+else if (name == "HE_M_M3539.A") then
+   series = he_m(1,6,:)
+else if (name == "HE_M_M4.A") then
+   series = he_m_sy(1,4,:)
+else if (name == "HE_M_M4044.A") then
+   series = he_m(1,7,:)
+else if (name == "HE_M_M4549.A") then
+   series = he_m(1,8,:)
+else if (name == "HE_M_M5.A") then
+   series = he_m_sy(1,5,:)
+else if (name == "HE_M_M5054.A") then
+   series = he_m(1,9,:)
+else if (name == "HE_M_M5559.A") then
+   series = he_m(1,10,:)
+else if (name == "HE_M_M6.A") then
+   series = he_m_sy(1,6,:)
+else if (name == "HE_M_M6064.A") then
+   series = he_m(1,11,:)
+else if (name == "HE_M_M6569.A") then
+   series = he_m(1,12,:)
+else if (name == "HE_M_M7.A") then
+   series = he_m_sy(1,7,:)
+else if (name == "HE_M_M70O.A") then
+   series = he_m(1,23,:)
+else if (name == "HE_M_M8.A") then
+   series = he_m_sy(1,8,:)
+else if (name == "HE_M_M9.A") then
+   series = he_m_sy(1,9,:)
+else if (name == "HE_WOL_M.A") then
+   series = he_wol_m(0,0,:)
+else if (name == "HE_WOL_M_F1617.A") then
+   series = he_wol_m(2,1,:)
+else if (name == "HE_WOL_M_F1819.A") then
+   series = he_wol_m(2,2,:)
+else if (name == "HE_WOL_M_F2024.A") then
+   series = he_wol_m(2,3,:)
+else if (name == "HE_WOL_M_F2529.A") then
+   series = he_wol_m(2,4,:)
+else if (name == "HE_WOL_M_F3034.A") then
+   series = he_wol_m(2,5,:)
+else if (name == "HE_WOL_M_F3539.A") then
+   series = he_wol_m(2,6,:)
+else if (name == "HE_WOL_M_F4044.A") then
+   series = he_wol_m(2,7,:)
+else if (name == "HE_WOL_M_F4549.A") then
+   series = he_wol_m(2,8,:)
+else if (name == "HE_WOL_M_F5054.A") then
+   series = he_wol_m(2,9,:)
+else if (name == "HE_WOL_M_F5559.A") then
+   series = he_wol_m(2,10,:)
+else if (name == "HE_WOL_M_F6064.A") then
+   series = he_wol_m(2,11,:)
+else if (name == "HE_WOL_M_F6569.A") then
+   series = he_wol_m(2,12,:)
+else if (name == "HE_WOL_M_F70O.A") then
+   series = he_wol_m(2,23,:)
+else if (name == "HE_WOL_M_M1617.A") then
+   series = he_wol_m(1,1,:)
+else if (name == "HE_WOL_M_M1819.A") then
+   series = he_wol_m(1,2,:)
+else if (name == "HE_WOL_M_M2024.A") then
+   series = he_wol_m(1,3,:)
+else if (name == "HE_WOL_M_M2529.A") then
+   series = he_wol_m(1,4,:)
+else if (name == "HE_WOL_M_M3034.A") then
+   series = he_wol_m(1,5,:)
+else if (name == "HE_WOL_M_M3539.A") then
+   series = he_wol_m(1,6,:)
+else if (name == "HE_WOL_M_M4044.A") then
+   series = he_wol_m(1,7,:)
+else if (name == "HE_WOL_M_M4549.A") then
+   series = he_wol_m(1,8,:)
+else if (name == "HE_WOL_M_M5054.A") then
+   series = he_wol_m(1,9,:)
+else if (name == "HE_WOL_M_M5559.A") then
+   series = he_wol_m(1,10,:)
+else if (name == "HE_WOL_M_M6064.A") then
+   series = he_wol_m(1,11,:)
+else if (name == "HE_WOL_M_M6569.A") then
+   series = he_wol_m(1,12,:)
+else if (name == "HE_WOL_M_M70O.A") then
+   series = he_wol_m(1,23,:)
+else if (name == "HE_WOR_M.A") then
+   series = he_wor_m(0,0,:)
+else if (name == "HE_WOR_M_F1617.A") then
+   series = he_wor_m(2,1,:)
+else if (name == "HE_WOR_M_F1819.A") then
+   series = he_wor_m(2,2,:)
+else if (name == "HE_WOR_M_F2024.A") then
+   series = he_wor_m(2,3,:)
+else if (name == "HE_WOR_M_F2529.A") then
+   series = he_wor_m(2,4,:)
+else if (name == "HE_WOR_M_F3034.A") then
+   series = he_wor_m(2,5,:)
+else if (name == "HE_WOR_M_F3539.A") then
+   series = he_wor_m(2,6,:)
+else if (name == "HE_WOR_M_F4044.A") then
+   series = he_wor_m(2,7,:)
+else if (name == "HE_WOR_M_F4549.A") then
+   series = he_wor_m(2,8,:)
+else if (name == "HE_WOR_M_F5054.A") then
+   series = he_wor_m(2,9,:)
+else if (name == "HE_WOR_M_F5559.A") then
+   series = he_wor_m(2,10,:)
+else if (name == "HE_WOR_M_F6064.A") then
+   series = he_wor_m(2,11,:)
+else if (name == "HE_WOR_M_F6569.A") then
+   series = he_wor_m(2,12,:)
+else if (name == "HE_WOR_M_F70O.A") then
+   series = he_wor_m(2,23,:)
+else if (name == "HE_WOR_M_M1617.A") then
+   series = he_wor_m(1,1,:)
+else if (name == "HE_WOR_M_M1819.A") then
+   series = he_wor_m(1,2,:)
+else if (name == "HE_WOR_M_M2024.A") then
+   series = he_wor_m(1,3,:)
+else if (name == "HE_WOR_M_M2529.A") then
+   series = he_wor_m(1,4,:)
+else if (name == "HE_WOR_M_M3034.A") then
+   series = he_wor_m(1,5,:)
+else if (name == "HE_WOR_M_M3539.A") then
+   series = he_wor_m(1,6,:)
+else if (name == "HE_WOR_M_M4044.A") then
+   series = he_wor_m(1,7,:)
+else if (name == "HE_WOR_M_M4549.A") then
+   series = he_wor_m(1,8,:)
+else if (name == "HE_WOR_M_M5054.A") then
+   series = he_wor_m(1,9,:)
+else if (name == "HE_WOR_M_M5559.A") then
+   series = he_wor_m(1,10,:)
+else if (name == "HE_WOR_M_M6064.A") then
+   series = he_wor_m(1,11,:)
+else if (name == "HE_WOR_M_M6569.A") then
+   series = he_wor_m(1,12,:)
+else if (name == "HE_WOR_M_M70O.A") then
+   series = he_wor_m(1,23,:)
+else if (name == "HE_WOSL_M.A") then
+   series = he_wosl_m(0,0,:)
+else if (name == "HE_WOSL_M_F1617.A") then
+   series = he_wosl_m(2,1,:)
+else if (name == "HE_WOSL_M_F16O.A") then
+   series = he_wosl_m(2,24,:)
+else if (name == "HE_WOSL_M_F1819.A") then
+   series = he_wosl_m(2,2,:)
+else if (name == "HE_WOSL_M_F2024.A") then
+   series = he_wosl_m(2,3,:)
+else if (name == "HE_WOSL_M_F2529.A") then
+   series = he_wosl_m(2,4,:)
+else if (name == "HE_WOSL_M_F3034.A") then
+   series = he_wosl_m(2,5,:)
+else if (name == "HE_WOSL_M_F3539.A") then
+   series = he_wosl_m(2,6,:)
+else if (name == "HE_WOSL_M_F4044.A") then
+   series = he_wosl_m(2,7,:)
+else if (name == "HE_WOSL_M_F4549.A") then
+   series = he_wosl_m(2,8,:)
+else if (name == "HE_WOSL_M_F5054.A") then
+   series = he_wosl_m(2,9,:)
+else if (name == "HE_WOSL_M_F5559.A") then
+   series = he_wosl_m(2,10,:)
+else if (name == "HE_WOSL_M_F6064.A") then
+   series = he_wosl_m(2,11,:)
+else if (name == "HE_WOSL_M_F6569.A") then
+   series = he_wosl_m(2,12,:)
+else if (name == "HE_WOSL_M_F70O.A") then
+   series = he_wosl_m(2,23,:)
+else if (name == "HE_WOSL_M_M1617.A") then
+   series = he_wosl_m(1,1,:)
+else if (name == "HE_WOSL_M_M16O.A") then
+   series = he_wosl_m(1,24,:)
+else if (name == "HE_WOSL_M_M1819.A") then
+   series = he_wosl_m(1,2,:)
+else if (name == "HE_WOSL_M_M2024.A") then
+   series = he_wosl_m(1,3,:)
+else if (name == "HE_WOSL_M_M2529.A") then
+   series = he_wosl_m(1,4,:)
+else if (name == "HE_WOSL_M_M3034.A") then
+   series = he_wosl_m(1,5,:)
+else if (name == "HE_WOSL_M_M3539.A") then
+   series = he_wosl_m(1,6,:)
+else if (name == "HE_WOSL_M_M4044.A") then
+   series = he_wosl_m(1,7,:)
+else if (name == "HE_WOSL_M_M4549.A") then
+   series = he_wosl_m(1,8,:)
+else if (name == "HE_WOSL_M_M5054.A") then
+   series = he_wosl_m(1,9,:)
+else if (name == "HE_WOSL_M_M5559.A") then
+   series = he_wosl_m(1,10,:)
+else if (name == "HE_WOSL_M_M6064.A") then
+   series = he_wosl_m(1,11,:)
+else if (name == "HE_WOSL_M_M6569.A") then
+   series = he_wosl_m(1,12,:)
+else if (name == "HE_WOSL_M_M70O.A") then
+   series = he_wosl_m(1,23,:)
+else if (name == "HE_WOSR_M.A") then
+   series = he_wosr_m(0,0,:)
+else if (name == "HE_WOSR_M_F1617.A") then
+   series = he_wosr_m(2,1,:)
+else if (name == "HE_WOSR_M_F16O.A") then
+   series = he_wosr_m(2,24,:)
+else if (name == "HE_WOSR_M_F1819.A") then
+   series = he_wosr_m(2,2,:)
+else if (name == "HE_WOSR_M_F2024.A") then
+   series = he_wosr_m(2,3,:)
+else if (name == "HE_WOSR_M_F2529.A") then
+   series = he_wosr_m(2,4,:)
+else if (name == "HE_WOSR_M_F3034.A") then
+   series = he_wosr_m(2,5,:)
+else if (name == "HE_WOSR_M_F3539.A") then
+   series = he_wosr_m(2,6,:)
+else if (name == "HE_WOSR_M_F4044.A") then
+   series = he_wosr_m(2,7,:)
+else if (name == "HE_WOSR_M_F4549.A") then
+   series = he_wosr_m(2,8,:)
+else if (name == "HE_WOSR_M_F5054.A") then
+   series = he_wosr_m(2,9,:)
+else if (name == "HE_WOSR_M_F5559.A") then
+   series = he_wosr_m(2,10,:)
+else if (name == "HE_WOSR_M_F6064.A") then
+   series = he_wosr_m(2,11,:)
+else if (name == "HE_WOSR_M_F6569.A") then
+   series = he_wosr_m(2,12,:)
+else if (name == "HE_WOSR_M_F70O.A") then
+   series = he_wosr_m(2,23,:)
+else if (name == "HE_WOSR_M_M1617.A") then
+   series = he_wosr_m(1,1,:)
+else if (name == "HE_WOSR_M_M16O.A") then
+   series = he_wosr_m(1,24,:)
+else if (name == "HE_WOSR_M_M1819.A") then
+   series = he_wosr_m(1,2,:)
+else if (name == "HE_WOSR_M_M2024.A") then
+   series = he_wosr_m(1,3,:)
+else if (name == "HE_WOSR_M_M2529.A") then
+   series = he_wosr_m(1,4,:)
+else if (name == "HE_WOSR_M_M3034.A") then
+   series = he_wosr_m(1,5,:)
+else if (name == "HE_WOSR_M_M3539.A") then
+   series = he_wosr_m(1,6,:)
+else if (name == "HE_WOSR_M_M4044.A") then
+   series = he_wosr_m(1,7,:)
+else if (name == "HE_WOSR_M_M4549.A") then
+   series = he_wosr_m(1,8,:)
+else if (name == "HE_WOSR_M_M5054.A") then
+   series = he_wosr_m(1,9,:)
+else if (name == "HE_WOSR_M_M5559.A") then
+   series = he_wosr_m(1,10,:)
+else if (name == "HE_WOSR_M_M6064.A") then
+   series = he_wosr_m(1,11,:)
+else if (name == "HE_WOSR_M_M6569.A") then
+   series = he_wosr_m(1,12,:)
+else if (name == "HE_WOSR_M_M70O.A") then
+   series = he_wosr_m(1,23,:)
+else if (name == "LF75OX.A") then
+   series = lf75ox
+else if (name == "LM75OX.A") then
+   series = lm75ox
+else if (name == "MWC_EDR_HI.A") then
+   series = mwc_edr_hi_a
+else if (name == "MWC_EDR_O.A") then
+   series = mwc_edr_o_a
+else if (name == "MWC_ED_HI.A") then
+   series = mwc_ed_hi_a
+else if (name == "MWC_ED_O.A") then
+   series = mwc_ed_o_a
+else if (name == "MWC_HI.A") then
+   series = mwc_hi_a
+else if (name == "MWC_O.A") then
+   series = mwc_o_a
+else if (name == "N6079.A") then
+   series = n6079
+else if (name == "RAIW.A") then
+   series = raiw_a
+else if (name == "RAWR_NS.A") then
+   series = rawr_ns_a
+else if (name == "SEO.A") then
+   series = seo_a(0,0,:)
+else if (name == "SEOCMB.A") then
+   series = seocmb_a
+else if (name == "SEOCMBL1.A") then
+   series = seocmbl1_a
+else if (name == "SEO_HI.A") then
+   series = seo_hi_a
+else if (name == "TAXMAX.A") then
+   series = taxmax_a
+else if (name == "TAXMAXB1.A") then
+   series = taxmaxb1_a
+else if (name == "TAXMAXB2.A") then
+   series = taxmaxb2_a
+else if (name == "TAXMAXB3.A") then
+   series = taxmaxb3_a
+else if (name == "TCEA.A") then
+   series = tcea_a
+else if (name == "TCEAHI.A") then
+   series = tceahi_a
+else if (name == "TE.A") then
+   series = te_a(0,0,:)
+else if (name == "TEF.A") then
+   series = te_a(2,0,:)
+else if (name == "TEF1617.A") then
+   series = te_a(2,1,:)
+else if (name == "TEF1617_P.A") then
+   series = te_a_p(2,1,:)
+else if (name == "TEF16O.A") then
+   series = te_a(2,24,:)
+else if (name == "TEF16O_P.A") then
+   series = te_a_p(2,24,:)
+else if (name == "TEF1819.A") then
+   series = te_a(2,2,:)
+else if (name == "TEF1819_P.A") then
+   series = te_a_p(2,2,:)
+else if (name == "TEF2024.A") then
+   series = te_a(2,3,:)
+else if (name == "TEF2024_P.A") then
+   series = te_a_p(2,3,:)
+else if (name == "TEF2529.A") then
+   series = te_a(2,4,:)
+else if (name == "TEF2529_P.A") then
+   series = te_a_p(2,4,:)
+else if (name == "TEF3034.A") then
+   series = te_a(2,5,:)
+else if (name == "TEF3034_P.A") then
+   series = te_a_p(2,5,:)
+else if (name == "TEF3539.A") then
+   series = te_a(2,6,:)
+else if (name == "TEF3539_P.A") then
+   series = te_a_p(2,6,:)
+else if (name == "TEF4044.A") then
+   series = te_a(2,7,:)
+else if (name == "TEF4044_P.A") then
+   series = te_a_p(2,7,:)
+else if (name == "TEF4549.A") then
+   series = te_a(2,8,:)
+else if (name == "TEF4549_P.A") then
+   series = te_a_p(2,8,:)
+else if (name == "TEF5054.A") then
+   series = te_a(2,9,:)
+else if (name == "TEF5054_P.A") then
+   series = te_a_p(2,9,:)
+else if (name == "TEF5559.A") then
+   series = te_a(2,10,:)
+else if (name == "TEF5559_P.A") then
+   series = te_a_p(2,10,:)
+else if (name == "TEF6064.A") then
+   series = te_a(2,11,:)
+else if (name == "TEF6064_P.A") then
+   series = te_a_p(2,11,:)
+else if (name == "TEF6569.A") then
+   series = te_a(2,12,:)
+else if (name == "TEF6569_P.A") then
+   series = te_a_p(2,12,:)
+else if (name == "TEF70O.A") then
+   series = te_a(2,23,:)
+else if (name == "TEF70O_P.A") then
+   series = te_a_p(2,23,:)
+else if (name == "TEFC.A") then
+   series = tefc_a
+else if (name == "TEFC_N.A") then
+   series = tefc_n_a
+else if (name == "TEFC_N_N.A") then
+   series = tefc_n_n_a
+else if (name == "TEFC_N_N_SE.A") then
+   series = tefc_n_n_se_a(:)
+else if (name == "TEFC_N_O.A") then
+   series = tefc_n_o_a
+else if (name == "TEFC_O.A") then
+   series = tefc_o_a
+else if (name == "TEL_SO.A") then
+   series = tel_so(0,0,:)
+else if (name == "TEL_SO_F1617.A") then
+   series = tel_so(2,1,:)
+else if (name == "TEL_SO_F1819.A") then
+   series = tel_so(2,2,:)
+else if (name == "TEL_SO_F2024.A") then
+   series = tel_so(2,3,:)
+else if (name == "TEL_SO_F2529.A") then
+   series = tel_so(2,4,:)
+else if (name == "TEL_SO_F3034.A") then
+   series = tel_so(2,5,:)
+else if (name == "TEL_SO_F3539.A") then
+   series = tel_so(2,6,:)
+else if (name == "TEL_SO_F4044.A") then
+   series = tel_so(2,7,:)
+else if (name == "TEL_SO_F4549.A") then
+   series = tel_so(2,8,:)
+else if (name == "TEL_SO_F5054.A") then
+   series = tel_so(2,9,:)
+else if (name == "TEL_SO_F5559.A") then
+   series = tel_so(2,10,:)
+else if (name == "TEL_SO_F6064.A") then
+   series = tel_so(2,11,:)
+else if (name == "TEL_SO_F6569.A") then
+   series = tel_so(2,12,:)
+else if (name == "TEL_SO_F70O.A") then
+   series = tel_so(2,23,:)
+else if (name == "TEL_SO_M1617.A") then
+   series = tel_so(1,1,:)
+else if (name == "TEL_SO_M1819.A") then
+   series = tel_so(1,2,:)
+else if (name == "TEL_SO_M2024.A") then
+   series = tel_so(1,3,:)
+else if (name == "TEL_SO_M2529.A") then
+   series = tel_so(1,4,:)
+else if (name == "TEL_SO_M3034.A") then
+   series = tel_so(1,5,:)
+else if (name == "TEL_SO_M3539.A") then
+   series = tel_so(1,6,:)
+else if (name == "TEL_SO_M4044.A") then
+   series = tel_so(1,7,:)
+else if (name == "TEL_SO_M4549.A") then
+   series = tel_so(1,8,:)
+else if (name == "TEL_SO_M5054.A") then
+   series = tel_so(1,9,:)
+else if (name == "TEL_SO_M5559.A") then
+   series = tel_so(1,10,:)
+else if (name == "TEL_SO_M6064.A") then
+   series = tel_so(1,11,:)
+else if (name == "TEL_SO_M6569.A") then
+   series = tel_so(1,12,:)
+else if (name == "TEL_SO_M70O.A") then
+   series = tel_so(1,23,:)
+else if (name == "TEM.A") then
+   series = te_a(1,0,:)
+else if (name == "TEM1617.A") then
+   series = te_a(1,1,:)
+else if (name == "TEM1617_P.A") then
+   series = te_a_p(1,1,:)
+else if (name == "TEM16O.A") then
+   series = te_a(1,24,:)
+else if (name == "TEM16O_P.A") then
+   series = te_a_p(1,24,:)
+else if (name == "TEM1819.A") then
+   series = te_a(1,2,:)
+else if (name == "TEM1819_P.A") then
+   series = te_a_p(1,2,:)
+else if (name == "TEM2024.A") then
+   series = te_a(1,3,:)
+else if (name == "TEM2024_P.A") then
+   series = te_a_p(1,3,:)
+else if (name == "TEM2529.A") then
+   series = te_a(1,4,:)
+else if (name == "TEM2529_P.A") then
+   series = te_a_p(1,4,:)
+else if (name == "TEM3034.A") then
+   series = te_a(1,5,:)
+else if (name == "TEM3034_P.A") then
+   series = te_a_p(1,5,:)
+else if (name == "TEM3539.A") then
+   series = te_a(1,6,:)
+else if (name == "TEM3539_P.A") then
+   series = te_a_p(1,6,:)
+else if (name == "TEM4044.A") then
+   series = te_a(1,7,:)
+else if (name == "TEM4044_P.A") then
+   series = te_a_p(1,7,:)
+else if (name == "TEM4549.A") then
+   series = te_a(1,8,:)
+else if (name == "TEM4549_P.A") then
+   series = te_a_p(1,8,:)
+else if (name == "TEM5054.A") then
+   series = te_a(1,9,:)
+else if (name == "TEM5054_P.A") then
+   series = te_a_p(1,9,:)
+else if (name == "TEM5559.A") then
+   series = te_a(1,10,:)
+else if (name == "TEM5559_P.A") then
+   series = te_a_p(1,10,:)
+else if (name == "TEM6064.A") then
+   series = te_a(1,11,:)
+else if (name == "TEM6064_P.A") then
+   series = te_a_p(1,11,:)
+else if (name == "TEM6569.A") then
+   series = te_a(1,12,:)
+else if (name == "TEM6569_P.A") then
+   series = te_a_p(1,12,:)
+else if (name == "TEM70O.A") then
+   series = te_a(1,23,:)
+else if (name == "TEM70O_P.A") then
+   series = te_a_p(1,23,:)
+else if (name == "TEPH_N.A") then
+   series = teph_n_a(0,0,:)
+else if (name == "TEP_N_N_S.A") then
+   series = tep_n_n_s_a
+else if (name == "TESL.A") then
+   series = tesl_a
+else if (name == "TESL_N.A") then
+   series = tesl_n_a
+else if (name == "TESL_N_E.A") then
+   series = tesl_n_e_a
+else if (name == "TESL_N_N.A") then
+   series = tesl_n_n_a
+else if (name == "TESL_N_N_HI.A") then
+   series = tesl_n_n_hi_a
+else if (name == "TESL_N_N_HI_SE.A") then
+   series = tesl_n_n_hi_se_a(:)
+else if (name == "TESL_N_N_NHI.A") then
+   series = tesl_n_n_nhi_a
+else if (name == "TESL_N_N_NHI_E.A") then
+   series = tesl_n_n_nhi_e_a
+else if (name == "TESL_N_N_NHI_NS.A") then
+   series = tesl_n_n_nhi_ns_a
+else if (name == "TESL_N_N_NHI_S.A") then
+   series = tesl_n_n_nhi_s_a
+else if (name == "TESL_N_O.A") then
+   series = tesl_n_o_a
+else if (name == "TESL_N_O_HI.A") then
+   series = tesl_n_o_hi_a
+else if (name == "TESL_N_O_NHI.A") then
+   series = tesl_n_o_nhi_a
+else if (name == "TESL_N_O_NHI_E.A") then
+   series = tesl_n_o_nhi_e_a
+else if (name == "TESL_N_O_NHI_NS.A") then
+   series = tesl_n_o_nhi_ns_a
+else if (name == "TESL_N_O_NHI_S.A") then
+   series = tesl_n_o_nhi_s_a
+else if (name == "TESL_N_S.A") then
+   series = tesl_n_s_a
+else if (name == "TESL_O.A") then
+   series = tesl_o_a
+else if (name == "TE_F1617.A") then
+   series = te_a(2,1,:)
+else if (name == "TE_F1819.A") then
+   series = te_a(2,2,:)
+else if (name == "TE_F2024.A") then
+   series = te_a(2,3,:)
+else if (name == "TE_F2529.A") then
+   series = te_a(2,4,:)
+else if (name == "TE_F3034.A") then
+   series = te_a(2,5,:)
+else if (name == "TE_F3539.A") then
+   series = te_a(2,6,:)
+else if (name == "TE_F4044.A") then
+   series = te_a(2,7,:)
+else if (name == "TE_F4549.A") then
+   series = te_a(2,8,:)
+else if (name == "TE_F5054.A") then
+   series = te_a(2,9,:)
+else if (name == "TE_F5559.A") then
+   series = te_a(2,10,:)
+else if (name == "TE_F6064.A") then
+   series = te_a(2,11,:)
+else if (name == "TE_F6569.A") then
+   series = te_a(2,12,:)
+else if (name == "TE_F70O.A") then
+   series = te_a(2,23,:)
+else if (name == "TE_M.A") then
+   series = te_m(0,0,:)
+else if (name == "TE_M1617.A") then
+   series = te_a(1,1,:)
+else if (name == "TE_M1819.A") then
+   series = te_a(1,2,:)
+else if (name == "TE_M2024.A") then
+   series = te_a(1,3,:)
+else if (name == "TE_M2529.A") then
+   series = te_a(1,4,:)
+else if (name == "TE_M3034.A") then
+   series = te_a(1,5,:)
+else if (name == "TE_M3539.A") then
+   series = te_a(1,6,:)
+else if (name == "TE_M4044.A") then
+   series = te_a(1,7,:)
+else if (name == "TE_M4549.A") then
+   series = te_a(1,8,:)
+else if (name == "TE_M5054.A") then
+   series = te_a(1,9,:)
+else if (name == "TE_M5559.A") then
+   series = te_a(1,10,:)
+else if (name == "TE_M6064.A") then
+   series = te_a(1,11,:)
+else if (name == "TE_M6569.A") then
+   series = te_a(1,12,:)
+else if (name == "TE_M70O.A") then
+   series = te_a(1,23,:)
+else if (name == "TE_MN.A") then
+   series = te_mn(0,0,:)
+else if (name == "TE_MN_F1617.A") then
+   series = te_mn(2,1,:)
+else if (name == "TE_MN_F1819.A") then
+   series = te_mn(2,2,:)
+else if (name == "TE_MN_F2024.A") then
+   series = te_mn(2,3,:)
+else if (name == "TE_MN_F2529.A") then
+   series = te_mn(2,4,:)
+else if (name == "TE_MN_F3034.A") then
+   series = te_mn(2,5,:)
+else if (name == "TE_MN_F3539.A") then
+   series = te_mn(2,6,:)
+else if (name == "TE_MN_F4044.A") then
+   series = te_mn(2,7,:)
+else if (name == "TE_MN_F4549.A") then
+   series = te_mn(2,8,:)
+else if (name == "TE_MN_F5054.A") then
+   series = te_mn(2,9,:)
+else if (name == "TE_MN_F5559.A") then
+   series = te_mn(2,10,:)
+else if (name == "TE_MN_F6064.A") then
+   series = te_mn(2,11,:)
+else if (name == "TE_MN_F6569.A") then
+   series = te_mn(2,12,:)
+else if (name == "TE_MN_F70O.A") then
+   series = te_mn(2,23,:)
+else if (name == "TE_MN_M1617.A") then
+   series = te_mn(1,1,:)
+else if (name == "TE_MN_M1819.A") then
+   series = te_mn(1,2,:)
+else if (name == "TE_MN_M2024.A") then
+   series = te_mn(1,3,:)
+else if (name == "TE_MN_M2529.A") then
+   series = te_mn(1,4,:)
+else if (name == "TE_MN_M3034.A") then
+   series = te_mn(1,5,:)
+else if (name == "TE_MN_M3539.A") then
+   series = te_mn(1,6,:)
+else if (name == "TE_MN_M4044.A") then
+   series = te_mn(1,7,:)
+else if (name == "TE_MN_M4549.A") then
+   series = te_mn(1,8,:)
+else if (name == "TE_MN_M5054.A") then
+   series = te_mn(1,9,:)
+else if (name == "TE_MN_M5559.A") then
+   series = te_mn(1,10,:)
+else if (name == "TE_MN_M6064.A") then
+   series = te_mn(1,11,:)
+else if (name == "TE_MN_M6569.A") then
+   series = te_mn(1,12,:)
+else if (name == "TE_MN_M70O.A") then
+   series = te_mn(1,23,:)
+else if (name == "TE_M_F1617.A") then
+   series = te_m(2,1,:)
+else if (name == "TE_M_F1819.A") then
+   series = te_m(2,2,:)
+else if (name == "TE_M_F2024.A") then
+   series = te_m(2,3,:)
+else if (name == "TE_M_F2529.A") then
+   series = te_m(2,4,:)
+else if (name == "TE_M_F3034.A") then
+   series = te_m(2,5,:)
+else if (name == "TE_M_F3539.A") then
+   series = te_m(2,6,:)
+else if (name == "TE_M_F4044.A") then
+   series = te_m(2,7,:)
+else if (name == "TE_M_F4549.A") then
+   series = te_m(2,8,:)
+else if (name == "TE_M_F5054.A") then
+   series = te_m(2,9,:)
+else if (name == "TE_M_F5559.A") then
+   series = te_m(2,10,:)
+else if (name == "TE_M_F6064.A") then
+   series = te_m(2,11,:)
+else if (name == "TE_M_F6569.A") then
+   series = te_m(2,12,:)
+else if (name == "TE_M_F70O.A") then
+   series = te_m(2,23,:)
+else if (name == "TE_M_M1617.A") then
+   series = te_m(1,1,:)
+else if (name == "TE_M_M1819.A") then
+   series = te_m(1,2,:)
+else if (name == "TE_M_M2024.A") then
+   series = te_m(1,3,:)
+else if (name == "TE_M_M2529.A") then
+   series = te_m(1,4,:)
+else if (name == "TE_M_M3034.A") then
+   series = te_m(1,5,:)
+else if (name == "TE_M_M3539.A") then
+   series = te_m(1,6,:)
+else if (name == "TE_M_M4044.A") then
+   series = te_m(1,7,:)
+else if (name == "TE_M_M4549.A") then
+   series = te_m(1,8,:)
+else if (name == "TE_M_M5054.A") then
+   series = te_m(1,9,:)
+else if (name == "TE_M_M5559.A") then
+   series = te_m(1,10,:)
+else if (name == "TE_M_M6064.A") then
+   series = te_m(1,11,:)
+else if (name == "TE_M_M6569.A") then
+   series = te_m(1,12,:)
+else if (name == "TE_M_M70O.A") then
+   series = te_m(1,23,:)
+else if (name == "TE_PH_M.A") then
+   series = te_ph_m(0,0,:)
+else if (name == "TE_PH_M_F.A") then
+   series = te_ph_m(2,0,:)
+else if (name == "TE_PH_M_F0.A") then
+   series = te_ph_m_sy(2,0,:)
+else if (name == "TE_PH_M_F0T4.A") then
+   series = te_ph_m_0t4(2,:)
+else if (name == "TE_PH_M_F1.A") then
+   series = te_ph_m_sy(2,1,:)
+else if (name == "TE_PH_M_F10.A") then
+   series = te_ph_m_sy(2,10,:)
+else if (name == "TE_PH_M_F100O.A") then
+   series = te_ph_m_sy(2,100,:)
+else if (name == "TE_PH_M_F1014.A") then
+   series = te_ph_m_1014(2,:)
+else if (name == "TE_PH_M_F11.A") then
+   series = te_ph_m_sy(2,11,:)
+else if (name == "TE_PH_M_F12.A") then
+   series = te_ph_m_sy(2,12,:)
+else if (name == "TE_PH_M_F13.A") then
+   series = te_ph_m_sy(2,13,:)
+else if (name == "TE_PH_M_F14.A") then
+   series = te_ph_m_sy(2,14,:)
+else if (name == "TE_PH_M_F15.A") then
+   series = te_ph_m_sy(2,15,:)
+else if (name == "TE_PH_M_F15U.A") then
+   series = te_ph_m_15u(2,:)
+else if (name == "TE_PH_M_F16.A") then
+   series = te_ph_m_sy(2,16,:)
+else if (name == "TE_PH_M_F1617.A") then
+   series = te_ph_m(2,1,:)
+else if (name == "TE_PH_M_F1619.A") then
+   series = te_ph_m(2,27,:)
+else if (name == "TE_PH_M_F16O.A") then
+   series = te_ph_m(2,24,:)
+else if (name == "TE_PH_M_F17.A") then
+   series = te_ph_m_sy(2,17,:)
+else if (name == "TE_PH_M_F18.A") then
+   series = te_ph_m_sy(2,18,:)
+else if (name == "TE_PH_M_F1819.A") then
+   series = te_ph_m(2,2,:)
+else if (name == "TE_PH_M_F19.A") then
+   series = te_ph_m_sy(2,19,:)
+else if (name == "TE_PH_M_F2.A") then
+   series = te_ph_m_sy(2,2,:)
+else if (name == "TE_PH_M_F20.A") then
+   series = te_ph_m_sy(2,20,:)
+else if (name == "TE_PH_M_F2024.A") then
+   series = te_ph_m(2,3,:)
+else if (name == "TE_PH_M_F21.A") then
+   series = te_ph_m_sy(2,21,:)
+else if (name == "TE_PH_M_F22.A") then
+   series = te_ph_m_sy(2,22,:)
+else if (name == "TE_PH_M_F23.A") then
+   series = te_ph_m_sy(2,23,:)
+else if (name == "TE_PH_M_F24.A") then
+   series = te_ph_m_sy(2,24,:)
+else if (name == "TE_PH_M_F25.A") then
+   series = te_ph_m_sy(2,25,:)
+else if (name == "TE_PH_M_F2529.A") then
+   series = te_ph_m(2,4,:)
+else if (name == "TE_PH_M_F26.A") then
+   series = te_ph_m_sy(2,26,:)
+else if (name == "TE_PH_M_F27.A") then
+   series = te_ph_m_sy(2,27,:)
+else if (name == "TE_PH_M_F28.A") then
+   series = te_ph_m_sy(2,28,:)
+else if (name == "TE_PH_M_F29.A") then
+   series = te_ph_m_sy(2,29,:)
+else if (name == "TE_PH_M_F3.A") then
+   series = te_ph_m_sy(2,3,:)
+else if (name == "TE_PH_M_F30.A") then
+   series = te_ph_m_sy(2,30,:)
+else if (name == "TE_PH_M_F3034.A") then
+   series = te_ph_m(2,5,:)
+else if (name == "TE_PH_M_F31.A") then
+   series = te_ph_m_sy(2,31,:)
+else if (name == "TE_PH_M_F32.A") then
+   series = te_ph_m_sy(2,32,:)
+else if (name == "TE_PH_M_F33.A") then
+   series = te_ph_m_sy(2,33,:)
+else if (name == "TE_PH_M_F34.A") then
+   series = te_ph_m_sy(2,34,:)
+else if (name == "TE_PH_M_F35.A") then
+   series = te_ph_m_sy(2,35,:)
+else if (name == "TE_PH_M_F3539.A") then
+   series = te_ph_m(2,6,:)
+else if (name == "TE_PH_M_F36.A") then
+   series = te_ph_m_sy(2,36,:)
+else if (name == "TE_PH_M_F37.A") then
+   series = te_ph_m_sy(2,37,:)
+else if (name == "TE_PH_M_F38.A") then
+   series = te_ph_m_sy(2,38,:)
+else if (name == "TE_PH_M_F39.A") then
+   series = te_ph_m_sy(2,39,:)
+else if (name == "TE_PH_M_F4.A") then
+   series = te_ph_m_sy(2,4,:)
+else if (name == "TE_PH_M_F40.A") then
+   series = te_ph_m_sy(2,40,:)
+else if (name == "TE_PH_M_F4044.A") then
+   series = te_ph_m(2,7,:)
+else if (name == "TE_PH_M_F41.A") then
+   series = te_ph_m_sy(2,41,:)
+else if (name == "TE_PH_M_F42.A") then
+   series = te_ph_m_sy(2,42,:)
+else if (name == "TE_PH_M_F43.A") then
+   series = te_ph_m_sy(2,43,:)
+else if (name == "TE_PH_M_F44.A") then
+   series = te_ph_m_sy(2,44,:)
+else if (name == "TE_PH_M_F45.A") then
+   series = te_ph_m_sy(2,45,:)
+else if (name == "TE_PH_M_F4549.A") then
+   series = te_ph_m(2,8,:)
+else if (name == "TE_PH_M_F46.A") then
+   series = te_ph_m_sy(2,46,:)
+else if (name == "TE_PH_M_F47.A") then
+   series = te_ph_m_sy(2,47,:)
+else if (name == "TE_PH_M_F48.A") then
+   series = te_ph_m_sy(2,48,:)
+else if (name == "TE_PH_M_F49.A") then
+   series = te_ph_m_sy(2,49,:)
+else if (name == "TE_PH_M_F5.A") then
+   series = te_ph_m_sy(2,5,:)
+else if (name == "TE_PH_M_F50.A") then
+   series = te_ph_m_sy(2,50,:)
+else if (name == "TE_PH_M_F5054.A") then
+   series = te_ph_m(2,9,:)
+else if (name == "TE_PH_M_F51.A") then
+   series = te_ph_m_sy(2,51,:)
+else if (name == "TE_PH_M_F52.A") then
+   series = te_ph_m_sy(2,52,:)
+else if (name == "TE_PH_M_F53.A") then
+   series = te_ph_m_sy(2,53,:)
+else if (name == "TE_PH_M_F54.A") then
+   series = te_ph_m_sy(2,54,:)
+else if (name == "TE_PH_M_F55.A") then
+   series = te_ph_m_sy(2,55,:)
+else if (name == "TE_PH_M_F5559.A") then
+   series = te_ph_m(2,10,:)
+else if (name == "TE_PH_M_F56.A") then
+   series = te_ph_m_sy(2,56,:)
+else if (name == "TE_PH_M_F57.A") then
+   series = te_ph_m_sy(2,57,:)
+else if (name == "TE_PH_M_F58.A") then
+   series = te_ph_m_sy(2,58,:)
+else if (name == "TE_PH_M_F59.A") then
+   series = te_ph_m_sy(2,59,:)
+else if (name == "TE_PH_M_F5T9.A") then
+   series = te_ph_m_5t9(2,:)
+else if (name == "TE_PH_M_F6.A") then
+   series = te_ph_m_sy(2,6,:)
+else if (name == "TE_PH_M_F60.A") then
+   series = te_ph_m_sy(2,60,:)
+else if (name == "TE_PH_M_F6061.A") then
+   series = te_ph_m(2,25,:)
+else if (name == "TE_PH_M_F6064.A") then
+   series = te_ph_m(2,11,:)
+else if (name == "TE_PH_M_F61.A") then
+   series = te_ph_m_sy(2,61,:)
+else if (name == "TE_PH_M_F62.A") then
+   series = te_ph_m_sy(2,62,:)
+else if (name == "TE_PH_M_F6264.A") then
+   series = te_ph_m(2,26,:)
+else if (name == "TE_PH_M_F63.A") then
+   series = te_ph_m_sy(2,63,:)
+else if (name == "TE_PH_M_F64.A") then
+   series = te_ph_m_sy(2,64,:)
+else if (name == "TE_PH_M_F65.A") then
+   series = te_ph_m_sy(2,65,:)
+else if (name == "TE_PH_M_F6569.A") then
+   series = te_ph_m(2,12,:)
+else if (name == "TE_PH_M_F65O.A") then
+   series = te_ph_m(2,22,:)
+else if (name == "TE_PH_M_F66.A") then
+   series = te_ph_m_sy(2,66,:)
+else if (name == "TE_PH_M_F67.A") then
+   series = te_ph_m_sy(2,67,:)
+else if (name == "TE_PH_M_F68.A") then
+   series = te_ph_m_sy(2,68,:)
+else if (name == "TE_PH_M_F69.A") then
+   series = te_ph_m_sy(2,69,:)
+else if (name == "TE_PH_M_F7.A") then
+   series = te_ph_m_sy(2,7,:)
+else if (name == "TE_PH_M_F70.A") then
+   series = te_ph_m_sy(2,70,:)
+else if (name == "TE_PH_M_F7074.A") then
+   series = te_ph_m(2,13,:)
+else if (name == "TE_PH_M_F70O.A") then
+   series = te_ph_m(2,23,:)
+else if (name == "TE_PH_M_F71.A") then
+   series = te_ph_m_sy(2,71,:)
+else if (name == "TE_PH_M_F72.A") then
+   series = te_ph_m_sy(2,72,:)
+else if (name == "TE_PH_M_F73.A") then
+   series = te_ph_m_sy(2,73,:)
+else if (name == "TE_PH_M_F74.A") then
+   series = te_ph_m_sy(2,74,:)
+else if (name == "TE_PH_M_F75.A") then
+   series = te_ph_m_sy(2,75,:)
+else if (name == "TE_PH_M_F7579.A") then
+   series = te_ph_m(2,14,:)
+else if (name == "TE_PH_M_F75O.A") then
+   series = te_ph_m(2,17,:)
+else if (name == "TE_PH_M_F76.A") then
+   series = te_ph_m_sy(2,76,:)
+else if (name == "TE_PH_M_F77.A") then
+   series = te_ph_m_sy(2,77,:)
+else if (name == "TE_PH_M_F78.A") then
+   series = te_ph_m_sy(2,78,:)
+else if (name == "TE_PH_M_F79.A") then
+   series = te_ph_m_sy(2,79,:)
+else if (name == "TE_PH_M_F8.A") then
+   series = te_ph_m_sy(2,8,:)
+else if (name == "TE_PH_M_F80.A") then
+   series = te_ph_m_sy(2,80,:)
+else if (name == "TE_PH_M_F8084.A") then
+   series = te_ph_m(2,15,:)
+else if (name == "TE_PH_M_F80O.A") then
+   series = te_ph_m(2,31,:)
+else if (name == "TE_PH_M_F81.A") then
+   series = te_ph_m_sy(2,81,:)
+else if (name == "TE_PH_M_F82.A") then
+   series = te_ph_m_sy(2,82,:)
+else if (name == "TE_PH_M_F83.A") then
+   series = te_ph_m_sy(2,83,:)
+else if (name == "TE_PH_M_F84.A") then
+   series = te_ph_m_sy(2,84,:)
+else if (name == "TE_PH_M_F85.A") then
+   series = te_ph_m_sy(2,85,:)
+else if (name == "TE_PH_M_F8589.A") then
+   series = te_ph_m(2,32,:)
+else if (name == "TE_PH_M_F85O.A") then
+   series = te_ph_m(2,16,:)
+else if (name == "TE_PH_M_F86.A") then
+   series = te_ph_m_sy(2,86,:)
+else if (name == "TE_PH_M_F87.A") then
+   series = te_ph_m_sy(2,87,:)
+else if (name == "TE_PH_M_F88.A") then
+   series = te_ph_m_sy(2,88,:)
+else if (name == "TE_PH_M_F89.A") then
+   series = te_ph_m_sy(2,89,:)
+else if (name == "TE_PH_M_F9.A") then
+   series = te_ph_m_sy(2,9,:)
+else if (name == "TE_PH_M_F90.A") then
+   series = te_ph_m_sy(2,90,:)
+else if (name == "TE_PH_M_F9094.A") then
+   series = te_ph_m(2,33,:)
+else if (name == "TE_PH_M_F91.A") then
+   series = te_ph_m_sy(2,91,:)
+else if (name == "TE_PH_M_F92.A") then
+   series = te_ph_m_sy(2,92,:)
+else if (name == "TE_PH_M_F93.A") then
+   series = te_ph_m_sy(2,93,:)
+else if (name == "TE_PH_M_F94.A") then
+   series = te_ph_m_sy(2,94,:)
+else if (name == "TE_PH_M_F95.A") then
+   series = te_ph_m_sy(2,95,:)
+else if (name == "TE_PH_M_F9599.A") then
+   series = te_ph_m(2,34,:)
+else if (name == "TE_PH_M_F96.A") then
+   series = te_ph_m_sy(2,96,:)
+else if (name == "TE_PH_M_F97.A") then
+   series = te_ph_m_sy(2,97,:)
+else if (name == "TE_PH_M_F98.A") then
+   series = te_ph_m_sy(2,98,:)
+else if (name == "TE_PH_M_F99.A") then
+   series = te_ph_m_sy(2,99,:)
+else if (name == "TE_PH_M_M.A") then
+   series = te_ph_m(1,0,:)
+else if (name == "TE_PH_M_M0.A") then
+   series = te_ph_m_sy(1,0,:)
+else if (name == "TE_PH_M_M0T4.A") then
+   series = te_ph_m_0t4(1,:)
+else if (name == "TE_PH_M_M1.A") then
+   series = te_ph_m_sy(1,1,:)
+else if (name == "TE_PH_M_M10.A") then
+   series = te_ph_m_sy(1,10,:)
+else if (name == "TE_PH_M_M100O.A") then
+   series = te_ph_m_sy(1,100,:)
+else if (name == "TE_PH_M_M1014.A") then
+   series = te_ph_m_1014(1,:)
+else if (name == "TE_PH_M_M11.A") then
+   series = te_ph_m_sy(1,11,:)
+else if (name == "TE_PH_M_M12.A") then
+   series = te_ph_m_sy(1,12,:)
+else if (name == "TE_PH_M_M13.A") then
+   series = te_ph_m_sy(1,13,:)
+else if (name == "TE_PH_M_M14.A") then
+   series = te_ph_m_sy(1,14,:)
+else if (name == "TE_PH_M_M15.A") then
+   series = te_ph_m_sy(1,15,:)
+else if (name == "TE_PH_M_M15U.A") then
+   series = te_ph_m_15u(1,:)
+else if (name == "TE_PH_M_M16.A") then
+   series = te_ph_m_sy(1,16,:)
+else if (name == "TE_PH_M_M1617.A") then
+   series = te_ph_m(1,1,:)
+else if (name == "TE_PH_M_M1619.A") then
+   series = te_ph_m(1,27,:)
+else if (name == "TE_PH_M_M16O.A") then
+   series = te_ph_m(1,24,:)
+else if (name == "TE_PH_M_M17.A") then
+   series = te_ph_m_sy(1,17,:)
+else if (name == "TE_PH_M_M18.A") then
+   series = te_ph_m_sy(1,18,:)
+else if (name == "TE_PH_M_M1819.A") then
+   series = te_ph_m(1,2,:)
+else if (name == "TE_PH_M_M19.A") then
+   series = te_ph_m_sy(1,19,:)
+else if (name == "TE_PH_M_M2.A") then
+   series = te_ph_m_sy(1,2,:)
+else if (name == "TE_PH_M_M20.A") then
+   series = te_ph_m_sy(1,20,:)
+else if (name == "TE_PH_M_M2024.A") then
+   series = te_ph_m(1,3,:)
+else if (name == "TE_PH_M_M21.A") then
+   series = te_ph_m_sy(1,21,:)
+else if (name == "TE_PH_M_M22.A") then
+   series = te_ph_m_sy(1,22,:)
+else if (name == "TE_PH_M_M23.A") then
+   series = te_ph_m_sy(1,23,:)
+else if (name == "TE_PH_M_M24.A") then
+   series = te_ph_m_sy(1,24,:)
+else if (name == "TE_PH_M_M25.A") then
+   series = te_ph_m_sy(1,25,:)
+else if (name == "TE_PH_M_M2529.A") then
+   series = te_ph_m(1,4,:)
+else if (name == "TE_PH_M_M26.A") then
+   series = te_ph_m_sy(1,26,:)
+else if (name == "TE_PH_M_M27.A") then
+   series = te_ph_m_sy(1,27,:)
+else if (name == "TE_PH_M_M28.A") then
+   series = te_ph_m_sy(1,28,:)
+else if (name == "TE_PH_M_M29.A") then
+   series = te_ph_m_sy(1,29,:)
+else if (name == "TE_PH_M_M3.A") then
+   series = te_ph_m_sy(1,3,:)
+else if (name == "TE_PH_M_M30.A") then
+   series = te_ph_m_sy(1,30,:)
+else if (name == "TE_PH_M_M3034.A") then
+   series = te_ph_m(1,5,:)
+else if (name == "TE_PH_M_M31.A") then
+   series = te_ph_m_sy(1,31,:)
+else if (name == "TE_PH_M_M32.A") then
+   series = te_ph_m_sy(1,32,:)
+else if (name == "TE_PH_M_M33.A") then
+   series = te_ph_m_sy(1,33,:)
+else if (name == "TE_PH_M_M34.A") then
+   series = te_ph_m_sy(1,34,:)
+else if (name == "TE_PH_M_M35.A") then
+   series = te_ph_m_sy(1,35,:)
+else if (name == "TE_PH_M_M3539.A") then
+   series = te_ph_m(1,6,:)
+else if (name == "TE_PH_M_M36.A") then
+   series = te_ph_m_sy(1,36,:)
+else if (name == "TE_PH_M_M37.A") then
+   series = te_ph_m_sy(1,37,:)
+else if (name == "TE_PH_M_M38.A") then
+   series = te_ph_m_sy(1,38,:)
+else if (name == "TE_PH_M_M39.A") then
+   series = te_ph_m_sy(1,39,:)
+else if (name == "TE_PH_M_M4.A") then
+   series = te_ph_m_sy(1,4,:)
+else if (name == "TE_PH_M_M40.A") then
+   series = te_ph_m_sy(1,40,:)
+else if (name == "TE_PH_M_M4044.A") then
+   series = te_ph_m(1,7,:)
+else if (name == "TE_PH_M_M41.A") then
+   series = te_ph_m_sy(1,41,:)
+else if (name == "TE_PH_M_M42.A") then
+   series = te_ph_m_sy(1,42,:)
+else if (name == "TE_PH_M_M43.A") then
+   series = te_ph_m_sy(1,43,:)
+else if (name == "TE_PH_M_M44.A") then
+   series = te_ph_m_sy(1,44,:)
+else if (name == "TE_PH_M_M45.A") then
+   series = te_ph_m_sy(1,45,:)
+else if (name == "TE_PH_M_M4549.A") then
+   series = te_ph_m(1,8,:)
+else if (name == "TE_PH_M_M46.A") then
+   series = te_ph_m_sy(1,46,:)
+else if (name == "TE_PH_M_M47.A") then
+   series = te_ph_m_sy(1,47,:)
+else if (name == "TE_PH_M_M48.A") then
+   series = te_ph_m_sy(1,48,:)
+else if (name == "TE_PH_M_M49.A") then
+   series = te_ph_m_sy(1,49,:)
+else if (name == "TE_PH_M_M5.A") then
+   series = te_ph_m_sy(1,5,:)
+else if (name == "TE_PH_M_M50.A") then
+   series = te_ph_m_sy(1,50,:)
+else if (name == "TE_PH_M_M5054.A") then
+   series = te_ph_m(1,9,:)
+else if (name == "TE_PH_M_M51.A") then
+   series = te_ph_m_sy(1,51,:)
+else if (name == "TE_PH_M_M52.A") then
+   series = te_ph_m_sy(1,52,:)
+else if (name == "TE_PH_M_M53.A") then
+   series = te_ph_m_sy(1,53,:)
+else if (name == "TE_PH_M_M54.A") then
+   series = te_ph_m_sy(1,54,:)
+else if (name == "TE_PH_M_M55.A") then
+   series = te_ph_m_sy(1,55,:)
+else if (name == "TE_PH_M_M5559.A") then
+   series = te_ph_m(1,10,:)
+else if (name == "TE_PH_M_M56.A") then
+   series = te_ph_m_sy(1,56,:)
+else if (name == "TE_PH_M_M57.A") then
+   series = te_ph_m_sy(1,57,:)
+else if (name == "TE_PH_M_M58.A") then
+   series = te_ph_m_sy(1,58,:)
+else if (name == "TE_PH_M_M59.A") then
+   series = te_ph_m_sy(1,59,:)
+else if (name == "TE_PH_M_M5T9.A") then
+   series = te_ph_m_5t9(1,:)
+else if (name == "TE_PH_M_M6.A") then
+   series = te_ph_m_sy(1,6,:)
+else if (name == "TE_PH_M_M60.A") then
+   series = te_ph_m_sy(1,60,:)
+else if (name == "TE_PH_M_M6061.A") then
+   series = te_ph_m(1,25,:)
+else if (name == "TE_PH_M_M6064.A") then
+   series = te_ph_m(1,11,:)
+else if (name == "TE_PH_M_M61.A") then
+   series = te_ph_m_sy(1,61,:)
+else if (name == "TE_PH_M_M62.A") then
+   series = te_ph_m_sy(1,62,:)
+else if (name == "TE_PH_M_M6264.A") then
+   series = te_ph_m(1,26,:)
+else if (name == "TE_PH_M_M63.A") then
+   series = te_ph_m_sy(1,63,:)
+else if (name == "TE_PH_M_M64.A") then
+   series = te_ph_m_sy(1,64,:)
+else if (name == "TE_PH_M_M65.A") then
+   series = te_ph_m_sy(1,65,:)
+else if (name == "TE_PH_M_M6569.A") then
+   series = te_ph_m(1,12,:)
+else if (name == "TE_PH_M_M65O.A") then
+   series = te_ph_m(1,22,:)
+else if (name == "TE_PH_M_M66.A") then
+   series = te_ph_m_sy(1,66,:)
+else if (name == "TE_PH_M_M67.A") then
+   series = te_ph_m_sy(1,67,:)
+else if (name == "TE_PH_M_M68.A") then
+   series = te_ph_m_sy(1,68,:)
+else if (name == "TE_PH_M_M69.A") then
+   series = te_ph_m_sy(1,69,:)
+else if (name == "TE_PH_M_M7.A") then
+   series = te_ph_m_sy(1,7,:)
+else if (name == "TE_PH_M_M70.A") then
+   series = te_ph_m_sy(1,70,:)
+else if (name == "TE_PH_M_M7074.A") then
+   series = te_ph_m(1,13,:)
+else if (name == "TE_PH_M_M70O.A") then
+   series = te_ph_m(1,23,:)
+else if (name == "TE_PH_M_M71.A") then
+   series = te_ph_m_sy(1,71,:)
+else if (name == "TE_PH_M_M72.A") then
+   series = te_ph_m_sy(1,72,:)
+else if (name == "TE_PH_M_M73.A") then
+   series = te_ph_m_sy(1,73,:)
+else if (name == "TE_PH_M_M74.A") then
+   series = te_ph_m_sy(1,74,:)
+else if (name == "TE_PH_M_M75.A") then
+   series = te_ph_m_sy(1,75,:)
+else if (name == "TE_PH_M_M7579.A") then
+   series = te_ph_m(1,14,:)
+else if (name == "TE_PH_M_M75O.A") then
+   series = te_ph_m(1,17,:)
+else if (name == "TE_PH_M_M76.A") then
+   series = te_ph_m_sy(1,76,:)
+else if (name == "TE_PH_M_M77.A") then
+   series = te_ph_m_sy(1,77,:)
+else if (name == "TE_PH_M_M78.A") then
+   series = te_ph_m_sy(1,78,:)
+else if (name == "TE_PH_M_M79.A") then
+   series = te_ph_m_sy(1,79,:)
+else if (name == "TE_PH_M_M8.A") then
+   series = te_ph_m_sy(1,8,:)
+else if (name == "TE_PH_M_M80.A") then
+   series = te_ph_m_sy(1,80,:)
+else if (name == "TE_PH_M_M8084.A") then
+   series = te_ph_m(1,15,:)
+else if (name == "TE_PH_M_M80O.A") then
+   series = te_ph_m(1,31,:)
+else if (name == "TE_PH_M_M81.A") then
+   series = te_ph_m_sy(1,81,:)
+else if (name == "TE_PH_M_M82.A") then
+   series = te_ph_m_sy(1,82,:)
+else if (name == "TE_PH_M_M83.A") then
+   series = te_ph_m_sy(1,83,:)
+else if (name == "TE_PH_M_M84.A") then
+   series = te_ph_m_sy(1,84,:)
+else if (name == "TE_PH_M_M85.A") then
+   series = te_ph_m_sy(1,85,:)
+else if (name == "TE_PH_M_M8589.A") then
+   series = te_ph_m(1,32,:)
+else if (name == "TE_PH_M_M85O.A") then
+   series = te_ph_m(1,16,:)
+else if (name == "TE_PH_M_M86.A") then
+   series = te_ph_m_sy(1,86,:)
+else if (name == "TE_PH_M_M87.A") then
+   series = te_ph_m_sy(1,87,:)
+else if (name == "TE_PH_M_M88.A") then
+   series = te_ph_m_sy(1,88,:)
+else if (name == "TE_PH_M_M89.A") then
+   series = te_ph_m_sy(1,89,:)
+else if (name == "TE_PH_M_M9.A") then
+   series = te_ph_m_sy(1,9,:)
+else if (name == "TE_PH_M_M90.A") then
+   series = te_ph_m_sy(1,90,:)
+else if (name == "TE_PH_M_M9094.A") then
+   series = te_ph_m(1,33,:)
+else if (name == "TE_PH_M_M91.A") then
+   series = te_ph_m_sy(1,91,:)
+else if (name == "TE_PH_M_M92.A") then
+   series = te_ph_m_sy(1,92,:)
+else if (name == "TE_PH_M_M93.A") then
+   series = te_ph_m_sy(1,93,:)
+else if (name == "TE_PH_M_M94.A") then
+   series = te_ph_m_sy(1,94,:)
+else if (name == "TE_PH_M_M95.A") then
+   series = te_ph_m_sy(1,95,:)
+else if (name == "TE_PH_M_M9599.A") then
+   series = te_ph_m(1,34,:)
+else if (name == "TE_PH_M_M96.A") then
+   series = te_ph_m_sy(1,96,:)
+else if (name == "TE_PH_M_M97.A") then
+   series = te_ph_m_sy(1,97,:)
+else if (name == "TE_PH_M_M98.A") then
+   series = te_ph_m_sy(1,98,:)
+else if (name == "TE_PH_M_M99.A") then
+   series = te_ph_m_sy(1,99,:)
+else if (name == "TE_S.A") then
+   series = te_s(0,0,:)
+else if (name == "TE_SFM_LRP.A") then
+   series = te_sfm_lrp_a
+else if (name == "TE_SFO_LRP.A") then
+   series = te_sfo_lrp(0,0,:)
+else if (name == "TE_SF_LRP.A") then
+   series = te_sf_lrp_a
+else if (name == "TE_SF_TEO.A") then
+   series = te_sf_teo_a
+else if (name == "TE_S_F1617.A") then
+   series = te_s(2,1,:)
+else if (name == "TE_S_F1819.A") then
+   series = te_s(2,2,:)
+else if (name == "TE_S_F2024.A") then
+   series = te_s(2,3,:)
+else if (name == "TE_S_F2529.A") then
+   series = te_s(2,4,:)
+else if (name == "TE_S_F3034.A") then
+   series = te_s(2,5,:)
+else if (name == "TE_S_F3539.A") then
+   series = te_s(2,6,:)
+else if (name == "TE_S_F4044.A") then
+   series = te_s(2,7,:)
+else if (name == "TE_S_F4549.A") then
+   series = te_s(2,8,:)
+else if (name == "TE_S_F5054.A") then
+   series = te_s(2,9,:)
+else if (name == "TE_S_F5559.A") then
+   series = te_s(2,10,:)
+else if (name == "TE_S_F6064.A") then
+   series = te_s(2,11,:)
+else if (name == "TE_S_F6569.A") then
+   series = te_s(2,12,:)
+else if (name == "TE_S_F70O.A") then
+   series = te_s(2,23,:)
+else if (name == "TE_S_M1617.A") then
+   series = te_s(1,1,:)
+else if (name == "TE_S_M1819.A") then
+   series = te_s(1,2,:)
+else if (name == "TE_S_M2024.A") then
+   series = te_s(1,3,:)
+else if (name == "TE_S_M2529.A") then
+   series = te_s(1,4,:)
+else if (name == "TE_S_M3034.A") then
+   series = te_s(1,5,:)
+else if (name == "TE_S_M3539.A") then
+   series = te_s(1,6,:)
+else if (name == "TE_S_M4044.A") then
+   series = te_s(1,7,:)
+else if (name == "TE_S_M4549.A") then
+   series = te_s(1,8,:)
+else if (name == "TE_S_M5054.A") then
+   series = te_s(1,9,:)
+else if (name == "TE_S_M5559.A") then
+   series = te_s(1,10,:)
+else if (name == "TE_S_M6064.A") then
+   series = te_s(1,11,:)
+else if (name == "TE_S_M6569.A") then
+   series = te_s(1,12,:)
+else if (name == "TE_S_M70O.A") then
+   series = te_s(1,23,:)
+else if (name == "TE_U.A") then
+   series = te_u(0,0,:)
+else if (name == "TE_U_F1617.A") then
+   series = te_u(2,1,:)
+else if (name == "TE_U_F1819.A") then
+   series = te_u(2,2,:)
+else if (name == "TE_U_F2024.A") then
+   series = te_u(2,3,:)
+else if (name == "TE_U_F2529.A") then
+   series = te_u(2,4,:)
+else if (name == "TE_U_F3034.A") then
+   series = te_u(2,5,:)
+else if (name == "TE_U_F3539.A") then
+   series = te_u(2,6,:)
+else if (name == "TE_U_F4044.A") then
+   series = te_u(2,7,:)
+else if (name == "TE_U_F4549.A") then
+   series = te_u(2,8,:)
+else if (name == "TE_U_F5054.A") then
+   series = te_u(2,9,:)
+else if (name == "TE_U_F5559.A") then
+   series = te_u(2,10,:)
+else if (name == "TE_U_F6064.A") then
+   series = te_u(2,11,:)
+else if (name == "TE_U_F6569.A") then
+   series = te_u(2,12,:)
+else if (name == "TE_U_F70O.A") then
+   series = te_u(2,23,:)
+else if (name == "TE_U_M1617.A") then
+   series = te_u(1,1,:)
+else if (name == "TE_U_M1819.A") then
+   series = te_u(1,2,:)
+else if (name == "TE_U_M2024.A") then
+   series = te_u(1,3,:)
+else if (name == "TE_U_M2529.A") then
+   series = te_u(1,4,:)
+else if (name == "TE_U_M3034.A") then
+   series = te_u(1,5,:)
+else if (name == "TE_U_M3539.A") then
+   series = te_u(1,6,:)
+else if (name == "TE_U_M4044.A") then
+   series = te_u(1,7,:)
+else if (name == "TE_U_M4549.A") then
+   series = te_u(1,8,:)
+else if (name == "TE_U_M5054.A") then
+   series = te_u(1,9,:)
+else if (name == "TE_U_M5559.A") then
+   series = te_u(1,10,:)
+else if (name == "TE_U_M6064.A") then
+   series = te_u(1,11,:)
+else if (name == "TE_U_M6569.A") then
+   series = te_u(1,12,:)
+else if (name == "TE_U_M70O.A") then
+   series = te_u(1,23,:)
+else if (name == "TIPS_SR.A") then
+   series = tips_sr_a
+else if (name == "WE16O_3.A") then
+   series = we_3(0,24,:)
+else if (name == "WE16O_3_P.A") then
+   series = we_3_p(0,24,:)
+else if (name == "WEF1617_3.A") then
+   series = we_3(2,1,:)
+else if (name == "WEF1617_3_P.A") then
+   series = we_3_p(2,1,:)
+else if (name == "WEF1617_3_PL.A") then
+   series = we_3_pl(2,1,:)
+else if (name == "WEF16O_3.A") then
+   series = we_3(2,24,:)
+else if (name == "WEF16O_3_P.A") then
+   series = we_3_p(2,24,:)
+else if (name == "WEF1819_3.A") then
+   series = we_3(2,2,:)
+else if (name == "WEF1819_3_P.A") then
+   series = we_3_p(2,2,:)
+else if (name == "WEF1819_3_PL.A") then
+   series = we_3_pl(2,2,:)
+else if (name == "WEF2024_3.A") then
+   series = we_3(2,3,:)
+else if (name == "WEF2024_3_P.A") then
+   series = we_3_p(2,3,:)
+else if (name == "WEF2024_3_PL.A") then
+   series = we_3_pl(2,3,:)
+else if (name == "WEF2529_3.A") then
+   series = we_3(2,4,:)
+else if (name == "WEF2529_3_P.A") then
+   series = we_3_p(2,4,:)
+else if (name == "WEF2529_3_PL.A") then
+   series = we_3_pl(2,4,:)
+else if (name == "WEF3034_3.A") then
+   series = we_3(2,5,:)
+else if (name == "WEF3034_3_P.A") then
+   series = we_3_p(2,5,:)
+else if (name == "WEF3034_3_PL.A") then
+   series = we_3_pl(2,5,:)
+else if (name == "WEF3539_3.A") then
+   series = we_3(2,6,:)
+else if (name == "WEF3539_3_P.A") then
+   series = we_3_p(2,6,:)
+else if (name == "WEF3539_3_PL.A") then
+   series = we_3_pl(2,6,:)
+else if (name == "WEF4044_3.A") then
+   series = we_3(2,7,:)
+else if (name == "WEF4044_3_P.A") then
+   series = we_3_p(2,7,:)
+else if (name == "WEF4044_3_PL.A") then
+   series = we_3_pl(2,7,:)
+else if (name == "WEF4549_3.A") then
+   series = we_3(2,8,:)
+else if (name == "WEF4549_3_P.A") then
+   series = we_3_p(2,8,:)
+else if (name == "WEF4549_3_PL.A") then
+   series = we_3_pl(2,8,:)
+else if (name == "WEF5054_3.A") then
+   series = we_3(2,9,:)
+else if (name == "WEF5054_3_P.A") then
+   series = we_3_p(2,9,:)
+else if (name == "WEF5054_3_PL.A") then
+   series = we_3_pl(2,9,:)
+else if (name == "WEF5559_3.A") then
+   series = we_3(2,10,:)
+else if (name == "WEF5559_3_P.A") then
+   series = we_3_p(2,10,:)
+else if (name == "WEF5559_3_PL.A") then
+   series = we_3_pl(2,10,:)
+else if (name == "WEF6064_3.A") then
+   series = we_3(2,11,:)
+else if (name == "WEF6064_3_P.A") then
+   series = we_3_p(2,11,:)
+else if (name == "WEF6064_3_PL.A") then
+   series = we_3_pl(2,11,:)
+else if (name == "WEF6569_3.A") then
+   series = we_3(2,12,:)
+else if (name == "WEF6569_3_P.A") then
+   series = we_3_p(2,12,:)
+else if (name == "WEF6569_3_PL.A") then
+   series = we_3_pl(2,12,:)
+else if (name == "WEF70O_3.A") then
+   series = we_3(2,23,:)
+else if (name == "WEF70O_3_P.A") then
+   series = we_3_p(2,23,:)
+else if (name == "WEF70O_3_PL.A") then
+   series = we_3_pl(2,23,:)
+else if (name == "WEFC.A") then
+   series = wefc_a
+else if (name == "WEFC_O.A") then
+   series = wefc_o_a
+else if (name == "WEM1617_3.A") then
+   series = we_3(1,1,:)
+else if (name == "WEM1617_3_P.A") then
+   series = we_3_p(1,1,:)
+else if (name == "WEM1617_3_PL.A") then
+   series = we_3_pl(1,1,:)
+else if (name == "WEM16O_3.A") then
+   series = we_3(1,24,:)
+else if (name == "WEM16O_3_P.A") then
+   series = we_3_p(1,24,:)
+else if (name == "WEM1819_3.A") then
+   series = we_3(1,2,:)
+else if (name == "WEM1819_3_P.A") then
+   series = we_3_p(1,2,:)
+else if (name == "WEM1819_3_PL.A") then
+   series = we_3_pl(1,2,:)
+else if (name == "WEM2024_3.A") then
+   series = we_3(1,3,:)
+else if (name == "WEM2024_3_P.A") then
+   series = we_3_p(1,3,:)
+else if (name == "WEM2024_3_PL.A") then
+   series = we_3_pl(1,3,:)
+else if (name == "WEM2529_3.A") then
+   series = we_3(1,4,:)
+else if (name == "WEM2529_3_P.A") then
+   series = we_3_p(1,4,:)
+else if (name == "WEM2529_3_PL.A") then
+   series = we_3_pl(1,4,:)
+else if (name == "WEM3034_3.A") then
+   series = we_3(1,5,:)
+else if (name == "WEM3034_3_P.A") then
+   series = we_3_p(1,5,:)
+else if (name == "WEM3034_3_PL.A") then
+   series = we_3_pl(1,5,:)
+else if (name == "WEM3539_3.A") then
+   series = we_3(1,6,:)
+else if (name == "WEM3539_3_P.A") then
+   series = we_3_p(1,6,:)
+else if (name == "WEM3539_3_PL.A") then
+   series = we_3_pl(1,6,:)
+else if (name == "WEM4044_3.A") then
+   series = we_3(1,7,:)
+else if (name == "WEM4044_3_P.A") then
+   series = we_3_p(1,7,:)
+else if (name == "WEM4044_3_PL.A") then
+   series = we_3_pl(1,7,:)
+else if (name == "WEM4549_3.A") then
+   series = we_3(1,8,:)
+else if (name == "WEM4549_3_P.A") then
+   series = we_3_p(1,8,:)
+else if (name == "WEM4549_3_PL.A") then
+   series = we_3_pl(1,8,:)
+else if (name == "WEM5054_3.A") then
+   series = we_3(1,9,:)
+else if (name == "WEM5054_3_P.A") then
+   series = we_3_p(1,9,:)
+else if (name == "WEM5054_3_PL.A") then
+   series = we_3_pl(1,9,:)
+else if (name == "WEM5559_3.A") then
+   series = we_3(1,10,:)
+else if (name == "WEM5559_3_P.A") then
+   series = we_3_p(1,10,:)
+else if (name == "WEM5559_3_PL.A") then
+   series = we_3_pl(1,10,:)
+else if (name == "WEM6064_3.A") then
+   series = we_3(1,11,:)
+else if (name == "WEM6064_3_P.A") then
+   series = we_3_p(1,11,:)
+else if (name == "WEM6064_3_PL.A") then
+   series = we_3_pl(1,11,:)
+else if (name == "WEM6569_3.A") then
+   series = we_3(1,12,:)
+else if (name == "WEM6569_3_P.A") then
+   series = we_3_p(1,12,:)
+else if (name == "WEM6569_3_PL.A") then
+   series = we_3_pl(1,12,:)
+else if (name == "WEM70O_3.A") then
+   series = we_3(1,23,:)
+else if (name == "WEM70O_3_P.A") then
+   series = we_3_p(1,23,:)
+else if (name == "WEM70O_3_PL.A") then
+   series = we_3_pl(1,23,:)
+else if (name == "WESL.A") then
+   series = wesl_a
+else if (name == "WESL_N.A") then
+   series = wesl_n_a
+else if (name == "WESL_N_HI.A") then
+   series = wesl_n_hi_a
+else if (name == "WESL_N_NHI.A") then
+   series = wesl_n_nhi_a
+else if (name == "WESL_N_NHI_E.A") then
+   series = wesl_n_nhi_e_a
+else if (name == "WESL_N_NHI_NS.A") then
+   series = wesl_n_nhi_ns_a
+else if (name == "WESL_N_NHI_S.A") then
+   series = wesl_n_nhi_s_a
+else if (name == "WESL_O.A") then
+   series = wesl_o_a
+else if (name == "WE_SF.A") then
+   series = we_sf_a
+else if (name == "WE_SFM_LRP.A") then
+   series = we_sfm_lrp_a
+else if (name == "WE_SFO_LRP.A") then
+   series = we_sfo_lrp_a
+else if (name == "WE_SF_LRP.A") then
+   series = we_sf_lrp_a
+else if (name == "WE_SF_TEO.A") then
+   series = we_sf_teo_a
+else if (name == "WSCA.A") then
+   series = wsca_a
+else if (name == "WSCAHI.A") then
+   series = wscahi_a
+else if (name == "WSCA_HIO_OTH.A") then
+   series = wsca_hio_oth_a(:)
+else if (name == "WSDPB.A") then
+   series = wsdpb_a
+else if (name == "WSDPB_XEO.A") then
+   series = wsdpb_xeo
+else if (name == "WSGCA.A") then
+   series = wsgca_a
+else if (name == "WSGFCA.A") then
+   series = wsgfca_a
+else if (name == "WSGGE.A") then
+   series = wsgge_a
+else if (name == "WSGMLC.A") then
+   series = wsgmlc_a
+else if (name == "WSGSLCA.A") then
+   series = wsgslca_a
+else if (name == "WSPB_O.A") then
+   series = wspb_o_a
+else if (name == "WSPB_O_XEO.A") then
+   series = wspb_o_xeo
+else if (name == "WSPC.A") then
+   series = wspc_a
+else if (name == "WSPF_O.A") then
+   series = wspf_o_a
+else if (name == "WSPH_O.A") then
+   series = wsph_o_a
+else if (name == "WSPO_N_NHI.A") then
+   series = wspo_n_nhi_a
+else if (name == "WSPRR_O.A") then
+   series = wsprr_o_a
+else if (name == "WSP_N_NHI.A") then
+   series = wsp_n_nhi_a
+else if (name == "WSWA.A") then
+   series = wswa_a
+else if (name == "WSWAHI.A") then
+   series = wswahi_a
+else if (name == "WSW_HIO_OTH.A") then
+   series = wsw_hio_oth_a(:)
+else if (name == "WSW_HIO_OTH_SE.A") then
+   series = wsw_hio_oth_se_a(:)
+else if (name == "WSW_MEF.A") then
+   series = wsw_mef_a
+else if (name == "WSW_MEF_O.A") then
+   series = wsw_mef_o_a
+else if (name == "WS_MEF.A") then
+   series = ws_mef_a
+else if (name == "WS_N_NHI.A") then
+   series = ws_n_nhi_a
+else if (name == "W_CMBTOT.A") then
+   series = w_cmbtot_a
+else if (name == "Y.A") then
+   series = y_a

@@ -1,0 +1,23 @@
+                          Table V.B1.--Principal Economic Assumptions
+    
+                                     Annual percentage change in--
+    
+                                         Average    Earnings as
+                 Productivity     GDP      hours   a percent of     Average annual wage   Consumer
+                  (Total U.S.   price     worked    total labor   in covered employment      Price
+  Calendar Year      economy)   index   per week   compensation     Nominal        Real      Index
+    
+  Intermediate:
+      2025               1.26    2.17       0.11          -0.12        3.97        1.47       2.47
+      2026               1.47    2.07      -0.23          -0.08        4.13        1.60       2.49
+      2027               1.46    2.05      -0.21          -0.08        4.03        1.59       2.40
+      2028               1.56    2.05      -0.12          -0.08        4.11        1.67       2.40
+      2029               1.51    2.05      -0.11          -0.08        3.94        1.50       2.40
+      2030               1.56    2.05      -0.08          -0.09        3.88        1.45       2.40
+      2031               1.63    2.05      -0.05          -0.09        3.93        1.49       2.40
+      2032               1.63    2.05      -0.05          -0.09        3.95        1.51       2.40
+      2033               1.63    2.05      -0.05          -0.09        3.96        1.53       2.40
+      2034               1.63    2.05      -0.05          -0.09        3.85        1.42       2.40
+    
+  2034 to 2099           1.63    2.05      -0.05          -0.09        3.56        1.13       2.40
+

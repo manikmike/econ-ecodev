@@ -1,0 +1,340 @@
+if (name == "REF100.A") then
+   series = re_sy(2,100,:)
+else if (name == "REF16.A") then
+   series = re_sy(2,16,:)
+else if (name == "REF17.A") then
+   series = re_sy(2,17,:)
+else if (name == "REF18.A") then
+   series = re_sy(2,18,:)
+else if (name == "REF19.A") then
+   series = re_sy(2,19,:)
+else if (name == "REF20.A") then
+   series = re_sy(2,20,:)
+else if (name == "REF21.A") then
+   series = re_sy(2,21,:)
+else if (name == "REF22.A") then
+   series = re_sy(2,22,:)
+else if (name == "REF23.A") then
+   series = re_sy(2,23,:)
+else if (name == "REF24.A") then
+   series = re_sy(2,24,:)
+else if (name == "REF25.A") then
+   series = re_sy(2,25,:)
+else if (name == "REF26.A") then
+   series = re_sy(2,26,:)
+else if (name == "REF27.A") then
+   series = re_sy(2,27,:)
+else if (name == "REF28.A") then
+   series = re_sy(2,28,:)
+else if (name == "REF29.A") then
+   series = re_sy(2,29,:)
+else if (name == "REF30.A") then
+   series = re_sy(2,30,:)
+else if (name == "REF31.A") then
+   series = re_sy(2,31,:)
+else if (name == "REF32.A") then
+   series = re_sy(2,32,:)
+else if (name == "REF33.A") then
+   series = re_sy(2,33,:)
+else if (name == "REF34.A") then
+   series = re_sy(2,34,:)
+else if (name == "REF35.A") then
+   series = re_sy(2,35,:)
+else if (name == "REF36.A") then
+   series = re_sy(2,36,:)
+else if (name == "REF37.A") then
+   series = re_sy(2,37,:)
+else if (name == "REF38.A") then
+   series = re_sy(2,38,:)
+else if (name == "REF39.A") then
+   series = re_sy(2,39,:)
+else if (name == "REF40.A") then
+   series = re_sy(2,40,:)
+else if (name == "REF41.A") then
+   series = re_sy(2,41,:)
+else if (name == "REF42.A") then
+   series = re_sy(2,42,:)
+else if (name == "REF43.A") then
+   series = re_sy(2,43,:)
+else if (name == "REF44.A") then
+   series = re_sy(2,44,:)
+else if (name == "REF45.A") then
+   series = re_sy(2,45,:)
+else if (name == "REF46.A") then
+   series = re_sy(2,46,:)
+else if (name == "REF47.A") then
+   series = re_sy(2,47,:)
+else if (name == "REF48.A") then
+   series = re_sy(2,48,:)
+else if (name == "REF49.A") then
+   series = re_sy(2,49,:)
+else if (name == "REF50.A") then
+   series = re_sy(2,50,:)
+else if (name == "REF51.A") then
+   series = re_sy(2,51,:)
+else if (name == "REF52.A") then
+   series = re_sy(2,52,:)
+else if (name == "REF53.A") then
+   series = re_sy(2,53,:)
+else if (name == "REF54.A") then
+   series = re_sy(2,54,:)
+else if (name == "REF55.A") then
+   series = re_sy(2,55,:)
+else if (name == "REF56.A") then
+   series = re_sy(2,56,:)
+else if (name == "REF57.A") then
+   series = re_sy(2,57,:)
+else if (name == "REF58.A") then
+   series = re_sy(2,58,:)
+else if (name == "REF59.A") then
+   series = re_sy(2,59,:)
+else if (name == "REF60.A") then
+   series = re_sy(2,60,:)
+else if (name == "REF61.A") then
+   series = re_sy(2,61,:)
+else if (name == "REF62.A") then
+   series = re_sy(2,62,:)
+else if (name == "REF63.A") then
+   series = re_sy(2,63,:)
+else if (name == "REF64.A") then
+   series = re_sy(2,64,:)
+else if (name == "REF65.A") then
+   series = re_sy(2,65,:)
+else if (name == "REF66.A") then
+   series = re_sy(2,66,:)
+else if (name == "REF67.A") then
+   series = re_sy(2,67,:)
+else if (name == "REF68.A") then
+   series = re_sy(2,68,:)
+else if (name == "REF69.A") then
+   series = re_sy(2,69,:)
+else if (name == "REF70.A") then
+   series = re_sy(2,70,:)
+else if (name == "REF71.A") then
+   series = re_sy(2,71,:)
+else if (name == "REF72.A") then
+   series = re_sy(2,72,:)
+else if (name == "REF73.A") then
+   series = re_sy(2,73,:)
+else if (name == "REF74.A") then
+   series = re_sy(2,74,:)
+else if (name == "REF75.A") then
+   series = re_sy(2,75,:)
+else if (name == "REF76.A") then
+   series = re_sy(2,76,:)
+else if (name == "REF77.A") then
+   series = re_sy(2,77,:)
+else if (name == "REF78.A") then
+   series = re_sy(2,78,:)
+else if (name == "REF79.A") then
+   series = re_sy(2,79,:)
+else if (name == "REF80.A") then
+   series = re_sy(2,80,:)
+else if (name == "REF81.A") then
+   series = re_sy(2,81,:)
+else if (name == "REF82.A") then
+   series = re_sy(2,82,:)
+else if (name == "REF83.A") then
+   series = re_sy(2,83,:)
+else if (name == "REF84.A") then
+   series = re_sy(2,84,:)
+else if (name == "REF85.A") then
+   series = re_sy(2,85,:)
+else if (name == "REF86.A") then
+   series = re_sy(2,86,:)
+else if (name == "REF87.A") then
+   series = re_sy(2,87,:)
+else if (name == "REF88.A") then
+   series = re_sy(2,88,:)
+else if (name == "REF89.A") then
+   series = re_sy(2,89,:)
+else if (name == "REF90.A") then
+   series = re_sy(2,90,:)
+else if (name == "REF91.A") then
+   series = re_sy(2,91,:)
+else if (name == "REF92.A") then
+   series = re_sy(2,92,:)
+else if (name == "REF93.A") then
+   series = re_sy(2,93,:)
+else if (name == "REF94.A") then
+   series = re_sy(2,94,:)
+else if (name == "REF95.A") then
+   series = re_sy(2,95,:)
+else if (name == "REF96.A") then
+   series = re_sy(2,96,:)
+else if (name == "REF97.A") then
+   series = re_sy(2,97,:)
+else if (name == "REF98.A") then
+   series = re_sy(2,98,:)
+else if (name == "REF99.A") then
+   series = re_sy(2,99,:)
+else if (name == "REM100.A") then
+   series = re_sy(1,100,:)
+else if (name == "REM16.A") then
+   series = re_sy(1,16,:)
+else if (name == "REM17.A") then
+   series = re_sy(1,17,:)
+else if (name == "REM18.A") then
+   series = re_sy(1,18,:)
+else if (name == "REM19.A") then
+   series = re_sy(1,19,:)
+else if (name == "REM20.A") then
+   series = re_sy(1,20,:)
+else if (name == "REM21.A") then
+   series = re_sy(1,21,:)
+else if (name == "REM22.A") then
+   series = re_sy(1,22,:)
+else if (name == "REM23.A") then
+   series = re_sy(1,23,:)
+else if (name == "REM24.A") then
+   series = re_sy(1,24,:)
+else if (name == "REM25.A") then
+   series = re_sy(1,25,:)
+else if (name == "REM26.A") then
+   series = re_sy(1,26,:)
+else if (name == "REM27.A") then
+   series = re_sy(1,27,:)
+else if (name == "REM28.A") then
+   series = re_sy(1,28,:)
+else if (name == "REM29.A") then
+   series = re_sy(1,29,:)
+else if (name == "REM30.A") then
+   series = re_sy(1,30,:)
+else if (name == "REM31.A") then
+   series = re_sy(1,31,:)
+else if (name == "REM32.A") then
+   series = re_sy(1,32,:)
+else if (name == "REM33.A") then
+   series = re_sy(1,33,:)
+else if (name == "REM34.A") then
+   series = re_sy(1,34,:)
+else if (name == "REM35.A") then
+   series = re_sy(1,35,:)
+else if (name == "REM36.A") then
+   series = re_sy(1,36,:)
+else if (name == "REM37.A") then
+   series = re_sy(1,37,:)
+else if (name == "REM38.A") then
+   series = re_sy(1,38,:)
+else if (name == "REM39.A") then
+   series = re_sy(1,39,:)
+else if (name == "REM40.A") then
+   series = re_sy(1,40,:)
+else if (name == "REM41.A") then
+   series = re_sy(1,41,:)
+else if (name == "REM42.A") then
+   series = re_sy(1,42,:)
+else if (name == "REM43.A") then
+   series = re_sy(1,43,:)
+else if (name == "REM44.A") then
+   series = re_sy(1,44,:)
+else if (name == "REM45.A") then
+   series = re_sy(1,45,:)
+else if (name == "REM46.A") then
+   series = re_sy(1,46,:)
+else if (name == "REM47.A") then
+   series = re_sy(1,47,:)
+else if (name == "REM48.A") then
+   series = re_sy(1,48,:)
+else if (name == "REM49.A") then
+   series = re_sy(1,49,:)
+else if (name == "REM50.A") then
+   series = re_sy(1,50,:)
+else if (name == "REM51.A") then
+   series = re_sy(1,51,:)
+else if (name == "REM52.A") then
+   series = re_sy(1,52,:)
+else if (name == "REM53.A") then
+   series = re_sy(1,53,:)
+else if (name == "REM54.A") then
+   series = re_sy(1,54,:)
+else if (name == "REM55.A") then
+   series = re_sy(1,55,:)
+else if (name == "REM56.A") then
+   series = re_sy(1,56,:)
+else if (name == "REM57.A") then
+   series = re_sy(1,57,:)
+else if (name == "REM58.A") then
+   series = re_sy(1,58,:)
+else if (name == "REM59.A") then
+   series = re_sy(1,59,:)
+else if (name == "REM60.A") then
+   series = re_sy(1,60,:)
+else if (name == "REM61.A") then
+   series = re_sy(1,61,:)
+else if (name == "REM62.A") then
+   series = re_sy(1,62,:)
+else if (name == "REM63.A") then
+   series = re_sy(1,63,:)
+else if (name == "REM64.A") then
+   series = re_sy(1,64,:)
+else if (name == "REM65.A") then
+   series = re_sy(1,65,:)
+else if (name == "REM66.A") then
+   series = re_sy(1,66,:)
+else if (name == "REM67.A") then
+   series = re_sy(1,67,:)
+else if (name == "REM68.A") then
+   series = re_sy(1,68,:)
+else if (name == "REM69.A") then
+   series = re_sy(1,69,:)
+else if (name == "REM70.A") then
+   series = re_sy(1,70,:)
+else if (name == "REM71.A") then
+   series = re_sy(1,71,:)
+else if (name == "REM72.A") then
+   series = re_sy(1,72,:)
+else if (name == "REM73.A") then
+   series = re_sy(1,73,:)
+else if (name == "REM74.A") then
+   series = re_sy(1,74,:)
+else if (name == "REM75.A") then
+   series = re_sy(1,75,:)
+else if (name == "REM76.A") then
+   series = re_sy(1,76,:)
+else if (name == "REM77.A") then
+   series = re_sy(1,77,:)
+else if (name == "REM78.A") then
+   series = re_sy(1,78,:)
+else if (name == "REM79.A") then
+   series = re_sy(1,79,:)
+else if (name == "REM80.A") then
+   series = re_sy(1,80,:)
+else if (name == "REM81.A") then
+   series = re_sy(1,81,:)
+else if (name == "REM82.A") then
+   series = re_sy(1,82,:)
+else if (name == "REM83.A") then
+   series = re_sy(1,83,:)
+else if (name == "REM84.A") then
+   series = re_sy(1,84,:)
+else if (name == "REM85.A") then
+   series = re_sy(1,85,:)
+else if (name == "REM86.A") then
+   series = re_sy(1,86,:)
+else if (name == "REM87.A") then
+   series = re_sy(1,87,:)
+else if (name == "REM88.A") then
+   series = re_sy(1,88,:)
+else if (name == "REM89.A") then
+   series = re_sy(1,89,:)
+else if (name == "REM90.A") then
+   series = re_sy(1,90,:)
+else if (name == "REM91.A") then
+   series = re_sy(1,91,:)
+else if (name == "REM92.A") then
+   series = re_sy(1,92,:)
+else if (name == "REM93.A") then
+   series = re_sy(1,93,:)
+else if (name == "REM94.A") then
+   series = re_sy(1,94,:)
+else if (name == "REM95.A") then
+   series = re_sy(1,95,:)
+else if (name == "REM96.A") then
+   series = re_sy(1,96,:)
+else if (name == "REM97.A") then
+   series = re_sy(1,97,:)
+else if (name == "REM98.A") then
+   series = re_sy(1,98,:)
+else if (name == "REM99.A") then
+   series = re_sy(1,99,:)

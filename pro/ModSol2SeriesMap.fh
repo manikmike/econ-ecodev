@@ -1,0 +1,1588 @@
+if (name == "AWEFC_N.A") then
+   series = awefc_n_a
+else if (name == "AWSE.A") then
+   series = awse_a
+else if (name == "AWSGEFC.A") then
+   series = awsgefc_a
+else if (name == "AWSGFC.A") then
+   series = awsgfc_a
+else if (name == "AWSGFM.A") then
+   series = awsgfm_a
+else if (name == "AWSGGEFC.A") then
+   series = awsggefc_a
+else if (name == "AWSGGESL.A") then
+   series = awsggesl_a
+else if (name == "AWSP.A") then
+   series = awsp_a
+else if (name == "AWSPF.A") then
+   series = awspf_a
+else if (name == "AWSPH.A") then
+   series = awsph_a
+else if (name == "AWSPL.A") then
+   series = awspl_a
+else if (name == "AWSSP.A") then
+   series = awssp_a
+else if (name == "AWSSPBNFXGE.A") then
+   series = awsspbnfxge_a
+else if (name == "AWSSPES.A") then
+   series = awsspes_a
+else if (name == "AWSSPF.A") then
+   series = awsspf_a
+else if (name == "AWSSPHS.A") then
+   series = awssphs_a
+else if (name == "AWSSPL.A") then
+   series = awsspl_a
+else if (name == "AWSSPSS.A") then
+   series = awsspss_a
+else if (name == "AWSUI.A") then
+   series = awsui_a
+else if (name == "AY.A") then
+   series = ay_a
+else if (name == "AYF.A") then
+   series = ayf_a
+else if (name == "AYF_K.A") then
+   series = ayf_k_a
+else if (name == "AYNF.A") then
+   series = aynf_a
+else if (name == "AYNF_K.A") then
+   series = aynf_k_a
+else if (name == "CFCGEFC.A") then
+   series = cfcgefc_a
+else if (name == "CFCGESL.A") then
+   series = cfcgesl_a
+else if (name == "CFCGFC.A") then
+   series = cfcgfc_a
+else if (name == "CFCGFM.A") then
+   series = cfcgfm_a
+else if (name == "CFCGSL.A") then
+   series = cfcgsl_a
+else if (name == "CPIWMS.A") then
+   series = cpiwms_a
+else if (name == "CRAZ1.A") then
+   series = craz1_a
+else if (name == "CR_UI.A") then
+   series = cr_ui_a
+else if (name == "DNEDMIL.A") then
+   series = dnedmil_a
+else if (name == "EA.A") then
+   series = ea_a
+else if (name == "EAS.A") then
+   series = eas_a(0,0,:)
+else if (name == "EAS_R.A") then
+   series = eas_r_a(0,0,:)
+else if (name == "EAU.A") then
+   series = eau_a(0,0,:)
+else if (name == "EAU_R.A") then
+   series = eau_r_a(0,0,:)
+else if (name == "EAW.A") then
+   series = eaw_a(0,0,:)
+else if (name == "EAW_R.A") then
+   series = eaw_r_a(0,0,:)
+else if (name == "EF1617AS.A") then
+   series = eas_a(2,1,:)
+else if (name == "EF1617AS_R.A") then
+   series = eas_r_a(2,1,:)
+else if (name == "EF1617AU.A") then
+   series = eau_a(2,1,:)
+else if (name == "EF1617AU_R.A") then
+   series = eau_r_a(2,1,:)
+else if (name == "EF1617AW.A") then
+   series = eaw_a(2,1,:)
+else if (name == "EF1617AW_R.A") then
+   series = eaw_r_a(2,1,:)
+else if (name == "EF1617NAS.A") then
+   series = enas_a(2,1,:)
+else if (name == "EF1617NAS_R.A") then
+   series = enas_r_a(2,1,:)
+else if (name == "EF1617NAU.A") then
+   series = enau_a(2,1,:)
+else if (name == "EF1617NAU_R.A") then
+   series = enau_r_a(2,1,:)
+else if (name == "EF1617NAWPH.A") then
+   series = enawph_a(2,1,:)
+else if (name == "EF1617NAWPH_R.A") then
+   series = enawph_r_a(2,1,:)
+else if (name == "EF1819AS.A") then
+   series = eas_a(2,2,:)
+else if (name == "EF1819AS_R.A") then
+   series = eas_r_a(2,2,:)
+else if (name == "EF1819AU.A") then
+   series = eau_a(2,2,:)
+else if (name == "EF1819AU_R.A") then
+   series = eau_r_a(2,2,:)
+else if (name == "EF1819AW.A") then
+   series = eaw_a(2,2,:)
+else if (name == "EF1819AW_R.A") then
+   series = eaw_r_a(2,2,:)
+else if (name == "EF1819NAS.A") then
+   series = enas_a(2,2,:)
+else if (name == "EF1819NAS_R.A") then
+   series = enas_r_a(2,2,:)
+else if (name == "EF1819NAU.A") then
+   series = enau_a(2,2,:)
+else if (name == "EF1819NAU_R.A") then
+   series = enau_r_a(2,2,:)
+else if (name == "EF1819NAWPH.A") then
+   series = enawph_a(2,2,:)
+else if (name == "EF1819NAWPH_R.A") then
+   series = enawph_r_a(2,2,:)
+else if (name == "EF2024AS.A") then
+   series = eas_a(2,3,:)
+else if (name == "EF2024AS_R.A") then
+   series = eas_r_a(2,3,:)
+else if (name == "EF2024AU.A") then
+   series = eau_a(2,3,:)
+else if (name == "EF2024AU_R.A") then
+   series = eau_r_a(2,3,:)
+else if (name == "EF2024AW.A") then
+   series = eaw_a(2,3,:)
+else if (name == "EF2024AW_R.A") then
+   series = eaw_r_a(2,3,:)
+else if (name == "EF2024NAS.A") then
+   series = enas_a(2,3,:)
+else if (name == "EF2024NAS_R.A") then
+   series = enas_r_a(2,3,:)
+else if (name == "EF2024NAU.A") then
+   series = enau_a(2,3,:)
+else if (name == "EF2024NAU_R.A") then
+   series = enau_r_a(2,3,:)
+else if (name == "EF2024NAWPH.A") then
+   series = enawph_a(2,3,:)
+else if (name == "EF2024NAWPH_R.A") then
+   series = enawph_r_a(2,3,:)
+else if (name == "EF2534AS.A") then
+   series = eas_a(2,18,:)
+else if (name == "EF2534AS_R.A") then
+   series = eas_r_a(2,18,:)
+else if (name == "EF2534AU.A") then
+   series = eau_a(2,18,:)
+else if (name == "EF2534AU_R.A") then
+   series = eau_r_a(2,18,:)
+else if (name == "EF2534AW.A") then
+   series = eaw_a(2,18,:)
+else if (name == "EF2534AW_R.A") then
+   series = eaw_r_a(2,18,:)
+else if (name == "EF2534NAS.A") then
+   series = enas_a(2,18,:)
+else if (name == "EF2534NAS_R.A") then
+   series = enas_r_a(2,18,:)
+else if (name == "EF2534NAU.A") then
+   series = enau_a(2,18,:)
+else if (name == "EF2534NAU_R.A") then
+   series = enau_r_a(2,18,:)
+else if (name == "EF2534NAWPH.A") then
+   series = enawph_a(2,18,:)
+else if (name == "EF2534NAWPH_R.A") then
+   series = enawph_r_a(2,18,:)
+else if (name == "EF3544AS.A") then
+   series = eas_a(2,19,:)
+else if (name == "EF3544AS_R.A") then
+   series = eas_r_a(2,19,:)
+else if (name == "EF3544AU.A") then
+   series = eau_a(2,19,:)
+else if (name == "EF3544AU_R.A") then
+   series = eau_r_a(2,19,:)
+else if (name == "EF3544AW.A") then
+   series = eaw_a(2,19,:)
+else if (name == "EF3544AW_R.A") then
+   series = eaw_r_a(2,19,:)
+else if (name == "EF3544NAS.A") then
+   series = enas_a(2,19,:)
+else if (name == "EF3544NAS_R.A") then
+   series = enas_r_a(2,19,:)
+else if (name == "EF3544NAU.A") then
+   series = enau_a(2,19,:)
+else if (name == "EF3544NAU_R.A") then
+   series = enau_r_a(2,19,:)
+else if (name == "EF3544NAWPH.A") then
+   series = enawph_a(2,19,:)
+else if (name == "EF3544NAWPH_R.A") then
+   series = enawph_r_a(2,19,:)
+else if (name == "EF4554AS.A") then
+   series = eas_a(2,20,:)
+else if (name == "EF4554AS_R.A") then
+   series = eas_r_a(2,20,:)
+else if (name == "EF4554AU.A") then
+   series = eau_a(2,20,:)
+else if (name == "EF4554AU_R.A") then
+   series = eau_r_a(2,20,:)
+else if (name == "EF4554AW.A") then
+   series = eaw_a(2,20,:)
+else if (name == "EF4554AW_R.A") then
+   series = eaw_r_a(2,20,:)
+else if (name == "EF4554NAS.A") then
+   series = enas_a(2,20,:)
+else if (name == "EF4554NAS_R.A") then
+   series = enas_r_a(2,20,:)
+else if (name == "EF4554NAU.A") then
+   series = enau_a(2,20,:)
+else if (name == "EF4554NAU_R.A") then
+   series = enau_r_a(2,20,:)
+else if (name == "EF4554NAWPH.A") then
+   series = enawph_a(2,20,:)
+else if (name == "EF4554NAWPH_R.A") then
+   series = enawph_r_a(2,20,:)
+else if (name == "EF5564AS.A") then
+   series = eas_a(2,21,:)
+else if (name == "EF5564AS_R.A") then
+   series = eas_r_a(2,21,:)
+else if (name == "EF5564AU.A") then
+   series = eau_a(2,21,:)
+else if (name == "EF5564AU_R.A") then
+   series = eau_r_a(2,21,:)
+else if (name == "EF5564AW.A") then
+   series = eaw_a(2,21,:)
+else if (name == "EF5564AW_R.A") then
+   series = eaw_r_a(2,21,:)
+else if (name == "EF5564NAS.A") then
+   series = enas_a(2,21,:)
+else if (name == "EF5564NAS_R.A") then
+   series = enas_r_a(2,21,:)
+else if (name == "EF5564NAU.A") then
+   series = enau_a(2,21,:)
+else if (name == "EF5564NAU_R.A") then
+   series = enau_r_a(2,21,:)
+else if (name == "EF5564NAWPH.A") then
+   series = enawph_a(2,21,:)
+else if (name == "EF5564NAWPH_R.A") then
+   series = enawph_r_a(2,21,:)
+else if (name == "EF65OAS.A") then
+   series = eas_a(2,22,:)
+else if (name == "EF65OAS_R.A") then
+   series = eas_r_a(2,22,:)
+else if (name == "EF65OAU.A") then
+   series = eau_a(2,22,:)
+else if (name == "EF65OAU_R.A") then
+   series = eau_r_a(2,22,:)
+else if (name == "EF65OAW.A") then
+   series = eaw_a(2,22,:)
+else if (name == "EF65OAW_R.A") then
+   series = eaw_r_a(2,22,:)
+else if (name == "EF65ONAS.A") then
+   series = enas_a(2,22,:)
+else if (name == "EF65ONAS_R.A") then
+   series = enas_r_a(2,22,:)
+else if (name == "EF65ONAU.A") then
+   series = enau_a(2,22,:)
+else if (name == "EF65ONAU_R.A") then
+   series = enau_r_a(2,22,:)
+else if (name == "EF65ONAWPH.A") then
+   series = enawph_a(2,22,:)
+else if (name == "EF65ONAWPH_R.A") then
+   series = enawph_r_a(2,22,:)
+else if (name == "EFAS.A") then
+   series = eas_a(2,0,:)
+else if (name == "EFAU.A") then
+   series = eau_a(2,0,:)
+else if (name == "EFAW.A") then
+   series = eaw_a(2,0,:)
+else if (name == "EFNAS.A") then
+   series = enas_a(2,0,:)
+else if (name == "EFNAU.A") then
+   series = enau_a(2,0,:)
+else if (name == "EFNAWPH.A") then
+   series = enawph_a(2,0,:)
+else if (name == "EGEFCPS.A") then
+   series = egefcps_a
+else if (name == "EGFC.A") then
+   series = egfc_a
+else if (name == "EGGEFC.A") then
+   series = eggefc_a
+else if (name == "EGGEFCMAX.A") then
+   series = eggefcmax_a
+else if (name == "EGGESL.A") then
+   series = eggesl_a
+else if (name == "EGGESLMAX.A") then
+   series = eggeslmax_a
+else if (name == "EM1617AS.A") then
+   series = eas_a(1,1,:)
+else if (name == "EM1617AS_R.A") then
+   series = eas_r_a(1,1,:)
+else if (name == "EM1617AU.A") then
+   series = eau_a(1,1,:)
+else if (name == "EM1617AU_R.A") then
+   series = eau_r_a(1,1,:)
+else if (name == "EM1617AW.A") then
+   series = eaw_a(1,1,:)
+else if (name == "EM1617AW_R.A") then
+   series = eaw_r_a(1,1,:)
+else if (name == "EM1617NAS.A") then
+   series = enas_a(1,1,:)
+else if (name == "EM1617NAS_R.A") then
+   series = enas_r_a(1,1,:)
+else if (name == "EM1617NAU.A") then
+   series = enau_a(1,1,:)
+else if (name == "EM1617NAU_R.A") then
+   series = enau_r_a(1,1,:)
+else if (name == "EM1617NAWPH.A") then
+   series = enawph_a(1,1,:)
+else if (name == "EM1617NAWPH_R.A") then
+   series = enawph_r_a(1,1,:)
+else if (name == "EM1819AS.A") then
+   series = eas_a(1,2,:)
+else if (name == "EM1819AS_R.A") then
+   series = eas_r_a(1,2,:)
+else if (name == "EM1819AU.A") then
+   series = eau_a(1,2,:)
+else if (name == "EM1819AU_R.A") then
+   series = eau_r_a(1,2,:)
+else if (name == "EM1819AW.A") then
+   series = eaw_a(1,2,:)
+else if (name == "EM1819AW_R.A") then
+   series = eaw_r_a(1,2,:)
+else if (name == "EM1819NAS.A") then
+   series = enas_a(1,2,:)
+else if (name == "EM1819NAS_R.A") then
+   series = enas_r_a(1,2,:)
+else if (name == "EM1819NAU.A") then
+   series = enau_a(1,2,:)
+else if (name == "EM1819NAU_R.A") then
+   series = enau_r_a(1,2,:)
+else if (name == "EM1819NAWPH.A") then
+   series = enawph_a(1,2,:)
+else if (name == "EM1819NAWPH_R.A") then
+   series = enawph_r_a(1,2,:)
+else if (name == "EM2024AS.A") then
+   series = eas_a(1,3,:)
+else if (name == "EM2024AS_R.A") then
+   series = eas_r_a(1,3,:)
+else if (name == "EM2024AU.A") then
+   series = eau_a(1,3,:)
+else if (name == "EM2024AU_R.A") then
+   series = eau_r_a(1,3,:)
+else if (name == "EM2024AW.A") then
+   series = eaw_a(1,3,:)
+else if (name == "EM2024AW_R.A") then
+   series = eaw_r_a(1,3,:)
+else if (name == "EM2024NAS.A") then
+   series = enas_a(1,3,:)
+else if (name == "EM2024NAS_R.A") then
+   series = enas_r_a(1,3,:)
+else if (name == "EM2024NAU.A") then
+   series = enau_a(1,3,:)
+else if (name == "EM2024NAU_R.A") then
+   series = enau_r_a(1,3,:)
+else if (name == "EM2024NAWPH.A") then
+   series = enawph_a(1,3,:)
+else if (name == "EM2024NAWPH_R.A") then
+   series = enawph_r_a(1,3,:)
+else if (name == "EM2534AS.A") then
+   series = eas_a(1,18,:)
+else if (name == "EM2534AS_R.A") then
+   series = eas_r_a(1,18,:)
+else if (name == "EM2534AU.A") then
+   series = eau_a(1,18,:)
+else if (name == "EM2534AU_R.A") then
+   series = eau_r_a(1,18,:)
+else if (name == "EM2534AW.A") then
+   series = eaw_a(1,18,:)
+else if (name == "EM2534AW_R.A") then
+   series = eaw_r_a(1,18,:)
+else if (name == "EM2534NAS.A") then
+   series = enas_a(1,18,:)
+else if (name == "EM2534NAS_R.A") then
+   series = enas_r_a(1,18,:)
+else if (name == "EM2534NAU.A") then
+   series = enau_a(1,18,:)
+else if (name == "EM2534NAU_R.A") then
+   series = enau_r_a(1,18,:)
+else if (name == "EM2534NAWPH.A") then
+   series = enawph_a(1,18,:)
+else if (name == "EM2534NAWPH_R.A") then
+   series = enawph_r_a(1,18,:)
+else if (name == "EM3544AS.A") then
+   series = eas_a(1,19,:)
+else if (name == "EM3544AS_R.A") then
+   series = eas_r_a(1,19,:)
+else if (name == "EM3544AU.A") then
+   series = eau_a(1,19,:)
+else if (name == "EM3544AU_R.A") then
+   series = eau_r_a(1,19,:)
+else if (name == "EM3544AW.A") then
+   series = eaw_a(1,19,:)
+else if (name == "EM3544AW_R.A") then
+   series = eaw_r_a(1,19,:)
+else if (name == "EM3544NAS.A") then
+   series = enas_a(1,19,:)
+else if (name == "EM3544NAS_R.A") then
+   series = enas_r_a(1,19,:)
+else if (name == "EM3544NAU.A") then
+   series = enau_a(1,19,:)
+else if (name == "EM3544NAU_R.A") then
+   series = enau_r_a(1,19,:)
+else if (name == "EM3544NAWPH.A") then
+   series = enawph_a(1,19,:)
+else if (name == "EM3544NAWPH_R.A") then
+   series = enawph_r_a(1,19,:)
+else if (name == "EM4554AS.A") then
+   series = eas_a(1,20,:)
+else if (name == "EM4554AS_R.A") then
+   series = eas_r_a(1,20,:)
+else if (name == "EM4554AU.A") then
+   series = eau_a(1,20,:)
+else if (name == "EM4554AU_R.A") then
+   series = eau_r_a(1,20,:)
+else if (name == "EM4554AW.A") then
+   series = eaw_a(1,20,:)
+else if (name == "EM4554AW_R.A") then
+   series = eaw_r_a(1,20,:)
+else if (name == "EM4554NAS.A") then
+   series = enas_a(1,20,:)
+else if (name == "EM4554NAS_R.A") then
+   series = enas_r_a(1,20,:)
+else if (name == "EM4554NAU.A") then
+   series = enau_a(1,20,:)
+else if (name == "EM4554NAU_R.A") then
+   series = enau_r_a(1,20,:)
+else if (name == "EM4554NAWPH.A") then
+   series = enawph_a(1,20,:)
+else if (name == "EM4554NAWPH_R.A") then
+   series = enawph_r_a(1,20,:)
+else if (name == "EM5564AS.A") then
+   series = eas_a(1,21,:)
+else if (name == "EM5564AS_R.A") then
+   series = eas_r_a(1,21,:)
+else if (name == "EM5564AU.A") then
+   series = eau_a(1,21,:)
+else if (name == "EM5564AU_R.A") then
+   series = eau_r_a(1,21,:)
+else if (name == "EM5564AW.A") then
+   series = eaw_a(1,21,:)
+else if (name == "EM5564AW_R.A") then
+   series = eaw_r_a(1,21,:)
+else if (name == "EM5564NAS.A") then
+   series = enas_a(1,21,:)
+else if (name == "EM5564NAS_R.A") then
+   series = enas_r_a(1,21,:)
+else if (name == "EM5564NAU.A") then
+   series = enau_a(1,21,:)
+else if (name == "EM5564NAU_R.A") then
+   series = enau_r_a(1,21,:)
+else if (name == "EM5564NAWPH.A") then
+   series = enawph_a(1,21,:)
+else if (name == "EM5564NAWPH_R.A") then
+   series = enawph_r_a(1,21,:)
+else if (name == "EM65OAS.A") then
+   series = eas_a(1,22,:)
+else if (name == "EM65OAS_R.A") then
+   series = eas_r_a(1,22,:)
+else if (name == "EM65OAU.A") then
+   series = eau_a(1,22,:)
+else if (name == "EM65OAU_R.A") then
+   series = eau_r_a(1,22,:)
+else if (name == "EM65OAW.A") then
+   series = eaw_a(1,22,:)
+else if (name == "EM65OAW_R.A") then
+   series = eaw_r_a(1,22,:)
+else if (name == "EM65ONAS.A") then
+   series = enas_a(1,22,:)
+else if (name == "EM65ONAS_R.A") then
+   series = enas_r_a(1,22,:)
+else if (name == "EM65ONAU.A") then
+   series = enau_a(1,22,:)
+else if (name == "EM65ONAU_R.A") then
+   series = enau_r_a(1,22,:)
+else if (name == "EM65ONAWPH.A") then
+   series = enawph_a(1,22,:)
+else if (name == "EM65ONAWPH_R.A") then
+   series = enawph_r_a(1,22,:)
+else if (name == "EMAS.A") then
+   series = eas_a(1,0,:)
+else if (name == "EMAU.A") then
+   series = eau_a(1,0,:)
+else if (name == "EMAW.A") then
+   series = eaw_a(1,0,:)
+else if (name == "EMNAS.A") then
+   series = enas_a(1,0,:)
+else if (name == "EMNAU.A") then
+   series = enau_a(1,0,:)
+else if (name == "EMNAWPH.A") then
+   series = enawph_a(1,0,:)
+else if (name == "ENA.A") then
+   series = ena_a
+else if (name == "ENAS.A") then
+   series = enas_a(0,0,:)
+else if (name == "ENAS_R.A") then
+   series = enas_r_a(0,0,:)
+else if (name == "ENAU.A") then
+   series = enau_a(0,0,:)
+else if (name == "ENAU_R.A") then
+   series = enau_r_a(0,0,:)
+else if (name == "ENAW.A") then
+   series = enaw_a
+else if (name == "ENAWPBXGE.A") then
+   series = enawpbxge_a
+else if (name == "ENAWPH.A") then
+   series = enawph_a(0,0,:)
+else if (name == "ENAWPH_R.A") then
+   series = enawph_r_a(0,0,:)
+else if (name == "ENAWSPBXGE.A") then
+   series = enawspbxge_a
+else if (name == "EP.A") then
+   series = ep_a
+else if (name == "EPES_EST.A") then
+   series = epes_est_a
+else if (name == "EPHS_EST.A") then
+   series = ephs_est_a
+else if (name == "EPSS_EST.A") then
+   series = epss_est_a
+else if (name == "GDPG.A") then
+   series = gdpg_a
+else if (name == "GDPGE.A") then
+   series = gdpge_a
+else if (name == "GDPGEFC.A") then
+   series = gdpgefc_a
+else if (name == "GDPGESL.A") then
+   series = gdpgesl_a
+else if (name == "GDPGF.A") then
+   series = gdpgf_a
+else if (name == "GDPGFC.A") then
+   series = gdpgfc_a
+else if (name == "GDPGFM.A") then
+   series = gdpgfm_a
+else if (name == "GDPGGE.A") then
+   series = gdpgge_a
+else if (name == "GDPGGEFC.A") then
+   series = gdpggefc_a
+else if (name == "GDPGGESL.A") then
+   series = gdpggesl_a
+else if (name == "GDPGSL.A") then
+   series = gdpgsl_a
+else if (name == "GDPPBNFXGE.A") then
+   series = gdppbnfxge_a
+else if (name == "GDPPF.A") then
+   series = gdppf_a
+else if (name == "GDPPF"//REAL_GDP_SERIES(4:5)//".A") then
+   series = gdppfreal_a
+else if (name == "GDPPH.A") then
+   series = gdpph_a
+else if (name == "GDPPNI.A") then
+   series = gdppni_a
+else if (name == "HIFC_L.A") then
+   series = hifc_l_a
+else if (name == "HIFM_L.A") then
+   series = hifm_l_a
+else if (name == "HIP_L.A") then
+   series = hip_l_a
+else if (name == "HISL_L.A") then
+   series = hisl_l_a
+else if (name == "MRAZ.A") then
+   series = mraz_a
+else if (name == "OASDIFC_L.A") then
+   series = oasdifc_l_a
+else if (name == "OASDIFM_L.A") then
+   series = oasdifm_l_a
+else if (name == "OASDIP_L.A") then
+   series = oasdip_l_a
+else if (name == "OASDISL_L.A") then
+   series = oasdisl_l_a
+else if (name == "OLI.A") then
+   series = oli_a
+else if (name == "OLI_CSRS1.A") then
+   series = oli_csrs1_a
+else if (name == "OLI_FC.A") then
+   series = oli_fc_a
+else if (name == "OLI_FERS1.A") then
+   series = oli_fers1_a
+else if (name == "OLI_FERSFC.A") then
+   series = oli_fersfc_a
+else if (name == "OLI_GGE.A") then
+   series = oli_gge_a
+else if (name == "OLI_GHI.A") then
+   series = oli_ghi_a
+else if (name == "OLI_GHI_FC.A") then
+   series = oli_ghi_fc_a
+else if (name == "OLI_GHI_P.A") then
+   series = oli_ghi_p_a
+else if (name == "OLI_GHI_SL.A") then
+   series = oli_ghi_sl_a
+else if (name == "OLI_GLI.A") then
+   series = oli_gli_a
+else if (name == "OLI_GLI_FC.A") then
+   series = oli_gli_fc_a
+else if (name == "OLI_GLI_P.A") then
+   series = oli_gli_p_a
+else if (name == "OLI_GLI_SL.A") then
+   series = oli_gli_sl_a
+else if (name == "OLI_P.A") then
+   series = oli_p_a
+else if (name == "OLI_PPPS.A") then
+   series = oli_ppps_a
+else if (name == "OLI_PPS.A") then
+   series = oli_pps_a
+else if (name == "OLI_RETFC.A") then
+   series = oli_retfc_a
+else if (name == "OLI_RETFM.A") then
+   series = oli_retfm_a
+else if (name == "OLI_RETSL.A") then
+   series = oli_retsl_a
+else if (name == "OLI_SL.A") then
+   series = oli_sl_a
+else if (name == "OLI_SU.A") then
+   series = oli_su_a
+else if (name == "OLI_WC.A") then
+   series = oli_wc_a
+else if (name == "OLI_WCP.A") then
+   series = oli_wcp_a
+else if (name == "OLI_WCSL.A") then
+   series = oli_wcsl_a
+else if (name == "OOH.A") then
+   series = ooh_a
+else if (name == "PGDPAF.A") then
+   series = pgdpaf_a
+else if (name == "RCWSF.A") then
+   series = rcwsf_a
+else if (name == "RCWSM.A") then
+   series = rcwsm_a
+else if (name == "RCWSP.A") then
+   series = rcwsp_a
+else if (name == "RCWSSL.A") then
+   series = rcwssl_a
+else if (name == "RELMAX_UI.A") then
+   series = relmax_ui_a
+else if (name == "RHIP_L.A") then
+   series = rhip_l_a
+else if (name == "ROASDIP_L.A") then
+   series = roasdip_l_a
+else if (name == "ROLI_PPPS.A") then
+   series = roli_ppps_a
+else if (name == "ROLI_SU.A") then
+   series = roli_su_a
+else if (name == "ROLI_WCP.A") then
+   series = roli_wcp_a
+else if (name == "RSOCF_PBG.A") then
+   series = rsocf_pbg_a
+else if (name == "RSOCSL_WC.A") then
+   series = rsocsl_wc_a
+else if (name == "RSOC_UIP.A") then
+   series = rsoc_uip_a
+else if (name == "RSOC_WCP.A") then
+   series = rsoc_wcp_a
+else if (name == "RUIWS1.A") then
+   series = ruiws1_a
+else if (name == "RUIWS2.A") then
+   series = ruiws2_a
+else if (name == "RWCWS.A") then
+   series = rwcws_a
+else if (name == "RWSSPBNFXGE.A") then
+   series = rwsspbnfxge_a
+else if (name == "SOC.A") then
+   series = soc_a
+else if (name == "SOCF_HI.A") then
+   series = socf_hi_a
+else if (name == "SOCF_MIFM.A") then
+   series = socf_mifm_a
+else if (name == "SOCF_OASDI.A") then
+   series = socf_oasdi_a
+else if (name == "SOCF_PBG.A") then
+   series = socf_pbg_a
+else if (name == "SOCF_RETRR.A") then
+   series = socf_retrr_a
+else if (name == "SOCF_UIF.A") then
+   series = socf_uif_a
+else if (name == "SOCF_UIFC.A") then
+   series = socf_uifc_a
+else if (name == "SOCF_UIFED.A") then
+   series = socf_uifed_a
+else if (name == "SOCF_UIFM.A") then
+   series = socf_uifm_a
+else if (name == "SOCF_UIS.A") then
+   series = socf_uis_a
+else if (name == "SOCF_WC.A") then
+   series = socf_wc_a
+else if (name == "SOCSL_WC.A") then
+   series = socsl_wc_a
+else if (name == "SOC_FC.A") then
+   series = soc_fc_a
+else if (name == "SOC_FM.A") then
+   series = soc_fm_a
+else if (name == "SOC_GGE.A") then
+   series = soc_gge_a
+else if (name == "SOC_P.A") then
+   series = soc_p_a
+else if (name == "SOC_SL.A") then
+   series = soc_sl_a
+else if (name == "SOC_UIP.A") then
+   series = soc_uip_a
+else if (name == "SOC_UISL.A") then
+   series = soc_uisl_a
+else if (name == "SOC_WCP.A") then
+   series = soc_wcp_a
+else if (name == "SOC_WCSL.A") then
+   series = soc_wcsl_a
+else if (name == "TAXMAX.A") then
+   series = taxmax_a
+else if (name == "TMAXUI_SL.A") then
+   series = tmaxui_sl_a
+else if (name == "TRATE_UI.A") then
+   series = trate_ui_a
+else if (name == "TRATIO_UI.A") then
+   series = tratio_ui_a
+else if (name == "WEFC_N.A") then
+   series = wefc_n_a
+else if (name == "WS.A") then
+   series = ws_a
+else if (name == "WSD.A") then
+   series = wsd_a
+else if (name == "WSDP.A") then
+   series = wsdp_a
+else if (name == "WSGEFC.A") then
+   series = wsgefc_a
+else if (name == "WSGFC.A") then
+   series = wsgfc_a
+else if (name == "WSGFM.A") then
+   series = wsgfm_a
+else if (name == "WSGGE.A") then
+   series = wsgge_a
+else if (name == "WSGGEFC.A") then
+   series = wsggefc_a
+else if (name == "WSGGESL.A") then
+   series = wsggesl_a
+else if (name == "WSP.A") then
+   series = wsp_a
+else if (name == "WSPF.A") then
+   series = wspf_a
+else if (name == "WSPH.A") then
+   series = wsph_a
+else if (name == "WSPNI.A") then
+   series = wspni_a
+else if (name == "WSS.A") then
+   series = wss_a
+else if (name == "WSSG.A") then
+   series = wssg_a
+else if (name == "WSSGE.A") then
+   series = wssge_a
+else if (name == "WSSGEFC.A") then
+   series = wssgefc_a
+else if (name == "WSSGESL.A") then
+   series = wssgesl_a
+else if (name == "WSSGF.A") then
+   series = wssgf_a
+else if (name == "WSSGFC.A") then
+   series = wssgfc_a
+else if (name == "WSSGFM.A") then
+   series = wssgfm_a
+else if (name == "WSSGGE.A") then
+   series = wssgge_a
+else if (name == "WSSGGEFC.A") then
+   series = wssggefc_a
+else if (name == "WSSGGESL.A") then
+   series = wssggesl_a
+else if (name == "WSSGSL.A") then
+   series = wssgsl_a
+else if (name == "WSSP.A") then
+   series = wssp_a
+else if (name == "WSSPBNFXGE.A") then
+   series = wsspbnfxge_a
+else if (name == "WSSPES.A") then
+   series = wsspes_a
+else if (name == "WSSPF.A") then
+   series = wsspf_a
+else if (name == "WSSPH.A") then
+   series = wssph_a
+else if (name == "WSSPHS.A") then
+   series = wssphs_a
+else if (name == "WSSPNI.A") then
+   series = wsspni_a
+else if (name == "WSSPSS.A") then
+   series = wsspss_a
+else if (name == "Y.A") then
+   series = y_a
+else if (name == "YF.A") then
+   series = yf_a
+else if (name == "YNF.A") then
+   series = ynf_a
+else if (name == "AWEFC_N.Q") then
+   series = awefc_n
+else if (name == "AWSE.Q") then
+   series = awse
+else if (name == "AWSGEFC.Q") then
+   series = awsgefc
+else if (name == "AWSGFC.Q") then
+   series = awsgfc
+else if (name == "AWSGFM.Q") then
+   series = awsgfm
+else if (name == "AWSGGEFC.Q") then
+   series = awsggefc
+else if (name == "AWSGGESL.Q") then
+   series = awsggesl
+else if (name == "AWSP.Q") then
+   series = awsp
+else if (name == "AWSPF.Q") then
+   series = awspf
+else if (name == "AWSPH.Q") then
+   series = awsph
+else if (name == "AWSPL.Q") then
+   series = awspl
+else if (name == "AWSSP.Q") then
+   series = awssp
+else if (name == "AWSSPBNFXGE.Q") then
+   series = awsspbnfxge
+else if (name == "AWSSPES.Q") then
+   series = awsspes
+else if (name == "AWSSPF.Q") then
+   series = awsspf
+else if (name == "AWSSPHS.Q") then
+   series = awssphs
+else if (name == "AWSSPL.Q") then
+   series = awsspl
+else if (name == "AWSSPSS.Q") then
+   series = awsspss
+else if (name == "AWSUI.Q") then
+   series = awsui
+else if (name == "AY.Q") then
+   series = ay
+else if (name == "AYF.Q") then
+   series = ayf
+else if (name == "AYF_K.Q") then
+   series = ayf_k
+else if (name == "AYNF.Q") then
+   series = aynf
+else if (name == "AYNF_K.Q") then
+   series = aynf_k
+else if (name == "CFCGEFC.Q") then
+   series = cfcgefc
+else if (name == "CFCGESL.Q") then
+   series = cfcgesl
+else if (name == "CFCGFC.Q") then
+   series = cfcgfc
+else if (name == "CFCGFM.Q") then
+   series = cfcgfm
+else if (name == "CFCGSL.Q") then
+   series = cfcgsl
+else if (name == "CPIWMS.Q") then
+   series = cpiwms
+else if (name == "CRAZ1.Q") then
+   series = craz1
+else if (name == "CR_UI.Q") then
+   series = cr_ui
+else if (name == "DNEDMIL.Q") then
+   series = dnedmil
+else if (name == "EA.Q") then
+   series = ea
+else if (name == "EAS.Q") then
+   series = eas(0,0,:)
+else if (name == "EAS_R.Q") then
+   series = eas_r(0,0,:)
+else if (name == "EAU.Q") then
+   series = eau(0,0,:)
+else if (name == "EAU_R.Q") then
+   series = eau_r(0,0,:)
+else if (name == "EAW.Q") then
+   series = eaw(0,0,:)
+else if (name == "EAW_R.Q") then
+   series = eaw_r(0,0,:)
+else if (name == "EF1617AS.Q") then
+   series = eas(2,1,:)
+else if (name == "EF1617AS_R.Q") then
+   series = eas_r(2,1,:)
+else if (name == "EF1617AU.Q") then
+   series = eau(2,1,:)
+else if (name == "EF1617AU_R.Q") then
+   series = eau_r(2,1,:)
+else if (name == "EF1617AW.Q") then
+   series = eaw(2,1,:)
+else if (name == "EF1617AW_R.Q") then
+   series = eaw_r(2,1,:)
+else if (name == "EF1617NAS.Q") then
+   series = enas(2,1,:)
+else if (name == "EF1617NAS_R.Q") then
+   series = enas_r(2,1,:)
+else if (name == "EF1617NAU.Q") then
+   series = enau(2,1,:)
+else if (name == "EF1617NAU_R.Q") then
+   series = enau_r(2,1,:)
+else if (name == "EF1617NAWPH.Q") then
+   series = enawph(2,1,:)
+else if (name == "EF1617NAWPH_R.Q") then
+   series = enawph_r(2,1,:)
+else if (name == "EF1819AS.Q") then
+   series = eas(2,2,:)
+else if (name == "EF1819AS_R.Q") then
+   series = eas_r(2,2,:)
+else if (name == "EF1819AU.Q") then
+   series = eau(2,2,:)
+else if (name == "EF1819AU_R.Q") then
+   series = eau_r(2,2,:)
+else if (name == "EF1819AW.Q") then
+   series = eaw(2,2,:)
+else if (name == "EF1819AW_R.Q") then
+   series = eaw_r(2,2,:)
+else if (name == "EF1819NAS.Q") then
+   series = enas(2,2,:)
+else if (name == "EF1819NAS_R.Q") then
+   series = enas_r(2,2,:)
+else if (name == "EF1819NAU.Q") then
+   series = enau(2,2,:)
+else if (name == "EF1819NAU_R.Q") then
+   series = enau_r(2,2,:)
+else if (name == "EF1819NAWPH.Q") then
+   series = enawph(2,2,:)
+else if (name == "EF1819NAWPH_R.Q") then
+   series = enawph_r(2,2,:)
+else if (name == "EF2024AS.Q") then
+   series = eas(2,3,:)
+else if (name == "EF2024AS_R.Q") then
+   series = eas_r(2,3,:)
+else if (name == "EF2024AU.Q") then
+   series = eau(2,3,:)
+else if (name == "EF2024AU_R.Q") then
+   series = eau_r(2,3,:)
+else if (name == "EF2024AW.Q") then
+   series = eaw(2,3,:)
+else if (name == "EF2024AW_R.Q") then
+   series = eaw_r(2,3,:)
+else if (name == "EF2024NAS.Q") then
+   series = enas(2,3,:)
+else if (name == "EF2024NAS_R.Q") then
+   series = enas_r(2,3,:)
+else if (name == "EF2024NAU.Q") then
+   series = enau(2,3,:)
+else if (name == "EF2024NAU_R.Q") then
+   series = enau_r(2,3,:)
+else if (name == "EF2024NAWPH.Q") then
+   series = enawph(2,3,:)
+else if (name == "EF2024NAWPH_R.Q") then
+   series = enawph_r(2,3,:)
+else if (name == "EF2534AS.Q") then
+   series = eas(2,18,:)
+else if (name == "EF2534AS_R.Q") then
+   series = eas_r(2,18,:)
+else if (name == "EF2534AU.Q") then
+   series = eau(2,18,:)
+else if (name == "EF2534AU_R.Q") then
+   series = eau_r(2,18,:)
+else if (name == "EF2534AW.Q") then
+   series = eaw(2,18,:)
+else if (name == "EF2534AW_R.Q") then
+   series = eaw_r(2,18,:)
+else if (name == "EF2534NAS.Q") then
+   series = enas(2,18,:)
+else if (name == "EF2534NAS_R.Q") then
+   series = enas_r(2,18,:)
+else if (name == "EF2534NAU.Q") then
+   series = enau(2,18,:)
+else if (name == "EF2534NAU_R.Q") then
+   series = enau_r(2,18,:)
+else if (name == "EF2534NAWPH.Q") then
+   series = enawph(2,18,:)
+else if (name == "EF2534NAWPH_R.Q") then
+   series = enawph_r(2,18,:)
+else if (name == "EF3544AS.Q") then
+   series = eas(2,19,:)
+else if (name == "EF3544AS_R.Q") then
+   series = eas_r(2,19,:)
+else if (name == "EF3544AU.Q") then
+   series = eau(2,19,:)
+else if (name == "EF3544AU_R.Q") then
+   series = eau_r(2,19,:)
+else if (name == "EF3544AW.Q") then
+   series = eaw(2,19,:)
+else if (name == "EF3544AW_R.Q") then
+   series = eaw_r(2,19,:)
+else if (name == "EF3544NAS.Q") then
+   series = enas(2,19,:)
+else if (name == "EF3544NAS_R.Q") then
+   series = enas_r(2,19,:)
+else if (name == "EF3544NAU.Q") then
+   series = enau(2,19,:)
+else if (name == "EF3544NAU_R.Q") then
+   series = enau_r(2,19,:)
+else if (name == "EF3544NAWPH.Q") then
+   series = enawph(2,19,:)
+else if (name == "EF3544NAWPH_R.Q") then
+   series = enawph_r(2,19,:)
+else if (name == "EF4554AS.Q") then
+   series = eas(2,20,:)
+else if (name == "EF4554AS_R.Q") then
+   series = eas_r(2,20,:)
+else if (name == "EF4554AU.Q") then
+   series = eau(2,20,:)
+else if (name == "EF4554AU_R.Q") then
+   series = eau_r(2,20,:)
+else if (name == "EF4554AW.Q") then
+   series = eaw(2,20,:)
+else if (name == "EF4554AW_R.Q") then
+   series = eaw_r(2,20,:)
+else if (name == "EF4554NAS.Q") then
+   series = enas(2,20,:)
+else if (name == "EF4554NAS_R.Q") then
+   series = enas_r(2,20,:)
+else if (name == "EF4554NAU.Q") then
+   series = enau(2,20,:)
+else if (name == "EF4554NAU_R.Q") then
+   series = enau_r(2,20,:)
+else if (name == "EF4554NAWPH.Q") then
+   series = enawph(2,20,:)
+else if (name == "EF4554NAWPH_R.Q") then
+   series = enawph_r(2,20,:)
+else if (name == "EF5564AS.Q") then
+   series = eas(2,21,:)
+else if (name == "EF5564AS_R.Q") then
+   series = eas_r(2,21,:)
+else if (name == "EF5564AU.Q") then
+   series = eau(2,21,:)
+else if (name == "EF5564AU_R.Q") then
+   series = eau_r(2,21,:)
+else if (name == "EF5564AW.Q") then
+   series = eaw(2,21,:)
+else if (name == "EF5564AW_R.Q") then
+   series = eaw_r(2,21,:)
+else if (name == "EF5564NAS.Q") then
+   series = enas(2,21,:)
+else if (name == "EF5564NAS_R.Q") then
+   series = enas_r(2,21,:)
+else if (name == "EF5564NAU.Q") then
+   series = enau(2,21,:)
+else if (name == "EF5564NAU_R.Q") then
+   series = enau_r(2,21,:)
+else if (name == "EF5564NAWPH.Q") then
+   series = enawph(2,21,:)
+else if (name == "EF5564NAWPH_R.Q") then
+   series = enawph_r(2,21,:)
+else if (name == "EF65OAS.Q") then
+   series = eas(2,22,:)
+else if (name == "EF65OAS_R.Q") then
+   series = eas_r(2,22,:)
+else if (name == "EF65OAU.Q") then
+   series = eau(2,22,:)
+else if (name == "EF65OAU_R.Q") then
+   series = eau_r(2,22,:)
+else if (name == "EF65OAW.Q") then
+   series = eaw(2,22,:)
+else if (name == "EF65OAW_R.Q") then
+   series = eaw_r(2,22,:)
+else if (name == "EF65ONAS.Q") then
+   series = enas(2,22,:)
+else if (name == "EF65ONAS_R.Q") then
+   series = enas_r(2,22,:)
+else if (name == "EF65ONAU.Q") then
+   series = enau(2,22,:)
+else if (name == "EF65ONAU_R.Q") then
+   series = enau_r(2,22,:)
+else if (name == "EF65ONAWPH.Q") then
+   series = enawph(2,22,:)
+else if (name == "EF65ONAWPH_R.Q") then
+   series = enawph_r(2,22,:)
+else if (name == "EFAS.Q") then
+   series = eas(2,0,:)
+else if (name == "EFAU.Q") then
+   series = eau(2,0,:)
+else if (name == "EFAW.Q") then
+   series = eaw(2,0,:)
+else if (name == "EFNAS.Q") then
+   series = enas(2,0,:)
+else if (name == "EFNAU.Q") then
+   series = enau(2,0,:)
+else if (name == "EFNAWPH.Q") then
+   series = enawph(2,0,:)
+else if (name == "EGEFCPS.Q") then
+   series = egefcps
+else if (name == "EGFC.Q") then
+   series = egfc
+else if (name == "EGGEFC.Q") then
+   series = eggefc
+else if (name == "EGGESL.Q") then
+   series = eggesl
+else if (name == "EM1617AS.Q") then
+   series = eas(1,1,:)
+else if (name == "EM1617AS_R.Q") then
+   series = eas_r(1,1,:)
+else if (name == "EM1617AU.Q") then
+   series = eau(1,1,:)
+else if (name == "EM1617AU_R.Q") then
+   series = eau_r(1,1,:)
+else if (name == "EM1617AW.Q") then
+   series = eaw(1,1,:)
+else if (name == "EM1617AW_R.Q") then
+   series = eaw_r(1,1,:)
+else if (name == "EM1617NAS.Q") then
+   series = enas(1,1,:)
+else if (name == "EM1617NAS_R.Q") then
+   series = enas_r(1,1,:)
+else if (name == "EM1617NAU.Q") then
+   series = enau(1,1,:)
+else if (name == "EM1617NAU_R.Q") then
+   series = enau_r(1,1,:)
+else if (name == "EM1617NAWPH.Q") then
+   series = enawph(1,1,:)
+else if (name == "EM1617NAWPH_R.Q") then
+   series = enawph_r(1,1,:)
+else if (name == "EM1819AS.Q") then
+   series = eas(1,2,:)
+else if (name == "EM1819AS_R.Q") then
+   series = eas_r(1,2,:)
+else if (name == "EM1819AU.Q") then
+   series = eau(1,2,:)
+else if (name == "EM1819AU_R.Q") then
+   series = eau_r(1,2,:)
+else if (name == "EM1819AW.Q") then
+   series = eaw(1,2,:)
+else if (name == "EM1819AW_R.Q") then
+   series = eaw_r(1,2,:)
+else if (name == "EM1819NAS.Q") then
+   series = enas(1,2,:)
+else if (name == "EM1819NAS_R.Q") then
+   series = enas_r(1,2,:)
+else if (name == "EM1819NAU.Q") then
+   series = enau(1,2,:)
+else if (name == "EM1819NAU_R.Q") then
+   series = enau_r(1,2,:)
+else if (name == "EM1819NAWPH.Q") then
+   series = enawph(1,2,:)
+else if (name == "EM1819NAWPH_R.Q") then
+   series = enawph_r(1,2,:)
+else if (name == "EM2024AS.Q") then
+   series = eas(1,3,:)
+else if (name == "EM2024AS_R.Q") then
+   series = eas_r(1,3,:)
+else if (name == "EM2024AU.Q") then
+   series = eau(1,3,:)
+else if (name == "EM2024AU_R.Q") then
+   series = eau_r(1,3,:)
+else if (name == "EM2024AW.Q") then
+   series = eaw(1,3,:)
+else if (name == "EM2024AW_R.Q") then
+   series = eaw_r(1,3,:)
+else if (name == "EM2024NAS.Q") then
+   series = enas(1,3,:)
+else if (name == "EM2024NAS_R.Q") then
+   series = enas_r(1,3,:)
+else if (name == "EM2024NAU.Q") then
+   series = enau(1,3,:)
+else if (name == "EM2024NAU_R.Q") then
+   series = enau_r(1,3,:)
+else if (name == "EM2024NAWPH.Q") then
+   series = enawph(1,3,:)
+else if (name == "EM2024NAWPH_R.Q") then
+   series = enawph_r(1,3,:)
+else if (name == "EM2534AS.Q") then
+   series = eas(1,18,:)
+else if (name == "EM2534AS_R.Q") then
+   series = eas_r(1,18,:)
+else if (name == "EM2534AU.Q") then
+   series = eau(1,18,:)
+else if (name == "EM2534AU_R.Q") then
+   series = eau_r(1,18,:)
+else if (name == "EM2534AW.Q") then
+   series = eaw(1,18,:)
+else if (name == "EM2534AW_R.Q") then
+   series = eaw_r(1,18,:)
+else if (name == "EM2534NAS.Q") then
+   series = enas(1,18,:)
+else if (name == "EM2534NAS_R.Q") then
+   series = enas_r(1,18,:)
+else if (name == "EM2534NAU.Q") then
+   series = enau(1,18,:)
+else if (name == "EM2534NAU_R.Q") then
+   series = enau_r(1,18,:)
+else if (name == "EM2534NAWPH.Q") then
+   series = enawph(1,18,:)
+else if (name == "EM2534NAWPH_R.Q") then
+   series = enawph_r(1,18,:)
+else if (name == "EM3544AS.Q") then
+   series = eas(1,19,:)
+else if (name == "EM3544AS_R.Q") then
+   series = eas_r(1,19,:)
+else if (name == "EM3544AU.Q") then
+   series = eau(1,19,:)
+else if (name == "EM3544AU_R.Q") then
+   series = eau_r(1,19,:)
+else if (name == "EM3544AW.Q") then
+   series = eaw(1,19,:)
+else if (name == "EM3544AW_R.Q") then
+   series = eaw_r(1,19,:)
+else if (name == "EM3544NAS.Q") then
+   series = enas(1,19,:)
+else if (name == "EM3544NAS_R.Q") then
+   series = enas_r(1,19,:)
+else if (name == "EM3544NAU.Q") then
+   series = enau(1,19,:)
+else if (name == "EM3544NAU_R.Q") then
+   series = enau_r(1,19,:)
+else if (name == "EM3544NAWPH.Q") then
+   series = enawph(1,19,:)
+else if (name == "EM3544NAWPH_R.Q") then
+   series = enawph_r(1,19,:)
+else if (name == "EM4554AS.Q") then
+   series = eas(1,20,:)
+else if (name == "EM4554AS_R.Q") then
+   series = eas_r(1,20,:)
+else if (name == "EM4554AU.Q") then
+   series = eau(1,20,:)
+else if (name == "EM4554AU_R.Q") then
+   series = eau_r(1,20,:)
+else if (name == "EM4554AW.Q") then
+   series = eaw(1,20,:)
+else if (name == "EM4554AW_R.Q") then
+   series = eaw_r(1,20,:)
+else if (name == "EM4554NAS.Q") then
+   series = enas(1,20,:)
+else if (name == "EM4554NAS_R.Q") then
+   series = enas_r(1,20,:)
+else if (name == "EM4554NAU.Q") then
+   series = enau(1,20,:)
+else if (name == "EM4554NAU_R.Q") then
+   series = enau_r(1,20,:)
+else if (name == "EM4554NAWPH.Q") then
+   series = enawph(1,20,:)
+else if (name == "EM4554NAWPH_R.Q") then
+   series = enawph_r(1,20,:)
+else if (name == "EM5564AS.Q") then
+   series = eas(1,21,:)
+else if (name == "EM5564AS_R.Q") then
+   series = eas_r(1,21,:)
+else if (name == "EM5564AU.Q") then
+   series = eau(1,21,:)
+else if (name == "EM5564AU_R.Q") then
+   series = eau_r(1,21,:)
+else if (name == "EM5564AW.Q") then
+   series = eaw(1,21,:)
+else if (name == "EM5564AW_R.Q") then
+   series = eaw_r(1,21,:)
+else if (name == "EM5564NAS.Q") then
+   series = enas(1,21,:)
+else if (name == "EM5564NAS_R.Q") then
+   series = enas_r(1,21,:)
+else if (name == "EM5564NAU.Q") then
+   series = enau(1,21,:)
+else if (name == "EM5564NAU_R.Q") then
+   series = enau_r(1,21,:)
+else if (name == "EM5564NAWPH.Q") then
+   series = enawph(1,21,:)
+else if (name == "EM5564NAWPH_R.Q") then
+   series = enawph_r(1,21,:)
+else if (name == "EM65OAS.Q") then
+   series = eas(1,22,:)
+else if (name == "EM65OAS_R.Q") then
+   series = eas_r(1,22,:)
+else if (name == "EM65OAU.Q") then
+   series = eau(1,22,:)
+else if (name == "EM65OAU_R.Q") then
+   series = eau_r(1,22,:)
+else if (name == "EM65OAW.Q") then
+   series = eaw(1,22,:)
+else if (name == "EM65OAW_R.Q") then
+   series = eaw_r(1,22,:)
+else if (name == "EM65ONAS.Q") then
+   series = enas(1,22,:)
+else if (name == "EM65ONAS_R.Q") then
+   series = enas_r(1,22,:)
+else if (name == "EM65ONAU.Q") then
+   series = enau(1,22,:)
+else if (name == "EM65ONAU_R.Q") then
+   series = enau_r(1,22,:)
+else if (name == "EM65ONAWPH.Q") then
+   series = enawph(1,22,:)
+else if (name == "EM65ONAWPH_R.Q") then
+   series = enawph_r(1,22,:)
+else if (name == "EMAS.Q") then
+   series = eas(1,0,:)
+else if (name == "EMAU.Q") then
+   series = eau(1,0,:)
+else if (name == "EMAW.Q") then
+   series = eaw(1,0,:)
+else if (name == "EMNAS.Q") then
+   series = enas(1,0,:)
+else if (name == "EMNAU.Q") then
+   series = enau(1,0,:)
+else if (name == "EMNAWPH.Q") then
+   series = enawph(1,0,:)
+else if (name == "ENA.Q") then
+   series = ena
+else if (name == "ENAS.Q") then
+   series = enas(0,0,:)
+else if (name == "ENAS_R.Q") then
+   series = enas_r(0,0,:)
+else if (name == "ENAU.Q") then
+   series = enau(0,0,:)
+else if (name == "ENAU_R.Q") then
+   series = enau_r(0,0,:)
+else if (name == "ENAW.Q") then
+   series = enaw
+else if (name == "ENAWPBXGE.Q") then
+   series = enawpbxge
+else if (name == "ENAWPH.Q") then
+   series = enawph(0,0,:)
+else if (name == "ENAWPH_R.Q") then
+   series = enawph_r(0,0,:)
+else if (name == "ENAWSPBXGE.Q") then
+   series = enawspbxge
+else if (name == "EP.Q") then
+   series = ep
+else if (name == "EPES_EST.Q") then
+   series = epes_est
+else if (name == "EPHS_EST.Q") then
+   series = ephs_est
+else if (name == "EPSS_EST.Q") then
+   series = epss_est
+else if (name == "GDPG.Q") then
+   series = gdpg
+else if (name == "GDPGE.Q") then
+   series = gdpge
+else if (name == "GDPGEFC.Q") then
+   series = gdpgefc
+else if (name == "GDPGESL.Q") then
+   series = gdpgesl
+else if (name == "GDPGF.Q") then
+   series = gdpgf
+else if (name == "GDPGFC.Q") then
+   series = gdpgfc
+else if (name == "GDPGFM.Q") then
+   series = gdpgfm
+else if (name == "GDPGGE.Q") then
+   series = gdpgge
+else if (name == "GDPGGEFC.Q") then
+   series = gdpggefc
+else if (name == "GDPGGESL.Q") then
+   series = gdpggesl
+else if (name == "GDPGSL.Q") then
+   series = gdpgsl
+else if (name == "GDPPBNFXGE.Q") then
+   series = gdppbnfxge
+else if (name == "GDPPF.Q") then
+   series = gdppf
+else if (name == "GDPPF"//REAL_GDP_SERIES(4:5)//".Q") then
+   series = gdppfreal
+else if (name == "GDPPH.Q") then
+   series = gdpph
+else if (name == "GDPPNI.Q") then
+   series = gdppni
+else if (name == "HIFC_L.Q") then
+   series = hifc_l
+else if (name == "HIFM_L.Q") then
+   series = hifm_l
+else if (name == "HIP_L.Q") then
+   series = hip_l
+else if (name == "HISL_L.Q") then
+   series = hisl_l
+else if (name == "MRAZ.Q") then
+   series = mraz
+else if (name == "OASDIFC_L.Q") then
+   series = oasdifc_l
+else if (name == "OASDIFM_L.Q") then
+   series = oasdifm_l
+else if (name == "OASDIP_L.Q") then
+   series = oasdip_l
+else if (name == "OASDISL_L.Q") then
+   series = oasdisl_l
+else if (name == "OLI.Q") then
+   series = oli
+else if (name == "OLI_CSRS1.Q") then
+   series = oli_csrs1
+else if (name == "OLI_FC.Q") then
+   series = oli_fc
+else if (name == "OLI_FERS1.Q") then
+   series = oli_fers1
+else if (name == "OLI_FERSFC.Q") then
+   series = oli_fersfc
+else if (name == "OLI_GGE.Q") then
+   series = oli_gge
+else if (name == "OLI_GHI.Q") then
+   series = oli_ghi
+else if (name == "OLI_GHI_FC.Q") then
+   series = oli_ghi_fc
+else if (name == "OLI_GHI_P.Q") then
+   series = oli_ghi_p
+else if (name == "OLI_GHI_SL.Q") then
+   series = oli_ghi_sl
+else if (name == "OLI_GLI.Q") then
+   series = oli_gli
+else if (name == "OLI_GLI_FC.Q") then
+   series = oli_gli_fc
+else if (name == "OLI_GLI_P.Q") then
+   series = oli_gli_p
+else if (name == "OLI_GLI_SL.Q") then
+   series = oli_gli_sl
+else if (name == "OLI_P.Q") then
+   series = oli_p
+else if (name == "OLI_PPPS.Q") then
+   series = oli_ppps
+else if (name == "OLI_PPS.Q") then
+   series = oli_pps
+else if (name == "OLI_RETFC.Q") then
+   series = oli_retfc
+else if (name == "OLI_RETFM.Q") then
+   series = oli_retfm
+else if (name == "OLI_RETSL.Q") then
+   series = oli_retsl
+else if (name == "OLI_SL.Q") then
+   series = oli_sl
+else if (name == "OLI_SU.Q") then
+   series = oli_su
+else if (name == "OLI_WC.Q") then
+   series = oli_wc
+else if (name == "OLI_WCP.Q") then
+   series = oli_wcp
+else if (name == "OLI_WCSL.Q") then
+   series = oli_wcsl
+else if (name == "OOH.Q") then
+   series = ooh
+else if (name == "PGDPAF.Q") then
+   series = pgdpaf
+else if (name == "RCWSF.Q") then
+   series = rcwsf
+else if (name == "RCWSM.Q") then
+   series = rcwsm
+else if (name == "RCWSP.Q") then
+   series = rcwsp
+else if (name == "RCWSSL.Q") then
+   series = rcwssl
+else if (name == "RELMAX_UI.Q") then
+   series = relmax_ui
+else if (name == "RHIP_L.Q") then
+   series = rhip_l
+else if (name == "ROASDIP_L.Q") then
+   series = roasdip_l
+else if (name == "ROLI_PPPS.Q") then
+   series = roli_ppps
+else if (name == "ROLI_SU.Q") then
+   series = roli_su
+else if (name == "ROLI_WCP.Q") then
+   series = roli_wcp
+else if (name == "RSOCF_PBG.Q") then
+   series = rsocf_pbg
+else if (name == "RSOCSL_WC.Q") then
+   series = rsocsl_wc
+else if (name == "RSOC_UIP.Q") then
+   series = rsoc_uip
+else if (name == "RSOC_WCP.Q") then
+   series = rsoc_wcp
+else if (name == "RUIWS1.Q") then
+   series = ruiws1
+else if (name == "RUIWS2.Q") then
+   series = ruiws2
+else if (name == "RWCWS.Q") then
+   series = rwcws
+else if (name == "RWSSPBNFXGE.Q") then
+   series = rwsspbnfxge
+else if (name == "SOC.Q") then
+   series = soc
+else if (name == "SOCF_HI.Q") then
+   series = socf_hi
+else if (name == "SOCF_MIFM.Q") then
+   series = socf_mifm
+else if (name == "SOCF_OASDI.Q") then
+   series = socf_oasdi
+else if (name == "SOCF_PBG.Q") then
+   series = socf_pbg
+else if (name == "SOCF_RETRR.Q") then
+   series = socf_retrr
+else if (name == "SOCF_UIF.Q") then
+   series = socf_uif
+else if (name == "SOCF_UIFC.Q") then
+   series = socf_uifc
+else if (name == "SOCF_UIFED.Q") then
+   series = socf_uifed
+else if (name == "SOCF_UIFM.Q") then
+   series = socf_uifm
+else if (name == "SOCF_UIS.Q") then
+   series = socf_uis
+else if (name == "SOCF_WC.Q") then
+   series = socf_wc
+else if (name == "SOCSL_WC.Q") then
+   series = socsl_wc
+else if (name == "SOC_FC.Q") then
+   series = soc_fc
+else if (name == "SOC_FM.Q") then
+   series = soc_fm
+else if (name == "SOC_GGE.Q") then
+   series = soc_gge
+else if (name == "SOC_P.Q") then
+   series = soc_p
+else if (name == "SOC_SL.Q") then
+   series = soc_sl
+else if (name == "SOC_UIP.Q") then
+   series = soc_uip
+else if (name == "SOC_UISL.Q") then
+   series = soc_uisl
+else if (name == "SOC_WCP.Q") then
+   series = soc_wcp
+else if (name == "SOC_WCSL.Q") then
+   series = soc_wcsl
+else if (name == "TAXMAX.Q") then
+   series = taxmax
+else if (name == "TMAXUI_SL.Q") then
+   series = tmaxui_sl
+else if (name == "TRATE_UI.Q") then
+   series = trate_ui
+else if (name == "TRATIO_UI.Q") then
+   series = tratio_ui
+else if (name == "WEFC_N.Q") then
+   series = wefc_n
+else if (name == "WS.Q") then
+   series = ws
+else if (name == "WSD.Q") then
+   series = wsd
+else if (name == "WSDP.Q") then
+   series = wsdp
+else if (name == "WSGEFC.Q") then
+   series = wsgefc
+else if (name == "WSGFC.Q") then
+   series = wsgfc
+else if (name == "WSGFM.Q") then
+   series = wsgfm
+else if (name == "WSGGE.Q") then
+   series = wsgge
+else if (name == "WSGGEFC.Q") then
+   series = wsggefc
+else if (name == "WSGGESL.Q") then
+   series = wsggesl
+else if (name == "WSP.Q") then
+   series = wsp
+else if (name == "WSPF.Q") then
+   series = wspf
+else if (name == "WSPH.Q") then
+   series = wsph
+else if (name == "WSPNI.Q") then
+   series = wspni
+else if (name == "WSS.Q") then
+   series = wss
+else if (name == "WSSG.Q") then
+   series = wssg
+else if (name == "WSSGE.Q") then
+   series = wssge
+else if (name == "WSSGEFC.Q") then
+   series = wssgefc
+else if (name == "WSSGESL.Q") then
+   series = wssgesl
+else if (name == "WSSGF.Q") then
+   series = wssgf
+else if (name == "WSSGFC.Q") then
+   series = wssgfc
+else if (name == "WSSGFM.Q") then
+   series = wssgfm
+else if (name == "WSSGGE.Q") then
+   series = wssgge
+else if (name == "WSSGGEFC.Q") then
+   series = wssggefc
+else if (name == "WSSGGESL.Q") then
+   series = wssggesl
+else if (name == "WSSGSL.Q") then
+   series = wssgsl
+else if (name == "WSSP.Q") then
+   series = wssp
+else if (name == "WSSPBNFXGE.Q") then
+   series = wsspbnfxge
+else if (name == "WSSPES.Q") then
+   series = wsspes
+else if (name == "WSSPF.Q") then
+   series = wsspf
+else if (name == "WSSPH.Q") then
+   series = wssph
+else if (name == "WSSPHS.Q") then
+   series = wssphs
+else if (name == "WSSPNI.Q") then
+   series = wsspni
+else if (name == "WSSPSS.Q") then
+   series = wsspss
+else if (name == "Y.Q") then
+   series = y
+else if (name == "YF.Q") then
+   series = yf
+else if (name == "YNF.Q") then
+   series = ynf
+
+
+
+

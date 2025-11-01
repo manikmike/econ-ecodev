@@ -1,0 +1,13 @@
+LIFE_EXP_ADJUST              = true
+LIFE_EXP_FACTOR              = 0.4
+EXOG_OUT_ASSUMPT             = CRAZ1, MRAZ
+EXOG_IN_SSA                  = EGFC, EGEFCPS
+OTL_FILE                     = otl_tr252
+CPB_TARGET_YEAR              = 2024
+FILE_EXTENSION               = alt2
+LAST_MODDATA_YEAR            = 2035
+OUTPUT_TRYEAR                = 2025
+TAXABLE_RATIO                = 82.5
+REAL_GDP_SERIES              = GDP17
+USE_EVIEWS_LFPR_MODEL        = true
+WORKFILE_EXPORT              = true

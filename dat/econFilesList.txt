@@ -1,0 +1,293 @@
+! ======================================================================
+!                          MODSOL1 MODULE
+! ======================================================================
+! INPUT FILES
+! --------------------------
+! Series names for solution of ModSol1
+0101 $(DAT_PATH)\ModSol1SeriesNames.txt old
+
+! This is used by config###.txt file
+! 0102 Don't use this number for anything else
+
+! OUTPUT FILES
+! -----------------------------
+! EViews program file used as output format
+1004 $(OUT_PATH)\internal\ModSol1Out.prg replace
+
+! EViews program file used to import series into the afile
+1005 $(OUT_PATH)\internal\ModSol1Import.prg replace
+
+! Unemployment rates M/F by age group 19u, 20-24, 25-29, ..., 60-64
+1103 $(OUT_PATH)\mul\unemp.$(EXT) replace
+1104 $(HIST)$(OUT_PATH)\mul\unemp.$(HISTEXT) replace
+
+! Unemployment to population ratio M/F age 62
+1107 $(OUT_PATH)\mul\epop62.$(EXT) replace
+1108 $(HIST)$(OUT_PATH)\mul\epop62.$(HISTEXT) replace
+
+! Nominal Gross Domestic Product (GDP)
+1105 $(OUT_PATH)\cos\nomgdp.$(EXT) replace
+1106 $(HIST)$(OUT_PATH)\cos\nomgdp.$(HISTEXT) replace
+
+! Dump file used to check results
+1501 $(OUT_PATH)\dump\checkResults.txt replace
+
+
+! ======================================================================
+!                          MODSOL2 MODULE
+! ======================================================================
+! INPUT FILES
+! --------------------------
+! Series names for solution of ModSol1
+0201 $(DAT_PATH)\ModSol2SeriesNames.txt old
+
+! OUTPUT FILES
+! -----------------------------
+! EViews program file used as output format
+2004 $(OUT_PATH)\internal\ModSol2Out.prg replace
+
+! EViews program file used to import series into the afile
+2005 $(OUT_PATH)\internal\ModSol2Import.prg replace
+
+
+! ======================================================================
+!                           OTL1 MODULE
+! ======================================================================
+! INPUT FILES
+! --------------------------
+! Series names for solution of ModSol1
+0301 $(DAT_PATH)\Otl1SeriesNames.txt old
+
+! OUTPUT FILES
+! -----------------------------
+! EViews program file used as output format
+3004 $(OUT_PATH)\internal\Otl1Out.prg replace
+
+! EViews program file used to import series into the afile
+3005 $(OUT_PATH)\internal\Otl1Import.prg replace
+
+
+! ======================================================================
+!                           OTL2 MODULE
+! ======================================================================
+! INPUT FILES
+! --------------------------
+! Series names for solution of ModSol1
+0401 $(DAT_PATH)\Otl2SeriesNames.txt old
+
+! OUTPUT FILES
+! -----------------------------
+! EViews program file used as output format
+4004 $(OUT_PATH)\internal\Otl2Out.prg replace
+
+! EViews program file used to import series into the afile
+4005 $(OUT_PATH)\internal\Otl2Import.prg replace
+
+
+! ======================================================================
+!                           OTL3 MODULE
+! ======================================================================
+! INPUT FILES
+! --------------------------
+! Series names for solution of ModSol1
+0701 $(DAT_PATH)\Otl3SeriesNames.txt old
+
+! OUTPUT FILES
+! -----------------------------
+! EViews program file used as output format
+7004 $(OUT_PATH)\internal\Otl3Out.prg replace
+
+! EViews program file used to import series into the afile
+7005 $(OUT_PATH)\internal\Otl3Import.prg replace
+
+! Covered total employment other-than-legal, M/F single-year of age 16-95
+7101 $(OUT_PATH)\mul\cwother.$(EXT) replace
+7102 $(HIST)$(OUT_PATH)\mul\cwother.$(HISTEXT) replace
+
+! Total employment other-than-legal, M/F single-year of age 16-95
+! 7103 $(OUT_PATH)\mul\twother.$(EXT) replace
+
+
+! ======================================================================
+!                          MODSOLA MODULE
+! ======================================================================
+! INPUT FILES
+! --------------------------
+! Series names for solution of ModSol1
+0501 $(DAT_PATH)\ModSolASeriesNames.txt old
+0502 $(DAT_PATH)\ModSolAHistSeriesNames.txt old
+
+! OUTPUT FILES
+! -----------------------------
+! EViews program used to import series into the afile
+5002 $(OUT_PATH)\internal\ModSolAImport.prg replace
+5007 $(OUT_PATH)\internal\ModSolAHistImport.prg replace
+
+! New style command file used as output format
+5003 $(OUT_PATH)\internal\ModSolAOut.prg replace
+5004 $(OUT_PATH)\internal\CovOut.prg replace
+5006 $(OUT_PATH)\internal\HistLcAnnDataOut.prg replace
+5008 $(OUT_PATH)\internal\ModSolAHistOut.prg replace
+
+! Average wage index
+5101 $(OUT_PATH)\cos\awi.$(EXT) replace
+
+! Average wage index and taxable maximum
+5102 $(OUT_PATH)\cos\awitm.$(EXT) replace
+
+! Covered workers by age-group 19u, 20-24, 25-29, ..., 70o, total
+5103 $(OUT_PATH)\mul\cwpopn.$(EXT) replace
+5104 $(HIST)$(OUT_PATH)\mul\cwpopn.$(HISTEXT) replace
+
+! Ratio of covered workers to SSA population by
+! age-group 19u, 20-24, 25-29, ..., 70o, total
+5105 $(OUT_PATH)\mul\cwrate.$(EXT) replace
+5106 $(HIST)$(OUT_PATH)\mul\cwrate.$(HISTEXT) replace
+
+! Covered workers by single-year of age
+! All, MEF, and MEF w/o other-than-legal
+5117 $(OUT_PATH)\mul\cwsing.$(EXT) replace
+5118 $(HIST)$(OUT_PATH)\mul\cwsing.$(HISTEXT) replace
+5119 $(OUT_PATH)\mul\cwsing_mef.$(EXT) replace
+5120 $(HIST)$(OUT_PATH)\mul\cwsing_mef.$(HISTEXT) replace
+5121 $(OUT_PATH)\mul\cwsing_mef_nooth.$(EXT) replace
+5122 $(HIST)$(OUT_PATH)\mul\cwsing_mef_nooth.$(HISTEXT) replace
+
+! Economic Model data for Short-Range: cpi, awi, wsca, gdp, ru, lfpr, e, lc
+5114 $(MODDATA)$(OUT_PATH)\revenue\moddata$(ALT) replace
+
+! Economic Model data for CMS: cpi, nomintr, lfpr, beninc, awi, wsca, acwa
+5116 $(MODDATA)$(OUT_PATH)\revenue\moddata$(ALT)_cms.txt replace
+
+! Historical and projected economic data for CMS
+5123 $(HIST)$(OUT_PATH)\cos\cmsecon.$(HISTEXT) replace
+5124 $(OUT_PATH)\cos\cmsecon.$(EXT) replace
+
+! Government employment - Federal Civilian and State & Local
+5115 $(OUT_PATH)\mul\gvtwkr.$(EXT) replace
+
+! Consumer Price Index Levels
+5150 $(OUT_PATH)\cos\cpiw.$(EXT) replace
+
+! ======================================================================
+!                          REVEARN MODULE
+! ======================================================================
+! INPUT FILES
+! --------------------------
+
+! OUTPUT FILES
+! -----------------------------
+! Output files used as input file for Revearn program
+! This number is set internally after assumptions are selected
+! Do not use this file number for other purposes
+! 6002 $(OUT_PATH)\tr122p2.rd replace
+
+! EViews program used to import series into the afile
+6010 $(OUT_PATH)\internal\TaxPayImport.prg replace
+
+! Total OASDI taxable payroll
+6003 $(OUT_PATH)\cos\payrol.$(EXT) replace
+6013 $(HIST)$(OUT_PATH)\cos\payrol.$(HISTEXT) replace
+
+! Total HI taxable payroll
+6008 $(OUT_PATH)\cos\hietpr.$(EXT) replace
+
+! Taxable Wages, Self-Employment Income, and Multiemployer Refund
+6009 $(OUT_PATH)\internal\TaxPayOut.prg replace
+
+! Taxable ratio
+6004 $(OUT_PATH)\internal\taxratio.$(EXT) replace
+
+! Taxable adjustment factors
+6005 $(OUT_PATH)\internal\taxadj.$(EXT) replace
+
+! Taxable wage ratio
+6006 $(OUT_PATH)\internal\taxwratio.$(EXT) replace
+
+! Taxable self-employment ratio
+6007 $(OUT_PATH)\internal\taxseratio.$(EXT) replace
+
+! Average wage index and median covered earnings
+6101 $(OUT_PATH)\mul\awi-mce.$(EXT) replace
+
+! Average taxable earnings
+! All and MEF only
+6102 $(OUT_PATH)\cos\ate.$(EXT) replace
+6103 $(HIST)$(OUT_PATH)\cos\ate.$(HISTEXT) replace
+6104 $(OUT_PATH)\cos\ate_mef.$(EXT) replace
+6105 $(HIST)$(OUT_PATH)\cos\ate_mef.$(HISTEXT) replace
+
+! Wage index, average covered earnings, benefit increases
+! inflation, and average taxable earnings
+! All and MEF only
+6106 $(OUT_PATH)\cos\wiaceb.$(EXT) replace
+6107 $(OUT_PATH)\cos\wiaceb_mef.$(EXT) replace
+
+! Revearn Data
+6201 $(OUT_PATH)\revenue\$(RDFILE).rd replace
+
+! ======================================================================
+!                          MODTAB MODULE
+! ======================================================================
+! OUTPUT FILES
+! --------------------------
+8001 $(OUT_PATH)\internal\modtab.$(EXT) replace
+
+! ======================================================================
+!                  TRUSTEES REPORT TABLES MODULE
+! ======================================================================
+! OUTPUT FILES
+! --------------------------
+! TR Table V.B1 Principle Economic Assumptions - Historical
+9500 $(ALT2)$(OUT_PATH)\dump\TableVB1Hist.dmp replace
+9700 $(ALT2)$(OUT_PATH)\trfiles\TableVB1Hist.txt replace
+
+! TR Table V.B1 Principle Economic Assumptions - Alternatives
+9502 $(ALT2)$(OUT_PATH)\dump\TableVB1Alt2.dmp replace
+9702 $(ALT2)$(OUT_PATH)\trfiles\TableVB1Alt2.txt replace
+9501 $(ALT1)$(OUT_PATH)\dump\TableVB1Alt1.dmp replace
+9701 $(ALT1)$(OUT_PATH)\trfiles\TableVB1Alt1.txt replace
+9503 $(ALT3)$(OUT_PATH)\dump\TableVB1Alt3.dmp replace
+9703 $(ALT3)$(OUT_PATH)\trfiles\TableVB1Alt3.txt replace
+
+
+! TR Table V.B2 Additional Economic Factors - Historical
+9510 $(ALT2)$(OUT_PATH)\dump\TableVB2Hist.dmp replace
+9710 $(ALT2)$(OUT_PATH)\trfiles\TableVB2Hist.txt replace
+
+! TR Table V.B2 Additional Economic Factors - Alternatives
+9512 $(ALT2)$(OUT_PATH)\dump\TableVB2Alt2.dmp replace
+9712 $(ALT2)$(OUT_PATH)\trfiles\TableVB2Alt2.txt replace
+9511 $(ALT1)$(OUT_PATH)\dump\TableVB2Alt1.dmp replace
+9711 $(ALT1)$(OUT_PATH)\trfiles\TableVB2Alt1.txt replace
+9513 $(ALT3)$(OUT_PATH)\dump\TableVB2Alt3.dmp replace
+9713 $(ALT3)$(OUT_PATH)\trfiles\TableVB2Alt3.txt replace
+
+! TR Table V.B1 (Single-Year) Principle Economic Assumptions - Historical
+9520 $(ALT2)$(OUT_PATH)\dump\TableVB1SingYearHist.dmp replace
+9720 $(ALT2)$(OUT_PATH)\trfiles\TableVB1SingYearHist.txt replace
+
+! TR Table V.B1 (Single-Year) Principle Economic Assumptions - Alternatives
+9522 $(ALT2)$(OUT_PATH)\dump\TableVB1SingYearAlt2.dmp replace
+9722 $(ALT2)$(OUT_PATH)\trfiles\TableVB1SingYearAlt2.txt replace
+9521 $(ALT1)$(OUT_PATH)\dump\TableVB1SingYearAlt1.dmp replace
+9721 $(ALT1)$(OUT_PATH)\trfiles\TableVB1SingYearAlt1.txt replace
+9523 $(ALT3)$(OUT_PATH)\dump\TableVB1SingYearAlt3.dmp replace
+9723 $(ALT3)$(OUT_PATH)\trfiles\TableVB1SingYearAlt3.txt replace
+
+
+! TR Table V.B2 (Single-Year) Additional Economic Factors - Historical
+9530 $(ALT2)$(OUT_PATH)\dump\TableVB2SingYearHist.dmp replace
+9730 $(ALT2)$(OUT_PATH)\trfiles\TableVB2SingYearHist.txt replace
+
+! TR Table V.B2 (Single-Year) Additional Economic Factors - Alternatives
+9532 $(ALT2)$(OUT_PATH)\dump\TableVB2SingYearAlt2.dmp replace
+9732 $(ALT2)$(OUT_PATH)\trfiles\TableVB2SingYearAlt2.txt replace
+9531 $(ALT1)$(OUT_PATH)\dump\TableVB2SingYearAlt1.dmp replace
+9731 $(ALT1)$(OUT_PATH)\trfiles\TableVB2SingYearAlt1.txt replace
+9533 $(ALT3)$(OUT_PATH)\dump\TableVB2SingYearAlt3.dmp replace
+9733 $(ALT3)$(OUT_PATH)\trfiles\TableVB2SingYearAlt3.txt replace
+
+! Data file for the stochastic model
+9998 $(OUT_PATH)\internal\EconData.$(EXT) replace
+9999 $(OUT_PATH)\internal\EconDataTemp.$(EXT) replace

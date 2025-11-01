@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{8DEAF232-8038-46E6-84E9-6A71796822D5}">
+	<Platforms>
+		<Platform Name="x64"/>
+	</Platforms>
+	<Configurations>
+		<Configuration Name="Debug|x64" UseCompiler="ifxCompiler" DeleteExtensionsOnClean="*.obj;*.mod;*.pdb;*.asm;*.map;*.dyn;*.dpi;*.tmp;*.log;*.ilk;*.exe;$(TargetPath)">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" ErrorLimit="300" ModulePath="$(INTDIR)/" ObjectFile="$(INTDIR)/" Traceback="true"/>
+			<Tool Name="VFLinkerTool" OutputFile="$(OUTDIR)/econ.exe" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" IgnoreDefaultLibraryNames="msvcrtd.lib" GenerateManifest="false" GenerateDebugInformation="true" ProgramDatabaseFile="$(OUTDIR)/econ.pdb" SubSystem="subSystemConsole" HeapReserveSize="32000000" HeapCommitSize="32000000" StackReserveSize="32000000" StackCommitSize="32000000"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64" HeaderFileName="$(InputName).h" TypeLibraryName="$(IntDir)/$(InputName).tlb"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool" CommandLine="lib /out:$(ConfigurationName)\econ.lib $(ConfigurationName)*.obj"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Release|x64" UseCompiler="ifxCompiler" DeleteExtensionsOnClean="*.obj;*.mod;*.pdb;*.asm;*.map;*.dyn;*.dpi;*.tmp;*.log;*.ilk;*.exe;$(TargetPath)">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" ModulePath="$(INTDIR)/" ObjectFile="$(INTDIR)/"/>
+			<Tool Name="VFLinkerTool" OutputFile="$(OUTDIR)/econ.exe" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole" StackReserveSize="32000000" StackCommitSize="32000000"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64" HeaderFileName="$(InputName).h" TypeLibraryName="$(IntDir)/$(InputName).tlb"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool" CommandLine="lib /out:$(ConfigurationName)\econ.lib $(ConfigurationName)\*.obj"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter Name="dat">
+			<File RelativePath="..\dat\econFilesList.txt"/>
+			<File RelativePath="..\dat\ModSol1SeriesNames.txt"/>
+			<File RelativePath="..\dat\ModSol2SeriesNames.txt"/>
+			<File RelativePath="..\dat\ModSolAHistSeriesNames.txt"/>
+			<File RelativePath="..\dat\ModSolASeriesNames.txt"/>
+			<File RelativePath="..\dat\Otl1SeriesNames.txt"/>
+			<File RelativePath="..\dat\Otl2SeriesNames.txt"/>
+			<File RelativePath="..\dat\Otl3SeriesNames.txt"/>
+		</Filter>
+		<Filter Name="Misc">
+			<File RelativePath=".\EconMiscMod.f90"/>
+			<File RelativePath=".\EconModTabMod.f90"/>
+			<File RelativePath=".\EconTrusteesReportTablesMod.f90"/>
+			<File RelativePath=".\SplineMod.f90"/>
+		</Filter>
+		<Filter Name="ModSol1">
+			<File RelativePath=".\EconModSol1EquationsMod.f90"/>
+			<File RelativePath=".\EconModSol1EViewsMod.f90"/>
+			<File RelativePath="EconModSol1Mod.f90"/>
+			<File RelativePath=".\EconModSol1OutMod.f90"/>
+			<File RelativePath=".\EconModSol1VarMod.f90"/>
+			<File RelativePath=".\ModSol1SeriesMap.fh"/>
+		</Filter>
+		<Filter Name="ModSol2">
+			<File RelativePath=".\EconModSol2EquationsMod.f90"/>
+			<File RelativePath=".\EconModSol2Mod.f90"/>
+			<File RelativePath=".\EconModSol2OutMod.f90"/>
+			<File RelativePath=".\EconModSol2VarMod.f90"/>
+			<File RelativePath=".\ModSol2SeriesMap.fh"/>
+		</Filter>
+		<Filter Name="ModSolA">
+			<File RelativePath=".\EconModSolAEquationsMod.f90"/>
+			<File RelativePath=".\EconModSolAHistOutMod.f90"/>
+			<File RelativePath=".\EconModSolAMod.f90"/>
+			<File RelativePath=".\EconModSolAOutMod.f90"/>
+			<File RelativePath=".\EconModSolAVarMod.f90"/>
+			<File RelativePath=".\ModSolAHistSeriesMap.fh"/>
+			<File RelativePath=".\ModSolASeriesMap.fh"/>
+		</Filter>
+		<Filter Name="Otl">
+			<File RelativePath=".\EconOtl1Mod.f90"/>
+			<File RelativePath=".\EconOtl1OutMod.f90"/>
+			<File RelativePath=".\EconOtl2Mod.f90"/>
+			<File RelativePath=".\EconOtl2OutMod.f90"/>
+			<File RelativePath=".\EconOtl3Mod.f90"/>
+			<File RelativePath=".\EconOtl3OutMod.f90"/>
+			<File RelativePath=".\EconOtlMod.f90"/>
+			<File RelativePath=".\EconOtlVarMod.f90"/>
+			<File RelativePath=".\Otl1SeriesMap.fh"/>
+			<File RelativePath=".\Otl2SeriesMap_A-M.fh"/>
+			<File RelativePath=".\Otl2SeriesMap_N-Z.fh"/>
+			<File RelativePath=".\Otl3SeriesMap.fh"/>
+			<File RelativePath=".\OtlSeriesInit.fh"/>
+		</Filter>
+		<Filter Name="RevEarn">
+			<File RelativePath=".\EconRevEarnMod.f90"/>
+			<File RelativePath=".\EconRevEarnOutMod.f90"/>
+			<File RelativePath=".\EconRevEarnVarMod.f90"/>
+		</Filter>
+		<Filter Name="Utils">
+			<File RelativePath=".\EViewsMgr.f90"/>
+			<File RelativePath=".\FortranEViewsModEx.f90"/>
+			<File RelativePath=".\WorkfileInterface.f90"/>
+		</Filter>
+		<File RelativePath="econ.f90"/>
+		<File RelativePath=".\EconLibMod.f90"/>
+		<File RelativePath="EconMod.f90"/>
+		<File RelativePath="EconParMod.f90">
+		</File>
+	</Files>
+	<Globals/>
+</VisualStudioProject>
