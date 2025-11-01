@@ -1,2 +1,5 @@
 *.wf1 filter=lfs diff=lfs merge=lfs -text
 Otl2Out.prg filter=lfs diff=lfs merge=lfs -text
+
+*.prg linguist-language=EViews
+*.fh linguist-language=Fortran
